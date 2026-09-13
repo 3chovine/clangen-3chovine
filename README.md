@@ -11,7 +11,7 @@
 ## Description
 Mod of Clangen that brings colorful kitties with inheritance to life!! 
 Cats can only gain 2 colors at a time max. For example, a cat can be both red and yellow at the same time but not red, yellow, and blue at the same time.
-Several game configs have also been added to the config file. Search up " # modded configs " in the config file to find them.
+Several game configs have also been added to the config file, including a pelt brightness reducer for those with light sensitivity. Search up " # modded configs " in the config file to find them.
 This mod is partly inspired by whynotberandom's World of Colors challenge, make sure to check their challenge out <3.
 
 ## Credits
