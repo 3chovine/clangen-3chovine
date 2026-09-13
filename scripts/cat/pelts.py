@@ -678,8 +678,16 @@ class Pelt:
                 #print(f'HSV: {[round(hue, 2), round(satur, 2), round(valu, 2)]}')
             
             else: #Else, pull from RGB list
-                new_pelt.tint = tuple( random.choice(constants.CONFIG["cat_generation"]["RGB_tints"]) )
-            
+                
+                if constants.CONFIG["cat_generation"]["bright_mod"] >= 1.0: #If no eye sensitivity reduction, just pick color
+                    new_pelt.tint = tuple( random.choice(constants.CONFIG["cat_generation"]["RGB_tints"]) )
+                
+                else: #If sensitivity setting on, reduce satur+valu
+                    rgb_col = random.choice(constants.CONFIG["cat_generation"]["RGB_tints"])
+                    [hue, satur, valu] = colorsys.rgb_to_hsv(rgb_col[0]/255, rgb_col[1]/255, rgb_col[2]/255)
+                    bright_mod = constants.CONFIG["cat_generation"]["bright_mod"]
+                    new_pelt.tint = tuple([round(i * 255) for i in colorsys.hsv_to_rgb(hue, satur*bright_mod, valu*bright_mod)])
+
         #Modded: print statement
         #print(f'final tint: {new_pelt.tint}')
         
