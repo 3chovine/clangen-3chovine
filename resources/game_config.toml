@@ -518,6 +518,9 @@ dev_tools = false
       
       [255, 255, 255] #White
                    ]
+    # Modifier for RGB_tints to lower brightness+saturation of generated colors for those with light sensitivity.
+    # 1.0 for normal brightness, between 0.5 and 0.9 for less intense colors. 
+    bright_mod = 0.8
     
     # List of HSV color value ranges for parentless cats. 
     # Each value should contain a pair of decimals: a start and stop point. All values must be between 0 and 1 inclusive
