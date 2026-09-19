@@ -670,10 +670,23 @@ class Pelt:
                 new_pelt.tint = tuple( [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)] )
                 
             elif constants.CONFIG["cat_generation"]["tint_gen_type"] == 2: #Set parentless cats to have color ftom set ranges
-                hue = random.uniform(constants.CONFIG["cat_generation"]["hue_range"][0], constants.CONFIG["cat_generation"]["hue_range"][1])
-                satur = random.uniform(constants.CONFIG["cat_generation"]["sat_range"][0], constants.CONFIG["cat_generation"]["sat_range"][1])
-                valu = random.uniform(constants.CONFIG["cat_generation"]["val_range"][0], constants.CONFIG["cat_generation"]["val_range"][1])
                 
+                #section defines Which entry in the ranges to pick from
+                
+                section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["hue_range"]))-1) 
+                hue = random.uniform(constants.CONFIG["cat_generation"]["hue_range"][section][0], constants.CONFIG["cat_generation"]["hue_range"][section][1])
+                
+                if constants.CONFIG["cat_generation"]["link_hsv_ranges"] == 0:
+                    section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["sat_range"]))-1)
+                satur = random.uniform(constants.CONFIG["cat_generation"]["sat_range"][section][0], constants.CONFIG["cat_generation"]["sat_range"][section][1])
+                
+                if constants.CONFIG["cat_generation"]["link_hsv_ranges"] == 0:
+                    section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["val_range"]))-1)
+                valu = random.uniform(constants.CONFIG["cat_generation"]["val_range"][section][0], constants.CONFIG["cat_generation"]["val_range"][section][1])
+                
+                
+                
+
                 new_pelt.tint = [round(i * 255) for i in colorsys.hsv_to_rgb(hue, satur, valu)]
                 #print(f'HSV: {[round(hue, 2), round(satur, 2), round(valu, 2)]}')
             
