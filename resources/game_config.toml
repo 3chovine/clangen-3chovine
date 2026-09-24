@@ -463,6 +463,88 @@ dev_tools = false
   # 1/2^(chance) that a cat will have colourpoint 
   random_point_chance = 5
 
+  # Modded configs: ____________________________________________________________________________
+  
+  # Colorspace(RGB, HEX, or HSV) to display pelt as in cats' profile, default RGB, or "DESC" to print the pelt description from the allegences.
+  display_colorspace = "RGB"
+  
+  # 1/(chance) that a kit will be multicolor if possible. Set to 0 to disable multicolored cats, and 1 to guarentee them when possible.
+  multi_col_chance = 3
+  
+  
+  # List that defines options for where mixed-color kit colors will be relative to parent colors.
+  # Each kit will pick one entry in list, and parent colors are 0 and 1. If the value given is invalid, defaults to 0.5.
+  
+  # = [0.5]   
+  #		for all mixed-color kits to be exactly in between parent colors
+  
+  # = [0.1415, M, SD]  where M, SD is replaced with two decimals.
+  #		for kits to pick from a normal distribution with mu of M and standard deviation of SD. [0.1415, 0.5, 0.15] is a good default.
+  # There are a ton of normal distribution generators out there to check but I like this one: https://mabognar.github.io/apps/normal.html
+  # Do not change 0.1415, it marks the generation type. 
+  
+  # = [1224, A, B, X]  where A, B, X is replaced with three whole numbers. Standard world of colors uses [1224, 0, 41, 40]. 
+  #		for kits to pick from defined uniformly distributed gradient that starts at A/X, ends at (B-1)/X, has B-A colors, 
+  # and where each color is 1/X farther than the previous. X=((A+B)-1) for a symetrical distribution.
+  # Do not change 1224, it marks the generation type. 
+
+  
+  inbetween_percent = [1224, 0, 41, 40]
+  
+  #Code to check gradient values, change values with !*! and run in empty py file.
+  #(Z, A, B, X) = [1224, !A!, !B!, !X!]
+  #print([round(i/(X), 3) for i in range(A,B)])
+  
+  
+  
+  # If 1: parentless cats will generate with random colors, if 2: pick from HSV ranges, else pick exact color from RGB_tints
+  tint_gen_type = 0
+  
+  # List of possible RGB colors for parentless cats. All values must be between 0 and 255 inclusive
+  # Remove or place # in front to remove from possible colors, make sure all colors except last have a comma after final bracket.
+  RGB_tints = [
+      [0,0,0], #Black
+      #[64,64,64], #Dark Gray
+      #[128,128,128], #Gray
+      #[192,192,192], #Light Gray
+      
+      [255, 0, 0], #Red
+      #[255, 128, 0], #Orange
+      [255, 255, 0], #Yellow
+      #[128, 255, 0], #Yellow-Green
+      
+      [0, 255, 0], #Green
+      #[0, 255, 128], #Green-Cyan
+      #[0, 255, 255], #Cyan
+      #[0, 128, 255], #Blue-Cyan
+      
+      [0, 0, 255], #Blue
+      #[128, 0, 255], #Indigo
+      #[255, 0, 255], #Purple
+      #[255, 0, 128], #Magenta
+      
+      [255, 255, 255] #White
+                   ]
+    # Modifier for RGB_tints to lower brightness+saturation of generated colors for those with light sensitivity.
+    # 1.0 for normal brightness, between 0.5 and 0.9 for less intense colors. 
+    bright_mod = 1.0
+    
+    # List of HSV color value ranges for parentless cats. 
+    # Each list should contain ordered pairs of decimals, which will be lower and upper bounds for the range. Include multiple pairs to have several ranges to pick from.
+    # All values must be between 0.0 and 1.0 inclusive. The lower value will always be counted as the start of the range. 
+    # Examples for formatting: single range [[0.0, 1.0]], multiple ranges = [[0.0, 0.1], [0.3, 0.7], [0.5, 1.0]]
+    hue_range = [[0.0, 1.0]]
+    sat_range = [[0.0, 1.0]]
+    val_range = [[0.0, 1.0]]
+    
+    
+    # If 1, colors generated from the hsv ranges will use the same entry for each list. If 0, colors will pick hut, saturation, and value seperately.
+    # Remember to make sure all range lists have the same number of entries if you are using this setting.
+    link_hsv_ranges = 0
+  
+  
+   
+
 [cat_name_controls]
   # set to true if you always want cats named after the color of their pelt
   # if cats can't find a pelt color, they will choose from normal_prefixes

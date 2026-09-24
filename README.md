@@ -9,22 +9,30 @@
 ### [Discord Server](https://discord.gg/clangen) || [Official website](https://clangen.io) || [Itch.io Page](https://sablesteel.itch.io/clan-gen-fan-edit) 
 
 ## Description
-Fan-edit of the warrior cat clangen game built using Python and Pygame.
+Mod of Clangen that brings colorful kitties with inheritance to life!! 
+Cats can only gain 2 colors at a time max. For example, a cat can be both red and yellow at the same time but not red, yellow, and blue at the same time.
+Several game configs have also been added to the config file, including a pelt brightness reducer for those with light sensitivity. Search up " # modded configs " in the config file to find them.
+This mod is partly inspired by whynotberandom's World of Colors challenge, make sure to check their challenge out <3.
 
 ## Credits
 Original creator: just-some-cat.tumblr.com
 
 Fan-edit creator: SableSteel, and many others
 
+Mod creators: 
+
+bus-go-honk - initial idea, base concepts, colors
+
+3chovine - most of the coding
+
 ## Downloads
 ### Stable
-Stable versions can be downloaded directly from the [official ClanGen website](https://clangen.io/download)
+A modded stable release is not currently available, but will be once I figure out how to do it. -3chovine
 
 ### Development
 **Note**: Development versions are automatic snapshots of current development efforts. They are _not_ stable, can crash and even corrupt your save files.
 Additionally, we do not provide tech support for development versions.
 
-Download at your own risk here: [ClanGen development download](https://clangen.io/download-development)
 
 ## Running from source
 > [!WARNING]

@@ -119,20 +119,24 @@ def _draw_sprite(
     new_sprite = _build_pelt(cat, pelt_recipe, cat.pelt.colour, cat_sprite)
 
     # TINTS
-    if cat.pelt.tint is not None and cat.pelt.tint in sprites.cat_tints["tint_colours"]:
+    if (
+        cat.pelt.tint is not None
+        #Modded: removed check for tint being in list
+    ):
         # Multiply with alpha does not work as you would expect - it just lowers the alpha of the
         # entire surface. To get around this, we first blit the tint onto a white background to dull it,
         # then blit the surface onto the sprite with pygame.BLEND_RGB_MULT
         tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-        tint.fill(tuple(sprites.cat_tints["tint_colours"][cat.pelt.tint]))
+        
+# Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
+        #print(f'applied tint:{cat.pelt.tint}') #testing
+        tint_color = tuple(cat.pelt.tint) #Tuple of 3 values, rgb
+        tint.fill(tint_color)
+        
         new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-    if (
-        cat.pelt.tint is not None
-        and cat.pelt.tint in sprites.cat_tints["dilute_tint_colours"]
-    ):
-        tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-        tint.fill(tuple(sprites.cat_tints["dilute_tint_colours"][cat.pelt.tint]))
-        new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
+        
+        
+        # Modded: removed dilute tints
 
     if (
         cat.pelt.tint is not None
@@ -151,6 +155,15 @@ def _draw_sprite(
             spritesheet = sprites.WHITE_HIGH_DATA["spritesheet"]
         elif patch in cat.pelt.mid_white:
             spritesheet = sprites.WHITE_MID_DATA["spritesheet"]
+        
+        # Modded: allow white patches to include tortie+vilitigo+point
+        elif patch in cat.pelt.tortie_patches:
+            spritesheet = sprites.TORTIE_DATA["spritesheet"]
+        elif patch in cat.pelt.point_markings:
+            spritesheet = sprites.WHITE_POINT_DATA["spritesheet"]
+        elif patch in cat.pelt.vitiligo_markings:
+            spritesheet = sprites.WHITE_VITILIGO_DATA["spritesheet"]
+            
         else:
             spritesheet = sprites.WHITE_LITTLE_DATA["spritesheet"]
 
@@ -160,54 +173,22 @@ def _draw_sprite(
         # Apply tint to white patches.
         if (
             cat.pelt.white_patches_tint is not None
-            and cat.pelt.white_patches_tint
-            in sprites.white_patches_tints["tint_colours"]
+            #Modded: removed check for tint being in list
         ):
             tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-            tint.fill(
-                tuple(
-                    sprites.white_patches_tints["tint_colours"][
-                        cat.pelt.white_patches_tint
-                    ]
-                )
+            
+# Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
+            #print(cat.pelt.white_patches_tint)  #Test
+            tint.fill(tuple(cat.pelt.white_patches_tint)
             )
             white_patches.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
 
         new_sprite.blit(white_patches, (0, 0))
 
-    # draw vit & points
 
-    if cat.pelt.points:
-        sprite_name = (
-            f"{sprites.WHITE_POINT_DATA['spritesheet']}{cat.pelt.points}{cat_sprite}"
-        )
-
-        points = sprites.sprites[sprite_name].copy()
-        if (
-            cat.pelt.white_patches_tint is not None
-            and cat.pelt.white_patches_tint
-            in sprites.white_patches_tints["tint_colours"]
-        ):
-            tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-            tint.fill(
-                tuple(
-                    sprites.white_patches_tints["tint_colours"][
-                        cat.pelt.white_patches_tint
-                    ]
-                )
-            )
-            points.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-        new_sprite.blit(points, (0, 0))
-
-    if cat.pelt.vitiligo:
-        sprite_name = f"{sprites.WHITE_VITILIGO_DATA['spritesheet']}{cat.pelt.vitiligo}{cat_sprite}"
-
-        new_sprite.blit(
-            sprites.sprites[sprite_name],
-            (0, 0),
-        )
-
-    # draw eyes & scars1
+# Modded: removed points and vit
+#         # draw vit & points
+#  # draw eyes & scars1
     sprite_name = (
         f"{sprites.EYE_DATA['spritesheet'][0]}{cat.pelt.eye_colour}{cat_sprite}"
     )

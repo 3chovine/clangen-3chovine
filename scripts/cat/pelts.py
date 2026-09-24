@@ -3,6 +3,7 @@ from random import choice
 from re import sub
 
 import i18n
+import colorsys # Modded: allows conversion betweeen rgb and hsv
 
 import scripts.game_structure.screen_settings
 from scripts.cat.enums import CatAge
@@ -127,12 +128,17 @@ class Pelt:
     for sprite_list in sprites.WHITE_MOSTLY_DATA["sprite_list"]:
         # have to remove FULLWHITE as it's handled special
         mostly_white.extend([x for x in sprite_list if x != "FULLWHITE"])
+        
     vitiligo_markings: list = []
     for sprite_list in sprites.WHITE_VITILIGO_DATA["sprite_list"]:
         vitiligo_markings.extend(sprite_list)
     point_markings: list = []
     for sprite_list in sprites.WHITE_POINT_DATA["sprite_list"]:
         point_markings.extend(sprite_list)
+
+    #Modded: all markings list
+    valid_white_markings: list = little_white + mid_white + high_white + mostly_white 
+
 
     # EYES
     all_eye_colours: list = []
@@ -459,13 +465,245 @@ class Pelt:
         new_pelt = Pelt()
 
         pelt_white = new_pelt.init_pattern_color(parents, gender)
-        new_pelt.init_white_patches(pelt_white, parents)
+        #new_pelt.init_white_patches(pelt_white, parents) Modded: removed use of white patch function
         new_pelt.init_sprite()
         new_pelt.init_scars(age)
         new_pelt.init_accessories(age)
         new_pelt.init_eyes(parents)
-        new_pelt.init_pattern()
-        new_pelt.init_tint()
+        new_pelt.init_pattern() #This handles torties, may edit?
+        #new_pelt.init_tint() #Modded: removed use of tint function
+        
+#Modded: set tint
+        if parents:   # If the cat has parents, use inheritance to decide tint.
+            
+            
+            # Set up variables
+            par_tints = []
+            par_rgb = []
+            kit_tint = [0,0,0]
+            kit_white_tint = None
+            new_pelt.white_patches = None
+            
+            # For each parent, add tint to list and add RGB value of tint to RGB sum
+            for p in parents:
+                if p:
+                    #Set parent tint to base tint
+                    parent_tint = p.pelt.tint
+                    
+                    # If parent has 2nd color, choose random color for tint
+                    if p.pelt.white_patches:
+                        parent_tint = random.choice([p.pelt.tint, p.pelt.white_patches_tint])
+                        
+                    # Convert color to hsv and add hsv to parent tints lists
+                    hsv_value = colorsys.rgb_to_hsv(parent_tint[0]/255, parent_tint[1]/255, parent_tint[2]/255,)
+                    par_tints.append(hsv_value)
+                    par_rgb.append(parent_tint)
+                    
+                    
+            #If parent values are same, remove one(makes multicolor and gradients not happen if same color parents)
+            if len(par_tints) == 2:
+                if par_tints[0] == par_tints[1]:
+                    par_tints.pop()
+                    
+            print(f'Parent hsv tints:{par_tints}  RGB: {par_rgb}') #print for testing
+            
+            # 1/chance chance to be multicolor if parent tints are different
+            if (len(par_tints) == 2)  and (constants.CONFIG["cat_generation"]["multi_col_chance"] > 0) and (random.randint(1, constants.CONFIG["cat_generation"]["multi_col_chance"]) == 1):
+                # Python evaluates and statements in order so if config is 0 it won't bother with randint and thus not crast from randint(0,0)
+                new_pelt.name = "TwoColour"
+                kit_white_tint = [0,0,0]
+                
+                white_marking = None
+                vit_chance = max(
+                    constants.CONFIG["cat_generation"]["vit_chance"], 0
+                )
+                if not random.getrandbits(vit_chance): # Roll to see if markings are vitiligo style
+                    white_marking = choice(Pelt.vitiligo_markings)
+                else: #If not vit, roll for if point
+                    if not random.getrandbits(
+                        constants.CONFIG["cat_generation"]["random_point_chance"]
+                    ):
+                        white_marking = choice(Pelt.point_markings)
+                        
+                    else: # If neither, half chance to pick white patch and half chance to pick tortie patch
+                        white_marking = random.choice(random.choice([Pelt.valid_white_markings, Pelt.tortie_patches]))
+                
+                
+                
+                new_pelt.white_patches = white_marking
+                
+                # Kit gets both parents' colors, half chance for either orientation
+                if random.randint(1, 2) == 1:
+                    kit_tint = par_tints[0]
+                    kit_white_tint = par_tints[1]
+                else: 
+                    kit_tint = par_tints[1]
+                    kit_white_tint = par_tints[0]
+                print(f' multi: {kit_tint} {kit_white_tint} {new_pelt.white_patches} ')
+                
+            
+            else: #Set tint to merged version with no patches
+                
+                # Make sure no patches
+                kit_white_tint = None
+                new_pelt.white_patches = None
+                
+                # Variable that determines where kit color will be relative to parent's
+                # Move into for loop to disconnect hsv rolls
+                inbetween_percent = constants.CONFIG["cat_generation"]["inbetween_percent"]
+                #print(inbetween_percent)
+                try:
+                    if inbetween_percent[0] == 1224: #If ABX uniform
+                        inbetween = random.choice([i/(inbetween_percent[3]) for i in range(inbetween_percent[1],inbetween_percent[2])])
+                        
+                    elif inbetween_percent[0] == 0.1415: # If normal dist
+                        inbetween = random.gauss(inbetween_percent[1], inbetween_percent[2])
+                        
+                    else: #If normal pick random value from list:
+                        inbetween =  random.choice(inbetween_percent)
+                    
+                except: #If invalid, default to exact middle
+                    print("There was an error with reading inbetween_percent." )
+                    inbetween =  0.5
+                
+                
+                
+                
+                
+                
+                # For each value
+                for index in [0,1,2]:
+                    
+                    grayscale_par = None
+                    #If checking hue and either parent has 0 saturation(if both do doesn't matter cause hue won't show in any kits)
+                    if len(par_tints) == 2 and index == 0:
+                        if par_tints[0][1] == 0: #If first parent has 0 sat
+                            grayscale_par = "first"
+                                
+                        if par_tints[1][1] == 0: #If 2nd parent has 0 sat
+                            if grayscale_par == "first":
+                                grayscale_par = "both"
+                            else:
+                                grayscale_par = "second"
+                    
+                    # Direct Inherit: 1/chance chance per color value to be a copy of one of parent's if not hue and both parents 0 sat
+                    if (not random.randint(0, constants.CONFIG["cat_generation"]["direct_inheritance"]) and (not grayscale_par == "both")):
+                    
+                        if grayscale_par == None: # if no grayscale parents/not on hue, pick random
+                            kit_tint[index] = choice(par_tints)[index]
+                        elif grayscale_par == "first": # If are on hue and first parent is grayscale, pick second's hue
+                            kit_tint[index] = par_tints[1][index]
+                        else: # If are on hue and 2nd parent is grayscale, pick 1st's hue
+                            kit_tint[index] = par_tints[0][index]
+                            
+                        #print(f' {index} {choice(par_tints)}  parent to inherit from: {kit_tint[index]}')
+                        
+                        
+                    else:
+                        
+                        if(len(par_tints) == 2): # If two parents, get max and min
+                            
+                            #If hue and wrapped hue would be shorter, set min to higher value and max to lower value + 1
+                            if (index == 0) and (abs(par_tints[0][0] - par_tints[1][0]) > 0.5):
+                                min_par_val = max(par_tints[0][index], par_tints[1][index])
+                                max_par_val = min(par_tints[0][index], par_tints[1][index])+1
+                            else:
+                                min_par_val = min(par_tints[0][index], par_tints[1][index])
+                                max_par_val = max(par_tints[0][index], par_tints[1][index])
+                            
+                            #print(f" {index} min: {min_par_val}  max: {max_par_val} ")
+                                
+                            #Ignore hues of parents with 0 saturation 
+                            if grayscale_par == "first": #If first parent has 0 sat,
+                                min_par_val = max_par_val = par_tints[1][0]  #Set hue to that of second parent
+                            
+                            elif grayscale_par == "second": #If 2nd parent has 0 sat,
+                                min_par_val = max_par_val = par_tints[0][0]  #Set hue to that of 1st parent
+                                
+                            # Difference = max-min
+                            diff_par_val = max_par_val - min_par_val
+                            
+                        else: # If one parent, sex max+min to same value and difference to none
+                            min_par_val = max_par_val = par_tints[0][index]
+                            diff_par_val = 0
+                        
+                        # Set kit value
+                        kit_tint[index] = (min_par_val + ( diff_par_val* inbetween))
+                        
+                        #print(f" {index} min: {min_par_val}  max: {max_par_val} diff: {diff_par_val} kit: { kit_tint[index]}")
+                        
+                        # Fix for wrapping hues
+                        if (index == 0) and (kit_tint[index]) >1:
+                            kit_tint[index] = kit_tint[index] -1
+                        
+                        
+                        
+                    # Correct if any values go too extreme
+                    if kit_tint[index] <0: kit_tint[index] = 0
+                    if kit_tint[index] >1: kit_tint[index] = 1
+                    #print(f'value: {kit_tint[index]}')
+                    
+            #print(f'final hsv tint: {kit_tint}')
+                
+            # Convert hsv to rgb
+            kit_tint = [round(i * 255) for i in colorsys.hsv_to_rgb(kit_tint[0], kit_tint[1], kit_tint[2])]
+            if kit_white_tint:
+                kit_white_tint = [round(i * 255) for i in colorsys.hsv_to_rgb(kit_white_tint[0], kit_white_tint[1], kit_white_tint[2])]
+            
+            
+            
+            #print(f'final rgb tint: {kit_tint}')
+            
+            
+            # Set pelt tint to RGB
+            new_pelt.tint = tuple( kit_tint )
+            if kit_white_tint:
+                new_pelt.white_patches_tint = tuple( kit_white_tint )
+            
+            
+            
+        else:         # If no parents, random RGB and no 2ndary color
+            kit_white_tint = None
+            new_pelt.white_patches = None
+            
+            if constants.CONFIG["cat_generation"]["tint_gen_type"] == 1: #Set parentless cats to have completely random color
+                new_pelt.tint = tuple( [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)] )
+                
+            elif constants.CONFIG["cat_generation"]["tint_gen_type"] == 2: #Set parentless cats to have color ftom set ranges
+                
+                #section defines Which entry in the ranges to pick from
+                
+                section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["hue_range"]))-1) 
+                hue = random.uniform(constants.CONFIG["cat_generation"]["hue_range"][section][0], constants.CONFIG["cat_generation"]["hue_range"][section][1])
+                
+                if constants.CONFIG["cat_generation"]["link_hsv_ranges"] == 0:
+                    section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["sat_range"]))-1)
+                satur = random.uniform(constants.CONFIG["cat_generation"]["sat_range"][section][0], constants.CONFIG["cat_generation"]["sat_range"][section][1])
+                
+                if constants.CONFIG["cat_generation"]["link_hsv_ranges"] == 0:
+                    section = random.randint(0, (  len(constants.CONFIG["cat_generation"]["val_range"]))-1)
+                valu = random.uniform(constants.CONFIG["cat_generation"]["val_range"][section][0], constants.CONFIG["cat_generation"]["val_range"][section][1])
+                
+                
+                
+
+                new_pelt.tint = [round(i * 255) for i in colorsys.hsv_to_rgb(hue, satur, valu)]
+                #print(f'HSV: {[round(hue, 2), round(satur, 2), round(valu, 2)]}')
+            
+            else: #Else, pull from RGB list
+                
+                if constants.CONFIG["cat_generation"]["bright_mod"] >= 1.0: #If no eye sensitivity reduction, just pick color
+                    new_pelt.tint = tuple( random.choice(constants.CONFIG["cat_generation"]["RGB_tints"]) )
+                
+                else: #If sensitivity setting on, reduce satur+valu
+                    rgb_col = random.choice(constants.CONFIG["cat_generation"]["RGB_tints"])
+                    [hue, satur, valu] = colorsys.rgb_to_hsv(rgb_col[0]/255, rgb_col[1]/255, rgb_col[2]/255)
+                    bright_mod = constants.CONFIG["cat_generation"]["bright_mod"]
+                    new_pelt.tint = tuple([round(i * 255) for i in colorsys.hsv_to_rgb(hue, satur*bright_mod, valu*bright_mod)])
+
+        #Modded: print statement
+        #print(f'final tint: {new_pelt.tint}')
+        
 
         return new_pelt
 
@@ -486,13 +724,14 @@ class Pelt:
         if self.vitiligo == "VITILIGO2":
             self.vitiligo = "VITILIGOTWO"
 
-        # Move white_patches that should be in vit or points.
-        if self.white_patches in Pelt.vitiligo_markings:
-            self.vitiligo = self.white_patches
-            self.white_patches = None
-        elif self.white_patches in Pelt.point_markings:
-            self.points = self.white_patches
-            self.white_patches = None
+# Don't move point/vit white patches
+#         # Move white_patches that should be in vit or points.
+#         if self.white_patches in Pelt.vitiligo_markings:
+#             self.vitiligo = self.white_patches
+#             self.white_patches = None
+#         elif self.white_patches in Pelt.point_markings:
+#             self.points = self.white_patches
+#             self.white_patches = None
 
         if self.tortie_pattern and "tortie" in self.tortie_pattern:
             self.tortie_pattern = sub("tortie", "", self.tortie_pattern.lower())
@@ -1276,7 +1515,8 @@ class Pelt:
         :param bool short: Whether to return a heavily-truncated description, default False
         :return str: The cat's description
         """
-
+        short=False # Modded: cats will always have colors in their descriptions
+        
         config = get_lang_config()["description"]
         ruleset = config["ruleset"]
         output = []
@@ -1331,35 +1571,88 @@ class Pelt:
 
 
 def _describe_pattern(cat, short=False):
-    color_name = [f"cat.pelts.{str(cat.pelt.colour)}"]
-    pelt_name = f"cat.pelts.{cat.pelt.name}{'' if short else '_long'}"
-    if cat.pelt.name in Pelt.torties:
-        pelt_name, color_name = _describe_torties(cat, color_name, short)
+    #Modded: description color now does tints
+    
+    if cat.pelt.name in ["Tortie", "Calico"]:
+        pelt_name = "cat.pelts.mottled_long"
+    else:
+        pelt_name = f"cat.pelts.{cat.pelt.name}{'' if short else '_long'}"
+    
+    # Create list of HSV colors, so an do for loop for color namer
+    color_list = [colorsys.rgb_to_hsv(cat.pelt.tint[0]/255, cat.pelt.tint[1]/255, cat.pelt.tint[2]/255)]
+    if cat.pelt.white_patches_tint != None:
+        color_list.append(colorsys.rgb_to_hsv(cat.pelt.white_patches_tint[0]/255, cat.pelt.white_patches_tint[1]/255, cat.pelt.white_patches_tint[2]/255))
+    
+    color_name = '' #text describing cat's color
+    
+    hue = 'none' 
+    
+    
+    
+    for color in color_list:
+        
+        #Hue setup
+        hue = ''
+        
+        hue_desc = {
+            0: "red",
+            0.04: "orange",
+            0.12: "yellow",
+            0.18: "lime",
+            0.27: "green",
+            0.40: "mint",
+            0.45: "cyan",
+            0.55: "blue",
+            0.67: "indigo",
+            0.75: "purple",
+            0.79: "magenta",
+            0.96: "red"
+            }
 
-    color_name = [i18n.t(piece, count=1) for piece in color_name]
-    color_name = "".join(color_name)
-
-    if cat.pelt.white_patches:
-        if cat.pelt.white_patches == "FULLWHITE":
-            # If the cat is fullwhite, discard all other information. They are just white
-            color_name = i18n.t("cat.pelts.FULLWHITE")
-            pelt_name = f"cat.pelts.SingleColour_long"
-        elif cat.pelt.name != "Calico":
-            white = i18n.t("cat.pelts.FULLWHITE")
-            if i18n.t("cat.pelts.WHITE", count=1) in color_name:
-                color_name = white
-            elif cat.pelt.white_patches in Pelt.mostly_white:
-                color_name = adjust_list_text([white, color_name])
-            else:
-                color_name = adjust_list_text([color_name, white])
-
-    if cat.pelt.points:
-        color_name = i18n.t("cat.pelts.point", color=color_name)
-        if "ginger point" in color_name:
-            color_name.replace("ginger point", "flame point")
-            # look, I'm leaving this as a quirk of the english language, if it's a problem elsewhere lmk
+        for hue_val in hue_desc:
+            if color[0] >= hue_val:
+                hue = hue_desc[hue_val]
+        
+        
+        # Saturation/Value descriptor charts
+        
+        # Saturation cutoff values. Make sure list starts at 1, # of values matches # of entries in color_desc lists
+        saturation_list = [1, 0.9, 0.8, 0.5, 0.2, 0.1]
+        
+        color_desc = {
+#Value:         bright           saturated          comfy              faded            dull              desaturated
+        1    : [f'neon {hue}',   f'bright {hue}',   f'glowing {hue}',  f'pastel {hue}',  f'pale {hue}',   'white'],
+        0.85 : [f'vivid {hue}',  f'vibrant {hue}',  f'soft {hue}',     f'faded {hue}',   f'dull {hue}',   'pale gray'],
+        0.75 : [f'deep {hue}',   f'cloudy {hue}',   f'dim {hue}',      f'grayed-{hue}',  f'drab {hue}',   'light gray'],
+        0.5  : [f'rich {hue}',   f'dusky {hue}',    f'dark {hue}',     f'murky {hue}',   f'{hue}-gray',   'gray'],
+        0.3  : [f'black-{hue}',  f'oil-{hue}',      f'inky {hue}',     f'shadow-{hue}',  f'sooty {hue}',  'dark gray'],           
+        0.1  : ['black']*6          #Black
+                
+                }
+        
+        # Modifier setup
+        
+        modifier = 'ERROR'
+            
+        for saturation in saturation_list:
+            if color[1] <= saturation:
+                sat = saturation_list.index(saturation)
+        
+        for value in color_desc:
+            if color[2] <= value:
+                modifier = color_desc[value][sat]
+        
+        
+        color_name = color_name + modifier  + '/'
+        
+        #print(f' color:{color} desc:{modifier}')
+    
+    color_name = color_name[:-1]
+    
 
     return pelt_name, color_name
+
+
 
 
 def _describe_torties(cat, color_name, short=False) -> (str, str):
@@ -1444,3 +1737,4 @@ def unpack_appearance_ruleset(cat, rule, short, pelt, color):
     else:
         raise Exception(f"Unmatched ruleset item {rule} in describe_appearance!")
     return ""
+

@@ -287,7 +287,323 @@
     "Night", "Shadow", "Scorch", "Midnight", "Pepper", "Pitch", "Bat", "Burnt", "Coal", "Ink", "Inky", "Murk", "Rat", "Magpie",
     "Char", "Charred", "Mulberry", "Evening", "Dark", "Ghost", "Mud", "Spider", "Shale", "Panther", "Starling", "Soot", "Wolf", "Badger", 
     "Raccoon", "Skulk"
+    ],
+    
+    "commentwhite": [
+    "ignore these, just to prevent issues with modded colors"
+    ],
+    
+    "WHITE2": ["Blank"],
+    
+    "WHITE2": ["Blank"],
+    "WHITE3": ["Blank"],
+    "WHITE4": ["Blank"],
+    "WHITE5": ["Blank"],
+    "WHITE6": ["Blank"],
+    "WHITE7": ["Blank"],
+    "WHITE8": ["Blank"],
+    "WHITE9": ["Blank"],
+    "WHITE10": ["Blank"],
+    "WHITE11": ["Blank"],
+    "WHITE12": ["Blank"],
+    "WHITE13": ["Blank"],
+    "WHITE14": ["Blank"],
+    "WHITE15": ["Blank"],
+    "WHITE16": ["Blank"],
+    "WHITE17": ["Blank"],
+    "WHITE18": ["Blank"],
+    "WHITE19": ["Blank"],
+    "WHITE20": ["Blank"],
+    "WHITE21": ["Blank"],
+    "WHITE22": ["Blank"],
+    "WHITE23": ["Blank"],
+    "WHITE24": ["Blank"],
+    "WHITE25": ["Blank"],
+    "WHITE26": ["Blank"],
+    
+    
+    
+    
+    
+    
+    "comment": [
+    "This is where modded prefixes start, feel free to add to the lists just don't mess with formatting, they are not currently functional though",
+    "and remember that each entry needs a comma after except the last one in a list"
+    ],
+    
+    "Multicolor": [
+    "Mottled"
+    ],
+    
+    "White": [
+    "White"
+    ],
+    "PaleGray": [
+    "Mist"
+    ],
+    "LightGray": [
+    "Smoke"
+    ],
+    "Gray": [
+    "Gray"
+    ],
+    "DarkGray": [
+    "Storm"
+    ],
+    "Black": [
+    "Black"
+    ],
+    
+    "Red": [
+    "Red"
+    ],
+    "Orange": [
+    "Orange"
+    ],
+    "Yellow": [
+    "Yellow"
+    ],
+    "Lime": [
+    "Lime"
+    ],
+    "Green": [
+    "Green"
+    ],
+    "Mint": [
+    "Mint"
+    ],
+    "Cyan": [
+    "cyan"
+    ],
+    "Blue": [
+    "Blue"
+    ],
+    "Indigo": [
+    "Indigo"
+    ],
+    "Purple": [
+    "Purple"
+    ],
+    "Magenta": [
+    "Magenta"
+    ],
+    
+    
+    "commenttwo": [
+    "This is where prefixes for combo color ranges go"
+    ],
+    
+    "BrightRed": [
+    " "
+    ],
+    "PaleRed": [
+    " "
+    ],
+    "DuskyRed": [
+    " "
+    ],
+    "DrabRed": [
+    " "
+    ],
+    "InkyRed": [
+    " "
+    ],
+    "ShadowRed": [
+    " "
+    ],
+    
+    "BrightOrange": [
+    " "
+    ],
+    "PaleOrange": [
+    " "
+    ],
+    "DuskyOrange": [
+    " "
+    ],
+    "DrabOrange": [
+    " "
+    ],
+    "InkyOrange": [
+    " "
+    ],
+    "ShadowOrange": [
+    " "
+    ],
+    
+    "BrightYellow": [
+    " "
+    ],
+    "PaleYellow": [
+    " "
+    ],
+    "DuskyYellow": [
+    " "
+    ],
+    "DrabYellow": [
+    " "
+    ],
+    "InkyYellow": [
+    " "
+    ],
+    "ShadowYellow": [
+    " "
+    ],
+    
+    "BrightLime": [
+    " "
+    ],
+    "PaleLime": [
+    " "
+    ],
+    "DuskyLime": [
+    " "
+    ],
+    "DrabLime": [
+    " "
+    ],
+    "InkyLime": [
+    " "
+    ],
+    "ShadowLime": [
+    " "
+    ],
+    
+    "BrightGreen": [
+    " "
+    ],
+    "PaleGreen": [
+    " "
+    ],
+    "DuskyGreen": [
+    " "
+    ],
+    "DrabGreen": [
+    " "
+    ],
+    "InkyGreen": [
+    " "
+    ],
+    "ShadowGreen": [
+    " "
+    ],
+    
+    "BrightMint": [
+    " "
+    ],
+    "PaleMint": [
+    " "
+    ],
+    "DuskyMint": [
+    " "
+    ],
+    "DrabMint": [
+    " "
+    ],
+    "InkyMint": [
+    " "
+    ],
+    "ShadowMint": [
+    " "
+    ],
+    
+    "BrightCyan": [
+    " "
+    ],
+    "PaleCyan": [
+    " "
+    ],
+    "DuskyCyan": [
+    " "
+    ],
+    "DrabCyan": [
+    " "
+    ],
+    "InkyCyan": [
+    " "
+    ],
+    "ShadowCyan": [
+    " "
+    ],
+    
+    "BrightBlue": [
+    " "
+    ],
+    "PaleBlue": [
+    " "
+    ],
+    "DuskyBlue": [
+    " "
+    ],
+    "DrabBlue": [
+    " "
+    ],
+    "InkyBlue": [
+    " "
+    ],
+    "ShadowBlue": [
+    " "
+    ],
+    
+    "BrightIndigo": [
+    " "
+    ],
+    "PaleIndigo": [
+    " "
+    ],
+    "DuskyIndigo": [
+    " "
+    ],
+    "DrabIndigo": [
+    " "
+    ],
+    "InkyIndigo": [
+    " "
+    ],
+    "ShadowIndigo": [
+    " "
+    ],
+    
+    "BrightPurple": [
+    " "
+    ],
+    "PalePurple": [
+    " "
+    ],
+    "DuskyPurple": [
+    " "
+    ],
+    "DrabPurple": [
+    " "
+    ],
+    "InkyPurple": [
+    " "
+    ],
+    "ShadowPurple": [
+    " "
+    ],
+    
+    "BrightMagenta": [
+    " "
+    ],
+    "PaleMagenta": [
+    " "
+    ],
+    "DuskyMagenta": [
+    " "
+    ],
+    "DrabMagenta": [
+    " "
+    ],
+    "InkyMagenta": [
+    " "
+    ],
+    "ShadowMagenta": [
+    " "
     ]
+    
+    
+    
   },
 	
 	"colour_suffixes": {
@@ -367,7 +683,321 @@
     ],
     "BLACK": [
 	"shadow", "shade", "dusk", "coal", "ink", "bat", "cinder", "ghost", "night", "raven", "crow", "burn", "badger", "raccoon"
+    ],
+    
+    
+    "commentwhite": [
+    "ignore these, just to prevent issues with modded colors"
+    ],
+    
+    "WHITE2": ["Blank"],
+    "WHITE2": ["Blank"],
+    "WHITE3": ["Blank"],
+    "WHITE4": ["Blank"],
+    "WHITE5": ["Blank"],
+    "WHITE6": ["Blank"],
+    "WHITE7": ["Blank"],
+    "WHITE8": ["Blank"],
+    "WHITE9": ["Blank"],
+    "WHITE10": ["Blank"],
+    "WHITE11": ["Blank"],
+    "WHITE12": ["Blank"],
+    "WHITE13": ["Blank"],
+    "WHITE14": ["Blank"],
+    "WHITE15": ["Blank"],
+    "WHITE16": ["Blank"],
+    "WHITE17": ["Blank"],
+    "WHITE18": ["Blank"],
+    "WHITE19": ["Blank"],
+    "WHITE20": ["Blank"],
+    "WHITE21": ["Blank"],
+    "WHITE22": ["Blank"],
+    "WHITE23": ["Blank"],
+    "WHITE24": ["Blank"],
+    "WHITE25": ["Blank"],
+    "WHITE26": ["Blank"],
+    
+    
+    
+    
+    
+    
+    "comment": [
+    "This is where modded suffixes start, feel free to add to the lists just don't mess with formatting, they are not currently functional though",
+    "and remember that each entry needs a comma after except the last one in a list"
+    ],
+    
+    "Multicolor": [
+    "dapple", "speckle", "spot", "splash", "patch", "blotch"
+    ],
+    
+    "White": [
+    "White"
+    ],
+    "PaleGray": [
+    "Mist"
+    ],
+    "LightGray": [
+    "Smoke"
+    ],
+    "Gray": [
+    "Gray"
+    ],
+    "DarkGray": [
+    "Storm"
+    ],
+    "Black": [
+    "Black"
+    ],
+    
+    "Red": [
+    "Red"
+    ],
+    "Orange": [
+    "Orange"
+    ],
+    "Yellow": [
+    "Yellow"
+    ],
+    "Lime": [
+    "Lime"
+    ],
+    "Green": [
+    "Green"
+    ],
+    "Mint": [
+    "Mint"
+    ],
+    "Cyan": [
+    "cyan"
+    ],
+    "Blue": [
+    "Blue"
+    ],
+    "Indigo": [
+    "Indigo"
+    ],
+    "Purple": [
+    "Purple"
+    ],
+    "Magenta": [
+    "Magenta"
+    ],
+    
+    
+    "commenttwo": [
+    "This is where suffixes for combo color ranges go"
+    ],
+    
+    "BrightRed": [
+    " "
+    ],
+    "PaleRed": [
+    " "
+    ],
+    "DuskyRed": [
+    " "
+    ],
+    "DrabRed": [
+    " "
+    ],
+    "InkyRed": [
+    " "
+    ],
+    "ShadowRed": [
+    " "
+    ],
+    
+    "BrightOrange": [
+    " "
+    ],
+    "PaleOrange": [
+    " "
+    ],
+    "DuskyOrange": [
+    " "
+    ],
+    "DrabOrange": [
+    " "
+    ],
+    "InkyOrange": [
+    " "
+    ],
+    "ShadowOrange": [
+    " "
+    ],
+    
+    "BrightYellow": [
+    " "
+    ],
+    "PaleYellow": [
+    " "
+    ],
+    "DuskyYellow": [
+    " "
+    ],
+    "DrabYellow": [
+    " "
+    ],
+    "InkyYellow": [
+    " "
+    ],
+    "ShadowYellow": [
+    " "
+    ],
+    
+    "BrightLime": [
+    " "
+    ],
+    "PaleLime": [
+    " "
+    ],
+    "DuskyLime": [
+    " "
+    ],
+    "DrabLime": [
+    " "
+    ],
+    "InkyLime": [
+    " "
+    ],
+    "ShadowLime": [
+    " "
+    ],
+    
+    "BrightGreen": [
+    " "
+    ],
+    "PaleGreen": [
+    " "
+    ],
+    "DuskyGreen": [
+    " "
+    ],
+    "DrabGreen": [
+    " "
+    ],
+    "InkyGreen": [
+    " "
+    ],
+    "ShadowGreen": [
+    " "
+    ],
+    
+    "BrightMint": [
+    " "
+    ],
+    "PaleMint": [
+    " "
+    ],
+    "DuskyMint": [
+    " "
+    ],
+    "DrabMint": [
+    " "
+    ],
+    "InkyMint": [
+    " "
+    ],
+    "ShadowMint": [
+    " "
+    ],
+    
+    "BrightCyan": [
+    " "
+    ],
+    "PaleCyan": [
+    " "
+    ],
+    "DuskyCyan": [
+    " "
+    ],
+    "DrabCyan": [
+    " "
+    ],
+    "InkyCyan": [
+    " "
+    ],
+    "ShadowCyan": [
+    " "
+    ],
+    
+    "BrightBlue": [
+    " "
+    ],
+    "PaleBlue": [
+    " "
+    ],
+    "DuskyBlue": [
+    " "
+    ],
+    "DrabBlue": [
+    " "
+    ],
+    "InkyBlue": [
+    " "
+    ],
+    "ShadowBlue": [
+    " "
+    ],
+    
+    "BrightIndigo": [
+    " "
+    ],
+    "PaleIndigo": [
+    " "
+    ],
+    "DuskyIndigo": [
+    " "
+    ],
+    "DrabIndigo": [
+    " "
+    ],
+    "InkyIndigo": [
+    " "
+    ],
+    "ShadowIndigo": [
+    " "
+    ],
+    
+    "BrightPurple": [
+    " "
+    ],
+    "PalePurple": [
+    " "
+    ],
+    "DuskyPurple": [
+    " "
+    ],
+    "DrabPurple": [
+    " "
+    ],
+    "InkyPurple": [
+    " "
+    ],
+    "ShadowPurple": [
+    " "
+    ],
+    
+    "BrightMagenta": [
+    " "
+    ],
+    "PaleMagenta": [
+    " "
+    ],
+    "DuskyMagenta": [
+    " "
+    ],
+    "DrabMagenta": [
+    " "
+    ],
+    "InkyMagenta": [
+    " "
+    ],
+    "ShadowMagenta": [
+    " "
     ]
+    
   },
 
   "biome_prefixes": {
@@ -835,3 +1465,4 @@
 		"wetback", "yellowface", "redface", "blackface", "brownface", "pancakeface", "yellowbone", "molesting"
 	]
 }
+
