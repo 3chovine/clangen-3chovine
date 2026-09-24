@@ -854,7 +854,7 @@ class Pelt:
         #   PELT WHITE
         # ------------------------------------------------------------------------------------------------------------#
 
-        chosen_white = random.randint(1, 100) <= 40
+        chosen_white = random.randint(1, 100) <= constants.CONFIG["cat_generation"]["white_chance"] 
 
         # Adjustments to pelt chosen based on if the pelt has white in it or not.
         if chosen_pelt in ("TwoColour", "SingleColour"):
