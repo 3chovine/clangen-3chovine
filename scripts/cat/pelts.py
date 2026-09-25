@@ -1069,7 +1069,7 @@ class Pelt:
                 self.white_patches = choice(list(_temp))
 
                 # Direct inheritance also effect the point marking.
-                if par_points and self.name != "Tortie":
+                if par_points:
                     self.points = choice(par_points)
                 else:
                     self.points = None
@@ -1077,12 +1077,11 @@ class Pelt:
                 return
 
         # dealing with points
-        if par_points:
-            chance = 10 - len(par_points)
-        else:
-            chance = 40
+        chance = max(
+            constants.CONFIG["cat_generation"]["random_point_chance"] - (len(par_points) * 2), 0 
+        )
         # Chance of point is 1 / chance.
-        if self.name != "Tortie" and not int(random.random() * chance):
+        if not int(random.random() * chance):
             self.points = choice(Pelt.point_markings)
         else:
             self.points = None
@@ -1150,8 +1149,8 @@ class Pelt:
             self.points = None
 
     def randomize_white_patches(self):
-        # Points determination. Tortie can't be pointed
-        if self.name != "Tortie" and not random.getrandbits(
+        # Points determination.
+        if not random.getrandbits(
             constants.CONFIG["cat_generation"]["random_point_chance"]
         ):
             # Cat has colorpoint!
@@ -1202,7 +1201,7 @@ class Pelt:
 
         # If the cat was rolled previously to have white patches, then determine the patch they will have
         # these functions also handle points.
-        if pelt_white:
+        if pelt_white: #!!! edit to handle white and points seperately!!!
             if parents:
                 self.white_patches_inheritance(parents)
             else:
