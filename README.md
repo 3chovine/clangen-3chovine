@@ -19,6 +19,7 @@ Original creator: just-some-cat.tumblr.com
 
 Fan-edit creator: SableSteel, and many others
 
+
 Mod creators: 
 
 bus-go-honk - initial idea, base concepts, colors
@@ -27,11 +28,12 @@ bus-go-honk - initial idea, base concepts, colors
 
 ## Downloads
 ### Stable
-A modded stable release is not currently available, but will be once I figure out how to do it. -3chovine
+A modded stable release is not currently available, but will be upon the next basegame stable release. -3chovine
 
 ### Development
 **Note**: Development versions are automatic snapshots of current development efforts. They are _not_ stable, can crash and even corrupt your save files.
 Additionally, we do not provide tech support for development versions.
+Dev sourcecode for the mod is downloadable as a zip through the code button in the main github screen. 
 
 
 ## Running from source
