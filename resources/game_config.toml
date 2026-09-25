@@ -454,8 +454,6 @@ dev_tools = false
   # 1/2^(chance) that a cat will be a wildcard tortie
   wildcard_tortie = 9
 
-  # base (chance)% that a cat will have white markings (default 40)
-  white_chance = 40
 
   # base 1/2^(chance) that a cat will have vitiligo
   vit_chance = 8
