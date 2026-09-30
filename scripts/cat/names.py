@@ -5,6 +5,7 @@ Module that handles the name generation for all cats.
 import contextlib
 import os
 import random
+import colorsys #modded: allows hsv
 
 import i18n
 import ujson
@@ -41,16 +42,88 @@ class Name:
 
         self.cat = cat
 
+#Modded: define color lists
+        hue_desc = {
+            0: "Red",
+            0.04: "Orange",
+            0.12: "Yellow",
+            0.18: "Lime",
+            0.27: "Green",
+            0.40: "Mint",
+            0.45: "Cyan",
+            0.55: "Blue",
+            0.67: "Indigo",
+            0.75: "Purple",
+            0.79: "Magenta",
+            0.96: "Red"
+            }
+
+        saturation_list = [1, 0.5, 0.1]
+        
+        color_desc = {
+
+        1    : [f'Bright',     f'Pale',    'Desat'],
+        0.75 : [f'Dusky',      f'Drab',    'Desat'],
+        0.3  : [f'Inky',       f'Shadow',  'Desat'],           
+        0.1  : ['Desat']*3          #Black
+                
+                }
+        desat_list = {
+            1: "White",
+            0.85: "PaleGray",
+            0.75: "LightGray",
+            0.5: "Gray",
+            0.3: "DarkGray",
+            0.1: "Black"
+            }
+
+
+
         try:
-            color = cat.pelt.colour
+            
+            #Modded: replace color with tint name
+            #print(cat.pelt.tint)
+            
+            color_hsv = colorsys.rgb_to_hsv(cat.pelt.tint[0]/255, cat.pelt.tint[1]/255, cat.pelt.tint[2]/255)
+            for hue_val in hue_desc:
+                if color_hsv[0] >= hue_val:
+                    hue = hue_desc[hue_val]
+                    
+            modifier = 'ERROR'
+            
+            for saturation in saturation_list:
+                if color_hsv[1] <= saturation:
+                    sat = saturation_list.index(saturation)
+            
+            for value in color_desc:
+                if color_hsv[2] <= value:
+                    modifier = color_desc[value][sat]
+            
+            #Handle desaturated!=
+            if modifier == "Desat":
+                for value in desat_list:
+                    if color_hsv[2] <= value:
+                        color = [desat_list[value], None]
+                
+            else:
+                color =  [modifier+hue, None]
+            #print(f"{color}  {color_hsv}")
+            
+            if cat.pelt.white_patches:
+                color[1] = "multi"
+            
+            
             eyes = cat.pelt.eye_colour
             pelt = cat.pelt.name
             tortie_pattern = cat.pelt.tortie_pattern
         except AttributeError:
-            color = None
+            color = [None, None]
             eyes = None
             pelt = None
             tortie_pattern = None
+            
+            
+            
 
         name_fixpref = False
         # Set prefix
@@ -221,7 +294,7 @@ class Name:
     def give_prefix(self, eyes, colour, pelt, biome):
         """Generate possible prefix."""
         self.load_localized_names()
-
+        
         # Add possible prefix categories to list.
         possible_prefix_categories = []
         if (
@@ -229,12 +302,26 @@ class Name:
             and constants.CONFIG["cat_name_controls"]["allow_eye_names"]
         ):
             possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
+        
+        # Modded: change to
+        if colour[1] == "multi":
+            possible_prefix_categories.append(
+                self.names_dict["colour_prefixes"]["Multicolor"]
+            )
+            
+        colour = colour[0]
         if colour in self.names_dict["colour_prefixes"]:
             possible_prefix_categories.append(
                 self.names_dict["colour_prefixes"][colour]
             )
+            possible_prefix_categories.append(
+                self.names_dict["colour_prefixes"][colour]
+            )
+            
+            
         if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
+            
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
 
@@ -244,11 +331,13 @@ class Name:
                 named_after_appearance = True
             else:
                 named_after_appearance = not random.getrandbits(
-                    2
-                )  # Chance for True is '1/4'
+                    1
+                )  # Modded: Chance for True is '1/2'
 
             named_after_biome = not random.getrandbits(3)  # chance for True is 1/8
             # Choose appearance-based prefix if possible and named_after_appearance because True.
+            
+            
             if (
                 named_after_appearance
                 and possible_prefix_categories
@@ -257,10 +346,12 @@ class Name:
                 and possible_prefix_categories
             ):
                 prefix_category = random.choice(possible_prefix_categories)
+                #print(possible_prefix_categories)
                 self.prefix = random.choice(prefix_category)
             else:
+                #print("normal")
                 self.prefix = random.choice(self.names_dict["normal_prefixes"])
-
+            
             # prevent prefix duplications from happening
             if self.prefix in self.prefix_history or not self._usable_name(
                 self.prefix, self.suffix
@@ -283,9 +374,7 @@ class Name:
             pool = self.names_dict["normal_suffixes"]
 
             if pelt is not None or pelt != "SingleColour":
-                named_after_pelt = not random.getrandbits(
-                    2
-                )  # Chance for True is '1/8'.
+                named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/4'.
                 named_after_biome = not random.getrandbits(3)  # 1/8
                 # Pelt name only gets used if there's an associated suffix.
                 if named_after_pelt:
@@ -308,22 +397,32 @@ class Name:
                         pool = self.names_dict["tortie_pelt_suffixes"][tortie_pattern]
                     elif (
                         pelt in self.names_dict["pelt_suffixes"]
-                        and colour in self.names_dict["colour_suffixes"]
+                        and colour[0] in self.names_dict["colour_suffixes"]
                     ):
-                        if (
-                            constants.CONFIG["cat_name_controls"]["allow_eye_names"]
-                            and eyes in self.names_dict["eye_suffixes"]
-                        ):
+                        
+                        if colour[1] == "multi" and not random.getrandbits(2): #1/4 of multicolor cats named after appearance will use multi suffixes
                             pool = (
-                                self.names_dict["pelt_suffixes"][pelt]
-                                + self.names_dict["colour_suffixes"][colour]
-                                + self.names_dict["eye_suffixes"][eyes]
+                                self.names_dict["colour_suffixes"]["Multicolor"]
                             )
                         else:
-                            pool = (
-                                self.names_dict["pelt_suffixes"][pelt]
-                                + self.names_dict["colour_suffixes"][colour]
-                            )
+                            colour = colour[0]
+                            
+                            if (
+                                constants.CONFIG["cat_name_controls"]["allow_eye_names"]
+                                and eyes in self.names_dict["eye_suffixes"]
+                            ):
+                                pool = (
+                                    self.names_dict["pelt_suffixes"][pelt]
+                                    + self.names_dict["colour_suffixes"][colour]
+                                    + self.names_dict["colour_suffixes"][colour]
+                                    + self.names_dict["eye_suffixes"][eyes]
+                                )
+                            else:
+                                pool = (
+                                    self.names_dict["pelt_suffixes"][pelt]
+                                    + self.names_dict["colour_suffixes"][colour]
+                                    + self.names_dict["colour_suffixes"][colour]
+                                )
                     else:
                         pool = self.names_dict["normal_suffixes"]
                 elif named_after_biome:

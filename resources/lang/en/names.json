@@ -162,169 +162,6 @@
   ],
 
   "colour_prefixes": {
-    "WHITE": [
-    "White", "White", "Pale", "Snow", "Snowy", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
-    "Blizzard", "Flurry", "Moon", "Light", "Bone", "Bright", "Swan", "Dove", "Cotton", "Hawthorn", "Laurel", "Wisp", "Silk", "Web",
-    "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg", "Glacier", "Goose", "Moth", "Moon", "Down", "Daisy", "Cold",
-    "Gardenia", "Hemlock", "Piper", "Plover", "Magnolia", "Birch", "Shiver", "Snow", "Snowy"
-    ],
-    "PALEGREY": [
-    "Gray", "Gray", "Silver", "Pale", "Light", "Cloud", "Cloudy", "Hail", "Frost", "Ice", "Icy", "Mouse", "Bright", "Fog", "Freeze",
-    "Frozen", "Stone", "Pebble", "Dove", "Sky", "Cotton", "Heather", "Ashen", "Tufted", "Pipit", "Azalea", "Pigeon", "Magnolia", "Birch",
-    "Fringe", "Mistle", "Icicle", "Rime", "Glacier", "Goose", "Blizzard", "Down", "Daisy", "Silk", "Web", "Cold", "Gravel", "Flax", "Shiver",
-	"Snow", "Snowy"
-    ],
-    "SILVER": [
-    "Gray", "Silver", "Silver", "Silver", "Cinder", "Ice", "Icy", "Frost", "Frozen", "Freeze", "Rain", "Blue", "Gravel", "Flax", "Cold",
-    "River", "Blizzard", "Flurry", "Bone", "Bleak", "Stone", "Pebble", "Heather", "Scale", "Crocus", "Pigeon", "Stone", "Rock", "Pebble",
-    "Rue", "Fringe", "Glint", "Mistle", "Gossamer", "Air", "Pale", "Ermine", "Stoat", "Gull", "Lilac", "Rime", "Bluebell",
-    "Wolf", "Shiver"
-    ],
-    "GREY": [
-    "Gray", "Gray", "Ash", "Ashen", "Cinder", "Rock", "Stone", "Shade", "Mouse", "Smoke", "Smoky", "Shadow", "Fog", "Bone",
-    "Bleak", "Rain", "Storm", "Soot", "Pebble", "Mist", "Misty", "Heather", "Trout", "Shrike", "Plume", "Teasel", "Wolf", "Raccoon",
-    "Lyre", "Rat", "Gull", "Pigeon", "Rime", "Thunder", "Shale", "Pebble", "Bluebell", "Flint", "Gravel", "Birch", "Badger"
-    ],
-    "DARKGREY": [
-    "Gray", "Gray", "Shade", "Raven", "Crow", "Stone", "Dark", "Dark", "Night", "Cinder", "Ash", "Ashen", "Twilight", "Panther", "Bat",
-    "Smoke", "Smokey", "Shadow", "Bleak", "Rain", "Storm", "Pebble", "Mist", "Misty", "Warbler", "Wisp", "Thunder", "Shale", "Murk", "Charcoal",
-    "Flint", "Dusk", "Wolf", "Badger", "Raccoon", "Skulk", "Bluebell"
-    ],
-    "GHOST": [
-    "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Char", "Charred", "Magpie", "Panther", "Murk", "Charcoal",
-    "Night", "Shadow", "Scorch", "Midnight", "Bleak", "Storm", "Violet", "Pepper", "Bat", "Faded", "Silver", "Ghost", "Bat", "Dusk", 
-    "Flint", "Starling", "Badger", "Raccoon", "Skulk", "Magpie"
-    ],
-    "BLOSSOM": [
-    "Blossom", "Blossom", "Pale", "Sand", "Sun", "Sunny", "Light", "Lion", "Bright", "Phlox", "Vervain", "Veil", "Silk", "Honey", "Daisy", "Warm",
-    "Cosmos", "Orchid", "Snapdragon", "Foxglove", "Verbena", "Straw", "Orange", "Ochre", "Peach", "Auburn", "Birch", "Cougar", "Gorse",
-    "Dandelion", "Spindle", "Ivory", "Fawn", "Fallow", "Morel", "Mouse", "Velvet", "Dust", "Tawny", "Sable", "Swan", "Dove", "Cotton",
-    "Hawthorn", "Laurel", "Wisp", "Silk", "Web", "Goose", "Moth", "Moon", "Down", "Daisy", "Gardenia", "Hemlock", "Magnolia", "Birch",
-    "Snow", "Snowy", "Owl", "Mink", "Petal", "Bloom"
-    ],
-	"DAWN": [
-	"Apricot", "Aspen", "Barley", "Beam", "Bloom", "Blossom", "Bright", "Cougar", "Coyote", "Dawn", "Dazzle", "Dew", 
-	"Dream", "Drift", "Drizzle", "Egg", "Fallow", "Flicker", "Garlic", "Hare", "Haze", "Hazy", "Ivory", "Light", 
-	"Mist", "Misty", "Morning", "Moth", "Mouse", "Pale", "Pearl", "Rabbit", "Sand", "Shell", "Shimmer", "Sky"
-	],
-    "PALEGINGER": [
-    "Pale", "Ginger", "Sand", "Sandy", "Yellow", "Sun", "Sunny", "Light", "Lion", "Bright", "Phlox", "Vervain",
-    "Honey", "Daisy", "Warm", "Robin", "Cosmos", "Orchid", "Snapdragon", "Foxglove", "Verbena", "Straw",
-    "Orange", "Ochre", "Peach", "Auburn", "Pumpkin", "Birch", "Cougar", "Apricot", "Furze", "Gorse", "Dandelion", "Wheat"
-    ],
-    "GOLDEN": [
-    "Gold", "Gold", "Golden", "Yellow", "Sun", "Sunny", "Light", "Lightning", "Thunder", "Day", "Fig",
-    "Honey", "Tawny", "Lion", "Dandelion", "Marigold", "Warm", "Amber", "Canary", "Daffodil", "Bright", "Tansy",
-    "Buttercup", "Straw", "Glint", "Auburn", "Blazing", "Furze", "Gorse", "Oriole", "Cougar", "Wheat", "Shine", "Bee"
-    ],
-    "HONEY": ["Honey", "Honey", "Sweet", "Gold", "Golden", "Yellow", "Sun", "Sunny", "Light", "Lightning", "Thunder", "Day", "Fig",
-    "Tawny", "Lion", "Dandelion", "Marigold", "Warm", "Amber", "Canary", "Daffodil", "Bright", "Daisy", "Nectar", "Tansy", "Flower",
-    "Buttercup", "Straw", "Glint", "Auburn", "Blazing", "Furze", "Gorse", "Oriole", "Cougar", "Wheat", "Shine", "Bee", "Bay", "Bumble",
-    "Rye"
-    ],
-    "GINGER": [
-    "Ginger", "Ginger", "Red", "Fire", "Rust", "Flame", "Ember", "Sun", "Sunny", "Light", "Primrose",
-    "Rowan", "Fox", "Tawny", "Plum", "Orange", "Warm", "Burn", "Burnt", "Robin", "Amber", "Larkspur", "Straw", "Lyre",
-    "Flare", "Blaze", "Ochre", "Auburn", "Pumpkin", "Cedar", "Blazing", "Marigold", "Oriole", "Scorch"
-    ],
-    "DARKGINGER": [
-    "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock", "Warm",
-    "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
-    "Robin", "Berry", "Ochre", "Auburn", "Pumpkin", "Burnet", "Cedar", "Blazing", "Carnation", "Oriole", "Saffron", "Scorch"
-    ],
-    "SIENNA": [
-    "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock", "Warm",
-    "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
-    "Robin", "Berry", "Ochre", "Auburn", "Burnet", "Maple", "Tawny", "Cedar", "Blazing", "Carnation", "Saffron", "Scorch", "Rose"
-    ],
-    "CREAM": [
-    "Sand", "Sandy", "Yellow", "Pale", "Cream", "Cream", "Light", "Milk", "Fawn", "Morel", "Jasmine", "Veil", "Cougar", "Dandelion",
-    "Bone", "Daisy", "Branch", "Warm", "Robin", "Spindle", "Ivory", "Pale", "Bright", "Peach", "Egg", "Lion", "Birch", "Fallow", "Sun", 
-    "Sunny", "Wheat", "Tansy"
-    ],
-    "LIGHTBROWN": [
-    "Brown", "Pale", "Light", "Mouse", "Dust", "Dusty", "Sand", "Sandy", "Bright", "Mud", "Scrub", "Velvet", "Elm", "Nut", "Fallow",
-    "Hazel", "Vole", "Branch", "Warm", "Robin", "Puma", "Umber", "Tree", "Root", "Bark", "Lion", "Birch", "Cougar", "Seed", "Fawn",
-    "Thrush", "Log"
-    ],
-    "LILAC": [
-    "Pale", "Light", "Mouse", "Dust", "Dusty", "Sand", "Sandy", "Bright", "Mud", "Scrub", "Velvet", "Fallow", "Thrush", 
-    "Hazel", "Vole", "Branch", "Warm", "Robin", "Lilac", "Lavender", "Heather", "Fawn", "Tawny", "Seed", "Nut", "Wisteria", "Wolf",
-    "Log"
-    ],
-    "BROWN": [
-    "Brown", "Brown", "Oak", "Mouse", "Dark", "Shade", "Russet", "Dust", "Dusty", "Mud", "Deer", "Fawn", "Doe", "Stag", "Bark", "Tawny",
-    "Twig", "Owl", "Otter", "Log", "Vole", "Branch", "Hazel", "Robin", "Umber", "Tree", "Root", "Shadow", "Ochre", "Auburn", "Burnet",
-    "Moth", "Elm", "Nut", "Cypress", "Wolf", "Peat"
-    ],
-    "GOLDEN-BROWN": [
-    "Brown", "Brown", "Oak", "Mouse", "Dark", "Shade", "Russet", "Dust", "Dusty", "Mud", "Deer", "Fawn", "Doe", "Stag",
-    "Twig", "Owl", "Otter", "Log", "Vole", "Branch", "Hazel", "Robin", "Umber", "Tree", "Root", "Shadow", "Ochre", "Auburn", "Burnet",
-    "Thrasher", "Thrush", "Bark", "Maple", "Tawny", "Moth", "Nut", "Cypress", "Fir", "Wolf", "Peat"
-    ],
-    "MALLOW": [
-    "Antler", "Bear", "Bittern", "Bluff", "Brown", "Burdock", "Buzzard", "Cougar", "Crag", "Cricket", "Dark", "Deer", "Dust", "Falcon", "Fallow", "Fawn", "Ferret",
-    "Grouse", "Moth", "Mud", "Python", "Quail", "Quill", "Root", "Sable", "Shade", "Shrew", "Squirrel", "Stag", "Wood", "Wren",
-    "Char", "Charred"
-    ],
-    "DARKBROWN": [
-    "Brown", "Brown", "Dark", "Dark", "Shade", "Night", "Russet", "Rowan", "Mud", "Oak", "Twig", "Loach", "Shadow", "Tawny", "Moth",
-    "Owl", "Otter", "Log", "Hickory", "Branch", "Robin", "Umber", "Chanterelle", "Dust", "Mud", "Auburn", "Burnet", "Root", "Bark", "Sable",
-    "Hawk", "Chestnut", "Murk", "Cypress", "Fir", "Wolf", "Peat"
-    ],
-    "CHOCOLATE": [
-    "Brown", "Brown", "Dark", "Dark", "Shade", "Russet", "Rowan", "Mud", "Murk", "Oak", "Twig", "Loach", "Shadow", "Tawny",
-    "Owl", "Otter", "Log", "Hickory", "Branch", "Robin", "Umber", "Chanterelle", "Dust", "Auburn", "Burnet", "Spider", "Bark", "Sable",
-    "Hawk", "Chestnut", "Fir", "Starling", "Peat"
-    ],
-    "RUST":[
-    "Brown", "Brown", "Dark", "Dark", "Shade", "Russet", "Rowan", "Mud", "Murk", "Oak", "Twig", "Shadow", "Tawny",
-    "Owl", "Otter", "Log", "Hickory", "Branch", "Robin", "Umber", "Chanterelle", "Dusk", "Auburn", "Burnet", "Spider", "Bark", "Sable",
-    "Hawk", "Chestnut", "Fir", "Starling", "Peat", "Fox", "Bat"
-    ],
-    "BLACK": [
-    "Black", "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Grackle", "Bat", "Flint", "Storm", "Skunk",
-    "Night", "Shadow", "Scorch", "Midnight", "Pepper", "Pitch", "Bat", "Burnt", "Coal", "Ink", "Inky", "Murk", "Rat", "Magpie",
-    "Char", "Charred", "Mulberry", "Evening", "Dark", "Ghost", "Mud", "Spider", "Shale", "Panther", "Starling", "Soot", "Wolf", "Badger", 
-    "Raccoon", "Skulk"
-    ],
-    
-    "commentwhite": [
-    "ignore these, just to prevent issues with modded colors"
-    ],
-    
-    "WHITE2": ["Blank"],
-    
-    "WHITE2": ["Blank"],
-    "WHITE3": ["Blank"],
-    "WHITE4": ["Blank"],
-    "WHITE5": ["Blank"],
-    "WHITE6": ["Blank"],
-    "WHITE7": ["Blank"],
-    "WHITE8": ["Blank"],
-    "WHITE9": ["Blank"],
-    "WHITE10": ["Blank"],
-    "WHITE11": ["Blank"],
-    "WHITE12": ["Blank"],
-    "WHITE13": ["Blank"],
-    "WHITE14": ["Blank"],
-    "WHITE15": ["Blank"],
-    "WHITE16": ["Blank"],
-    "WHITE17": ["Blank"],
-    "WHITE18": ["Blank"],
-    "WHITE19": ["Blank"],
-    "WHITE20": ["Blank"],
-    "WHITE21": ["Blank"],
-    "WHITE22": ["Blank"],
-    "WHITE23": ["Blank"],
-    "WHITE24": ["Blank"],
-    "WHITE25": ["Blank"],
-    "WHITE26": ["Blank"],
-    
-    
-    
-    
-    
     
     "comment": [
     "This is where modded prefixes start, feel free to add to the lists just don't mess with formatting, they are not currently functional though",
@@ -336,57 +173,24 @@
     ],
     
     "White": [
-    "White"
+    "TESTING"
     ],
     "PaleGray": [
-    "Mist"
+    "TESTING"
     ],
     "LightGray": [
-    "Smoke"
+    "TESTING"
     ],
     "Gray": [
-    "Gray"
+    "TESTING"
     ],
     "DarkGray": [
-    "Storm"
+    "TESTING"
     ],
     "Black": [
-    "Black"
+    "TESTING"
     ],
     
-    "Red": [
-    "Red"
-    ],
-    "Orange": [
-    "Orange"
-    ],
-    "Yellow": [
-    "Yellow"
-    ],
-    "Lime": [
-    "Lime"
-    ],
-    "Green": [
-    "Green"
-    ],
-    "Mint": [
-    "Mint"
-    ],
-    "Cyan": [
-    "cyan"
-    ],
-    "Blue": [
-    "Blue"
-    ],
-    "Indigo": [
-    "Indigo"
-    ],
-    "Purple": [
-    "Purple"
-    ],
-    "Magenta": [
-    "Magenta"
-    ],
     
     
     "commenttwo": [
@@ -394,212 +198,212 @@
     ],
     
     "BrightRed": [
-    " "
+    "TESTING"
     ],
     "PaleRed": [
-    " "
+    "TESTING"
     ],
     "DuskyRed": [
-    " "
+    "TESTING"
     ],
     "DrabRed": [
-    " "
+    "TESTING"
     ],
     "InkyRed": [
-    " "
+    "TESTING"
     ],
     "ShadowRed": [
-    " "
+    "TESTING"
     ],
     
     "BrightOrange": [
-    " "
+    "TESTING"
     ],
     "PaleOrange": [
-    " "
+    "TESTING"
     ],
     "DuskyOrange": [
-    " "
+    "TESTING"
     ],
     "DrabOrange": [
-    " "
+    "TESTING"
     ],
     "InkyOrange": [
-    " "
+    "TESTING"
     ],
     "ShadowOrange": [
-    " "
+    "TESTING"
     ],
     
     "BrightYellow": [
-    " "
+    "TESTING"
     ],
     "PaleYellow": [
-    " "
+    "TESTING"
     ],
     "DuskyYellow": [
-    " "
+    "TESTING"
     ],
     "DrabYellow": [
-    " "
+    "TESTING"
     ],
     "InkyYellow": [
-    " "
+    "TESTING"
     ],
     "ShadowYellow": [
-    " "
+    "TESTING"
     ],
     
     "BrightLime": [
-    " "
+    "TESTING"
     ],
     "PaleLime": [
-    " "
+    "TESTING"
     ],
     "DuskyLime": [
-    " "
+    "TESTING"
     ],
     "DrabLime": [
-    " "
+    "TESTING"
     ],
     "InkyLime": [
-    " "
+    "TESTING"
     ],
     "ShadowLime": [
-    " "
+    "TESTING"
     ],
     
     "BrightGreen": [
-    " "
+    "TESTING"
     ],
     "PaleGreen": [
-    " "
+    "TESTING"
     ],
     "DuskyGreen": [
-    " "
+    "TESTING"
     ],
     "DrabGreen": [
-    " "
+    "TESTING"
     ],
     "InkyGreen": [
-    " "
+    "TESTING"
     ],
     "ShadowGreen": [
-    " "
+    "TESTING"
     ],
     
     "BrightMint": [
-    " "
+    "TESTING"
     ],
     "PaleMint": [
-    " "
+    "TESTING"
     ],
     "DuskyMint": [
-    " "
+    "TESTING"
     ],
     "DrabMint": [
-    " "
+    "TESTING"
     ],
     "InkyMint": [
-    " "
+    "TESTING"
     ],
     "ShadowMint": [
-    " "
+    "TESTING"
     ],
     
     "BrightCyan": [
-    " "
+    "TESTING"
     ],
     "PaleCyan": [
-    " "
+    "TESTING"
     ],
     "DuskyCyan": [
-    " "
+    "TESTING"
     ],
     "DrabCyan": [
-    " "
+    "TESTING"
     ],
     "InkyCyan": [
-    " "
+    "TESTING"
     ],
     "ShadowCyan": [
-    " "
+    "TESTING"
     ],
     
     "BrightBlue": [
-    " "
+    "TESTING"
     ],
     "PaleBlue": [
-    " "
+    "TESTING"
     ],
     "DuskyBlue": [
-    " "
+    "TESTING"
     ],
     "DrabBlue": [
-    " "
+    "TESTING"
     ],
     "InkyBlue": [
-    " "
+    "TESTING"
     ],
     "ShadowBlue": [
-    " "
+    "TESTING"
     ],
     
     "BrightIndigo": [
-    " "
+    "TESTING"
     ],
     "PaleIndigo": [
-    " "
+    "TESTING"
     ],
     "DuskyIndigo": [
-    " "
+    "TESTING"
     ],
     "DrabIndigo": [
-    " "
+    "TESTING"
     ],
     "InkyIndigo": [
-    " "
+    "TESTING"
     ],
     "ShadowIndigo": [
-    " "
+    "TESTING"
     ],
     
     "BrightPurple": [
-    " "
+    "TESTING"
     ],
     "PalePurple": [
-    " "
+    "TESTING"
     ],
     "DuskyPurple": [
-    " "
+    "TESTING"
     ],
     "DrabPurple": [
-    " "
+    "TESTING"
     ],
     "InkyPurple": [
-    " "
+    "TESTING"
     ],
     "ShadowPurple": [
-    " "
+    "TESTING"
     ],
     
     "BrightMagenta": [
-    " "
+    "TESTING"
     ],
     "PaleMagenta": [
-    " "
+    "TESTING"
     ],
     "DuskyMagenta": [
-    " "
+    "TESTING"
     ],
     "DrabMagenta": [
-    " "
+    "TESTING"
     ],
     "InkyMagenta": [
-    " "
+    "TESTING"
     ],
     "ShadowMagenta": [
-    " "
+    "TESTING"
     ]
     
     
@@ -607,119 +411,6 @@
   },
 	
 	"colour_suffixes": {
-    "WHITE": [
-	"cloud", "frost", "moon", "web", "dove", "ice", "snow", "egg", "shell", "smoke", "bone", "chill", "fog", "freeze", 
-	"gale", "ghost", "goose", "flash", "moth", "stone", "pebble", "rock"
-    ],
-    "PALEGREY": [
-	"cloud", "frost", "web", "mist", "ice", "snow", "egg", "minnow", "smoke", "dust", "bone", "chill", "fog", "freeze", 
-	"gale", "goose", "flash", "ghost", "stone", "pebble", "rock", "boulder"
-    ],
-    "SILVER": [
-	"cloud", "storm", "frost", "ash", "stream", "web", "mist", "pool", "lake", "pebble", "rock", "stone", "boulder", 
-	"minnow", "smoke", "dust", "flash"
-    ],
-    "GREY": [
-	"cloud", "storm", "pool", "lake", "pebble", "rock", "stone", "boulder", "minnow", "smoke", "dust", "cinder", "badger", "raccoon"
-    ],
-    "DARKGREY": [
-	"storm", "ash", "shade", "pebble", "rock", "stone", "boulder", "smoke", "bat", "cinder", "night", "raven", "crow", "burn", 
-	"shadow", "dusk", "badger", "raccoon"
-    ],
-    "GHOST": [
-	"shadow", "shade", "dusk", "coal", "ink", "bat", "cinder", "ghost", "night", "raven", "crow", "burn", "badger", "raccoon"
-    ],
-    "BLOSSOM": [
-    "sun", "beam", "shine", "shell", "honey", "cougar", "owl", "moth", "sable", "dust", "flower", "blossom", "spring", "petal",
-    "rose", "bee", "moth", "owl", "cloud", "moon", "web", "dove", "egg", "shell", "smoke", "goose", "bloom"
-    ],
-	"DAWN": [
-	"beam", "dawn", "dazzle", "dew", "dream", "drizzle", "egg", "flicker", "glow", "hare", "haze", "moth", "mouse", "shell", "shimmer"
-	],
-    "PALEGINGER": [
-	"sun", "beam", "shine", "spark", "shell", "honey", "flash", "lion", "cougar"
-    ],
-    "GOLDEN": [
-	"sun", "beam", "shine", "spark", "blaze", "honey", "flash", "bee", "lion", "cougar", "bright", "gorse"
-    ],
-    "HONEY": ["sun", "beam", "shine", "spark", "blaze", "honey", "honey", "flash", "bee", "lion", "cougar", "bright", "bee", "root", "bumble",
-    "flower", "gorse"
-    ],
-    "GINGER": [
-	"burn", "sun", "beam", "shine", "spark", "blaze", "flame", "flare", "ember", "fox", "vixen"
-    ],
-    "DARKGINGER": [
-	"burn", "blaze", "flame", "flare", "ember", "fox", "vixen"
-    ],
-    "SIENNA": [
-	"burn", "blaze", "flame", "flare", "ember", "fox", "vixen"
-    ],
-    "CREAM": [
-	"sun", "beam", "shine", "spark", "shell", "honey", "flash", "lion", "cougar"
-    ],
-    "LIGHTBROWN": [
-	"root", "owl", "twig", "wood", "moth", "lion", "cougar"
-    ],
-    "LILAC": [
-	"flower", "heather", "dream", "dust", "lion", "cougar"
-    ],
-    "BROWN": [
-	"root", "owl", "twig", "wood", "moth", "bark", "branch", "burr"
-    ],
-    "GOLDEN-BROWN": [
-	"root", "owl", "twig", "wood", "moth", "bark", "branch", "burr"
-    ],
-    "MALLOW": [
-	"root","twig", "wood", "moth", "bark", "branch", "burr", "back"
-    ],
-    "DARKBROWN": [
-	"root", "bark", "shade", "owl", "oak", "wood", "moth", "branch", "burr"
-    ],
-    "CHOCOLATE": [
-	"root", "bark", "owl", "wood", "bat", "branch", "burr"
-    ],
-    "RUST":[
-    "burn", "blaze", "flame", "flare", "ember", "fox", "vixen", "bat"
-    ],
-    "BLACK": [
-	"shadow", "shade", "dusk", "coal", "ink", "bat", "cinder", "ghost", "night", "raven", "crow", "burn", "badger", "raccoon"
-    ],
-    
-    
-    "commentwhite": [
-    "ignore these, just to prevent issues with modded colors"
-    ],
-    
-    "WHITE2": ["Blank"],
-    "WHITE2": ["Blank"],
-    "WHITE3": ["Blank"],
-    "WHITE4": ["Blank"],
-    "WHITE5": ["Blank"],
-    "WHITE6": ["Blank"],
-    "WHITE7": ["Blank"],
-    "WHITE8": ["Blank"],
-    "WHITE9": ["Blank"],
-    "WHITE10": ["Blank"],
-    "WHITE11": ["Blank"],
-    "WHITE12": ["Blank"],
-    "WHITE13": ["Blank"],
-    "WHITE14": ["Blank"],
-    "WHITE15": ["Blank"],
-    "WHITE16": ["Blank"],
-    "WHITE17": ["Blank"],
-    "WHITE18": ["Blank"],
-    "WHITE19": ["Blank"],
-    "WHITE20": ["Blank"],
-    "WHITE21": ["Blank"],
-    "WHITE22": ["Blank"],
-    "WHITE23": ["Blank"],
-    "WHITE24": ["Blank"],
-    "WHITE25": ["Blank"],
-    "WHITE26": ["Blank"],
-    
-    
-    
-    
     
     
     "comment": [
@@ -728,274 +419,239 @@
     ],
     
     "Multicolor": [
-    "dapple", "speckle", "spot", "splash", "patch", "blotch"
+    "MULTISUFIX"
     ],
     
     "White": [
-    "White"
+    "TESTING"
     ],
     "PaleGray": [
-    "Mist"
+    "TESTING"
     ],
     "LightGray": [
-    "Smoke"
+    "TESTING"
     ],
     "Gray": [
-    "Gray"
+    "TESTING"
     ],
     "DarkGray": [
-    "Storm"
+    "TESTING"
     ],
     "Black": [
-    "Black"
+    "TESTING"
     ],
-    
-    "Red": [
-    "Red"
-    ],
-    "Orange": [
-    "Orange"
-    ],
-    "Yellow": [
-    "Yellow"
-    ],
-    "Lime": [
-    "Lime"
-    ],
-    "Green": [
-    "Green"
-    ],
-    "Mint": [
-    "Mint"
-    ],
-    "Cyan": [
-    "cyan"
-    ],
-    "Blue": [
-    "Blue"
-    ],
-    "Indigo": [
-    "Indigo"
-    ],
-    "Purple": [
-    "Purple"
-    ],
-    "Magenta": [
-    "Magenta"
-    ],
-    
     
     "commenttwo": [
     "This is where suffixes for combo color ranges go"
     ],
     
     "BrightRed": [
-    " "
+    "TESTING"
     ],
     "PaleRed": [
-    " "
+    "TESTING"
     ],
     "DuskyRed": [
-    " "
+    "TESTING"
     ],
     "DrabRed": [
-    " "
+    "TESTING"
     ],
     "InkyRed": [
-    " "
+    "TESTING"
     ],
     "ShadowRed": [
-    " "
+    "TESTING"
     ],
     
     "BrightOrange": [
-    " "
+    "TESTING"
     ],
     "PaleOrange": [
-    " "
+    "TESTING"
     ],
     "DuskyOrange": [
-    " "
+    "TESTING"
     ],
     "DrabOrange": [
-    " "
+    "TESTING"
     ],
     "InkyOrange": [
-    " "
+    "TESTING"
     ],
     "ShadowOrange": [
-    " "
+    "TESTING"
     ],
     
     "BrightYellow": [
-    " "
+    "TESTING"
     ],
     "PaleYellow": [
-    " "
+    "TESTING"
     ],
     "DuskyYellow": [
-    " "
+    "TESTING"
     ],
     "DrabYellow": [
-    " "
+    "TESTING"
     ],
     "InkyYellow": [
-    " "
+    "TESTING"
     ],
     "ShadowYellow": [
-    " "
+    "TESTING"
     ],
     
     "BrightLime": [
-    " "
+    "TESTING"
     ],
     "PaleLime": [
-    " "
+    "TESTING"
     ],
     "DuskyLime": [
-    " "
+    "TESTING"
     ],
     "DrabLime": [
-    " "
+    "TESTING"
     ],
     "InkyLime": [
-    " "
+    "TESTING"
     ],
     "ShadowLime": [
-    " "
+    "TESTING"
     ],
     
     "BrightGreen": [
-    " "
+    "TESTING"
     ],
     "PaleGreen": [
-    " "
+    "TESTING"
     ],
     "DuskyGreen": [
-    " "
+    "TESTING"
     ],
     "DrabGreen": [
-    " "
+    "TESTING"
     ],
     "InkyGreen": [
-    " "
+    "TESTING"
     ],
     "ShadowGreen": [
-    " "
+    "TESTING"
     ],
     
     "BrightMint": [
-    " "
+    "TESTING"
     ],
     "PaleMint": [
-    " "
+    "TESTING"
     ],
     "DuskyMint": [
-    " "
+    "TESTING"
     ],
     "DrabMint": [
-    " "
+    "TESTING"
     ],
     "InkyMint": [
-    " "
+    "TESTING"
     ],
     "ShadowMint": [
-    " "
+    "TESTING"
     ],
     
     "BrightCyan": [
-    " "
+    "TESTING"
     ],
     "PaleCyan": [
-    " "
+    "TESTING"
     ],
     "DuskyCyan": [
-    " "
+    "TESTING"
     ],
     "DrabCyan": [
-    " "
+    "TESTING"
     ],
     "InkyCyan": [
-    " "
+    "TESTING"
     ],
     "ShadowCyan": [
-    " "
+    "TESTING"
     ],
     
     "BrightBlue": [
-    " "
+    "TESTING"
     ],
     "PaleBlue": [
-    " "
+    "TESTING"
     ],
     "DuskyBlue": [
-    " "
+    "TESTING"
     ],
     "DrabBlue": [
-    " "
+    "TESTING"
     ],
     "InkyBlue": [
-    " "
+    "TESTING"
     ],
     "ShadowBlue": [
-    " "
+    "TESTING"
     ],
     
     "BrightIndigo": [
-    " "
+    "TESTING"
     ],
     "PaleIndigo": [
-    " "
+    "TESTING"
     ],
     "DuskyIndigo": [
-    " "
+    "TESTING"
     ],
     "DrabIndigo": [
-    " "
+    "TESTING"
     ],
     "InkyIndigo": [
-    " "
+    "TESTING"
     ],
     "ShadowIndigo": [
-    " "
+    "TESTING"
     ],
     
     "BrightPurple": [
-    " "
+    "TESTING"
     ],
     "PalePurple": [
-    " "
+    "TESTING"
     ],
     "DuskyPurple": [
-    " "
+    "TESTING"
     ],
     "DrabPurple": [
-    " "
+    "TESTING"
     ],
     "InkyPurple": [
-    " "
+    "TESTING"
     ],
     "ShadowPurple": [
-    " "
+    "TESTING"
     ],
     
     "BrightMagenta": [
-    " "
+    "TESTING"
     ],
     "PaleMagenta": [
-    " "
+    "TESTING"
     ],
     "DuskyMagenta": [
-    " "
+    "TESTING"
     ],
     "DrabMagenta": [
-    " "
+    "TESTING"
     ],
     "InkyMagenta": [
-    " "
+    "TESTING"
     ],
     "ShadowMagenta": [
-    " "
+    "TESTING"
     ]
     
   },
