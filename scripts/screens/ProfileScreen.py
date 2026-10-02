@@ -813,7 +813,7 @@ class ProfileScreen(Screens):
         if the_cat.pelt.white_patches:
             output += i18n.t(
                 "screens.profile.pelt_label",
-                pelt=i18n.t(f'{constants.CONFIG["cat_generation"]["display_colorspace"]}: {pelt_tint} {white_tint} {the_cat.pelt.white_patches.lower()}'),
+                pelt=i18n.t(f'{constants.CONFIG["cat_generation"]["display_colorspace"]}: {pelt_tint} {white_tint}'),
             )
         else:
             output += i18n.t(
