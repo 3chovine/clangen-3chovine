@@ -3,6 +3,7 @@
 import i18n
 import pygame
 import pygame_gui
+import colorsys # Modded: allows conversion betweeen rgb and hsv
 
 from scripts.cat.cats import Cat
 from scripts.game_structure import game, image_cache
@@ -687,22 +688,21 @@ class SpriteInspectScreen(Screens):
 
     def get_sprite_details(self):
         output = ""
-
-        # PELT COLOR
-        output += i18n.t("screens.sprite_inspect.pelt_color_label")
-        output += self.the_cat.pelt.colour.lower()
-
-        # TORTIE PATCH
-        if self.the_cat.pelt.tortie_marking:
-            output += "\n"
-            output += i18n.t("screens.sprite_inspect.tortie_patch_label")
-            output += self.the_cat.pelt.tortie_marking.lower()
-
-        # PELT TINT
+        
+        
+        #Desc
+        output += self.the_cat.pelt.describe_appearance(self.the_cat, 'long')
+        
+        # PELT TINT(split RGB, HSV, HEX)
         if self.the_cat.pelt.tint:
             output += "\n"
             output += i18n.t("screens.sprite_inspect.tint_color_label")
-            output += self.the_cat.pelt.tint
+            output += "RGB:"
+            output += str(self.the_cat.pelt.tint)
+            output += " HSV:"
+            output += str(["%.2f" % elem for elem in colorsys.rgb_to_hsv(self.the_cat.pelt.tint[0]/255, self.the_cat.pelt.tint[1]/255, self.the_cat.pelt.tint[2]/255)])
+            output += " HEX:"
+            output +='#%02x%02x%02x' % (self.the_cat.pelt.tint[0], self.the_cat.pelt.tint[1], self.the_cat.pelt.tint[2])
 
         # WHITE PATCH
         if self.the_cat.pelt.white_patches:
@@ -710,11 +710,18 @@ class SpriteInspectScreen(Screens):
             output += i18n.t("screens.sprite_inspect.white_patches_label")
             output += self.the_cat.pelt.white_patches.lower()
 
-        # WHITE PATCH TINT
+        # WHITE PATCH TINT(!!! split RGB, HSV, HEX)
         if self.the_cat.pelt.white_patches_tint:
             output += "\n"
             output += i18n.t("screens.sprite_inspect.white_patches_tint_label")
-            output += self.the_cat.pelt.white_patches_tint.lower()
+            output += "RGB:"
+            output += str(self.the_cat.pelt.white_patches_tint)
+            output += " HSV:"
+            output += str(["%.2f" % elem for elem in colorsys.rgb_to_hsv(self.the_cat.pelt.white_patches_tint[0]/255, self.the_cat.pelt.white_patches_tint[1]/255, self.the_cat.pelt.white_patches_tint[2]/255)])
+            output += " HEX:"
+            output +='#%02x%02x%02x' % (self.the_cat.pelt.white_patches_tint[0], self.the_cat.pelt.white_patches_tint[1], self.the_cat.pelt.white_patches_tint[2])
+
+
 
         # POINTS
         if self.the_cat.pelt.points:
@@ -727,6 +734,23 @@ class SpriteInspectScreen(Screens):
             output += "\n"
             output += i18n.t("screens.sprite_inspect.vitiligo_patch_label")
             output += self.the_cat.pelt.vitiligo.lower()
+            
+            
+        
+        
+
+        # PELT COLOR
+        output += "\n"
+        output += i18n.t("screens.sprite_inspect.pelt_color_label")
+        output += self.the_cat.pelt.colour.lower()
+            
+            
+        # TORTIE PATCH
+        if self.the_cat.pelt.tortie_marking:
+            output += "\n"
+            output += i18n.t("screens.sprite_inspect.tortie_patch_label")
+            output += self.the_cat.pelt.tortie_marking.lower()
+
 
         output += "\n"
 
