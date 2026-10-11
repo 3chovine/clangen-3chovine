@@ -722,18 +722,6 @@ class SpriteInspectScreen(Screens):
             output +='#%02x%02x%02x' % (self.the_cat.pelt.white_patches_tint[0], self.the_cat.pelt.white_patches_tint[1], self.the_cat.pelt.white_patches_tint[2])
 
 
-
-        # POINTS
-        if self.the_cat.pelt.points:
-            output += "\n"
-            output += i18n.t("screens.sprite_inspect.points_label")
-            output += self.the_cat.pelt.points.lower()
-
-        # VITILIGO PATCH
-        if self.the_cat.pelt.vitiligo:
-            output += "\n"
-            output += i18n.t("screens.sprite_inspect.vitiligo_patch_label")
-            output += self.the_cat.pelt.vitiligo.lower()
             
             
         
@@ -757,6 +745,10 @@ class SpriteInspectScreen(Screens):
         # SKIN COLOR
         output += i18n.t("screens.sprite_inspect.skin_color_label")
         output += self.the_cat.pelt.skin.lower()
+        
+        
+        output += "\ntest\ntest\ntest\ntest\ntest\ntest\ntest\ntest\n"
+
 
         return output
 

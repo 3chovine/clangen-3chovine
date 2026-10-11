@@ -184,7 +184,6 @@ def _draw_sprite(
                 tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
                 
     # Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
-                #print(patchcolor)  #Test
                 tint.fill(tuple(patchcolor)
                 )
                 white_patches.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
