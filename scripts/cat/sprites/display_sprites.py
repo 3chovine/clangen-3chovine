@@ -141,7 +141,14 @@ def _draw_sprite(
 
     # draw white patches
     if cat.pelt.white_patches is not None:
+        
+        # start for loop for more colors
+        
         patch = cat.pelt.white_patches
+        patchcolor = cat.pelt.white_patches_tint
+        
+        
+        
         if patch in cat.pelt.mostly_white or patch == "FULLWHITE":
             spritesheet = sprites.WHITE_MOSTLY_DATA["spritesheet"]
         elif patch in cat.pelt.high_white:
@@ -159,24 +166,28 @@ def _draw_sprite(
             
         else:
             spritesheet = sprites.WHITE_LITTLE_DATA["spritesheet"]
+              
+        
 
         sprite_name = f"{spritesheet}{patch}{cat_sprite}"
         white_patches = sprites.sprites[sprite_name].copy()
 
         # Apply tint to white patches.
-        if (
-            cat.pelt.white_patches_tint is not None
-            #Modded: removed check for tint being in list
-        ):
+        if (patchcolor is not None): #Modded: removed check for tint being in list
+        
             tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
             
 # Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
-            #print(cat.pelt.white_patches_tint)  #Test
-            tint.fill(tuple(cat.pelt.white_patches_tint)
+            #print(patchcolor)  #Test
+            tint.fill(tuple(patchcolor)
             )
             white_patches.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
 
         new_sprite.blit(white_patches, (0, 0))
+        
+        
+        
+        # End color loop
 
 
 # Modded: removed points and vit
