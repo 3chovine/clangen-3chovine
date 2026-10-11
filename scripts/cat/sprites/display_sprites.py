@@ -144,46 +144,52 @@ def _draw_sprite(
         
         # start for loop for more colors
         
-        patch = cat.pelt.white_patches
-        patchcolor = cat.pelt.white_patches_tint
-        
-        
-        
-        if patch in cat.pelt.mostly_white or patch == "FULLWHITE":
-            spritesheet = sprites.WHITE_MOSTLY_DATA["spritesheet"]
-        elif patch in cat.pelt.high_white:
-            spritesheet = sprites.WHITE_HIGH_DATA["spritesheet"]
-        elif patch in cat.pelt.mid_white:
-            spritesheet = sprites.WHITE_MID_DATA["spritesheet"]
-        
-        # Modded: allow white patches to include tortie+vilitigo+point
-        elif patch in cat.pelt.tortie_patches:
-            spritesheet = sprites.TORTIE_DATA["spritesheet"]
-        elif patch in cat.pelt.point_markings:
-            spritesheet = sprites.WHITE_POINT_DATA["spritesheet"]
-        elif patch in cat.pelt.vitiligo_markings:
-            spritesheet = sprites.WHITE_VITILIGO_DATA["spritesheet"]
+        patchlist = ["BODY", "HALF","PAIGE", "EMBER", "TAIL_MID"]
+        colorlist = [(0,0,0), (0,100,0), (200,0,0), (200,100,0), (200,100,200)]
+                
+        for i in range(0, len(patchlist)):
+            patch = patchlist[i]
+            patchcolor = colorlist[i]
+            print(patchcolor)
+
             
-        else:
-            spritesheet = sprites.WHITE_LITTLE_DATA["spritesheet"]
-              
-        
-
-        sprite_name = f"{spritesheet}{patch}{cat_sprite}"
-        white_patches = sprites.sprites[sprite_name].copy()
-
-        # Apply tint to white patches.
-        if (patchcolor is not None): #Modded: removed check for tint being in list
-        
-            tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
             
-# Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
-            #print(patchcolor)  #Test
-            tint.fill(tuple(patchcolor)
-            )
-            white_patches.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+            
+            if patch in cat.pelt.mostly_white or patch == "FULLWHITE":
+                spritesheet = sprites.WHITE_MOSTLY_DATA["spritesheet"]
+            elif patch in cat.pelt.high_white:
+                spritesheet = sprites.WHITE_HIGH_DATA["spritesheet"]
+            elif patch in cat.pelt.mid_white:
+                spritesheet = sprites.WHITE_MID_DATA["spritesheet"]
+            
+            # Modded: allow white patches to include tortie+vilitigo+point
+            elif patch in cat.pelt.tortie_patches:
+                spritesheet = sprites.TORTIE_DATA["spritesheet"]
+            elif patch in cat.pelt.point_markings:
+                spritesheet = sprites.WHITE_POINT_DATA["spritesheet"]
+            elif patch in cat.pelt.vitiligo_markings:
+                spritesheet = sprites.WHITE_VITILIGO_DATA["spritesheet"]
+                
+            else:
+                spritesheet = sprites.WHITE_LITTLE_DATA["spritesheet"]
+                  
+            
 
-        new_sprite.blit(white_patches, (0, 0))
+            sprite_name = f"{spritesheet}{patch}{cat_sprite}"
+            white_patches = sprites.sprites[sprite_name].copy()
+
+            # Apply tint to white patches.
+            if (patchcolor is not None): #Modded: removed check for tint being in list
+            
+                tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
+                
+    # Modded: cat displays tints based on tint rgb value rather than pulling from tint.json
+                #print(patchcolor)  #Test
+                tint.fill(tuple(patchcolor)
+                )
+                white_patches.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+
+            new_sprite.blit(white_patches, (0, 0))
         
         
         
