@@ -217,6 +217,8 @@ class SpriteInspectScreen(Screens):
         self.elements["life_stages_container"] = pygame_gui.core.UIContainer(
             ui_scale(pygame.Rect((10, 485), (483, 160))),
             anchors={"left_target": self.elements["checkbox_frame"]},
+
+            starting_height=5,
             manager=MANAGER,
         )
 
@@ -566,11 +568,12 @@ class SpriteInspectScreen(Screens):
         if self.open_tab == self.elements["sprite_details_tab"]:
             self.sprite_detail_elements["textbox"] = UITextBoxTweaked(
                 self.get_sprite_details(),
-                ui_scale(pygame.Rect((8, 5), (480, 150))),
+
+                ui_scale(pygame.Rect((7, 6), (475, 144))),
                 object_id="#text_box_26_horizleft_pad_10_14",
                 line_spacing=1,
                 manager=MANAGER,
-                starting_height=6,
+
                 container=self.elements["life_stages_container"],
             )
 
@@ -679,8 +682,11 @@ class SpriteInspectScreen(Screens):
 
         self.sprite_detail_elements["textbox"] = pygame_gui.elements.UITextBox(
             "",
-            ui_scale(pygame.Rect((0, 0), (491, 160))),
+
+            ui_scale(pygame.Rect((0, 0), (450, 160))),
             manager=MANAGER,
+            starting_height=4,
+
             container=self.elements["life_stages_container"],
         )
 
@@ -688,6 +694,7 @@ class SpriteInspectScreen(Screens):
 
     def get_sprite_details(self):
         output = ""
+
         
         
         #Desc
@@ -703,6 +710,7 @@ class SpriteInspectScreen(Screens):
             output += str(["%.2f" % elem for elem in colorsys.rgb_to_hsv(self.the_cat.pelt.tint[0]/255, self.the_cat.pelt.tint[1]/255, self.the_cat.pelt.tint[2]/255)])
             output += " HEX:"
             output +='#%02x%02x%02x' % (self.the_cat.pelt.tint[0], self.the_cat.pelt.tint[1], self.the_cat.pelt.tint[2])
+
 
         # WHITE PATCH
         if self.the_cat.pelt.white_patches:
@@ -721,20 +729,7 @@ class SpriteInspectScreen(Screens):
             output += " HEX:"
             output +='#%02x%02x%02x' % (self.the_cat.pelt.white_patches_tint[0], self.the_cat.pelt.white_patches_tint[1], self.the_cat.pelt.white_patches_tint[2])
 
-
-
-        # POINTS
-        if self.the_cat.pelt.points:
-            output += "\n"
-            output += i18n.t("screens.sprite_inspect.points_label")
-            output += self.the_cat.pelt.points.lower()
-
-        # VITILIGO PATCH
-        if self.the_cat.pelt.vitiligo:
-            output += "\n"
-            output += i18n.t("screens.sprite_inspect.vitiligo_patch_label")
-            output += self.the_cat.pelt.vitiligo.lower()
-            
+          
             
         
         
@@ -750,6 +745,7 @@ class SpriteInspectScreen(Screens):
             output += "\n"
             output += i18n.t("screens.sprite_inspect.tortie_patch_label")
             output += self.the_cat.pelt.tortie_marking.lower()
+
 
 
         output += "\n"
