@@ -754,6 +754,19 @@ class SpriteInspectScreen(Screens):
         output += i18n.t("screens.sprite_inspect.skin_color_label")
         output += self.the_cat.pelt.skin.lower()
 
+
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+        output += "\n"
+
         return output
 
     def generate_image_to_save(self):
