@@ -136,8 +136,57 @@ class Pelt:
     for sprite_list in sprites.WHITE_POINT_DATA["sprite_list"]:
         point_markings.extend(sprite_list)
         
+        
+        
+    #Create patch list with labels
+        
     patch_parts_dict: dict = dict(sprites.PATCH_BODY_PARTS)
+    for patch in patch_parts_dict.keys():
+        patch_parts_dict[patch] = set(patch_parts_dict[patch])
     
+    patch_combos: dict = {}
+    
+    for combo in sprites.TORTIE_PATCH_COMBOS.keys():
+        patch_combos[combo] = set(sprites.TORTIE_PATCH_COMBOS[combo])
+        
+    for combo in sprites.WHITE_PATCH_COMBOS.get("little", {}).keys():
+        patch_combos[combo] = set(sprites.WHITE_PATCH_COMBOS.get("little", {})[combo])
+        
+    for combo in sprites.WHITE_PATCH_COMBOS.get("mid", {}).keys():
+        patch_combos[combo] = set(sprites.WHITE_PATCH_COMBOS.get("mid", {})[combo])
+        
+    for combo in sprites.WHITE_PATCH_COMBOS.get("high", {}).keys():
+        patch_combos[combo] = set(sprites.WHITE_PATCH_COMBOS.get("high", {})[combo])
+        
+    for combo in sprites.WHITE_PATCH_COMBOS.get("mostly", {}).keys():
+        patch_combos[combo] = set(sprites.WHITE_PATCH_COMBOS.get("mostly", {})[combo])
+ 
+    print(patch_combos)
+        
+    for combo in patch_combos.keys():
+        combo_parts = set()
+        print("\ncombo = ", combo, ": ", end = "")
+        try:
+            for combos_patch in patch_combos[combo]:
+                print(combos_patch, end = " ")
+                # Remove white patch spritesheet labels
+                combos_patch = combos_patch.removeprefix("little")
+                combos_patch = combos_patch.removeprefix("mid")
+                combos_patch = combos_patch.removeprefix("high")
+                combos_patch = combos_patch.removeprefix("mostly")
+                combos_patch = combos_patch.removeprefix("most")
+                combo_parts.update(patch_parts_dict[combos_patch])
+                #print(combo_parts)
+            patch_parts_dict[combo] = combo_parts
+        except KeyError:
+            print(", error")
+
+    
+    count_weights = []
+    for patch in patch_parts_dict.keys():
+        count_weights.append(len(patch_parts_dict[patch]))
+        
+    print(count_weights)
 
 
     #Modded: all markings list
@@ -519,21 +568,8 @@ class Pelt:
                 # Python evaluates and statements in order so if config is 0 it won't bother with randint and thus not crast from randint(0,0)
                 new_pelt.name = "TwoColour"
                 kit_white_tint = [0,0,0]
-                
-                white_marking = None
-                vit_chance = max(
-                    constants.CONFIG["cat_generation"]["vit_chance"], 0
-                )
-                if not random.getrandbits(vit_chance): # Roll to see if markings are vitiligo style
-                    white_marking = choice(Pelt.vitiligo_markings)
-                else: #If not vit, roll for if point
-                    if not random.getrandbits(
-                        constants.CONFIG["cat_generation"]["random_point_chance"]
-                    ):
-                        white_marking = choice(Pelt.point_markings)
-                        
-                    else: # If neither, half chance to pick white patch and half chance to pick tortie patch
-                        white_marking = random.choice(random.choice([Pelt.valid_white_markings, Pelt.tortie_patches]))
+                white_marking = random.choice(list(Pelt.patch_combos.keys()))
+                print(white_marking)
                 
                 
                 
