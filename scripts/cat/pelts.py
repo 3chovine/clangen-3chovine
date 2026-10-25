@@ -161,14 +161,14 @@ class Pelt:
     for combo in sprites.WHITE_PATCH_COMBOS.get("mostly", {}).keys():
         patch_combos[combo] = set(sprites.WHITE_PATCH_COMBOS.get("mostly", {})[combo])
  
-    print(patch_combos)
+    #print(patch_combos)
         
     for combo in patch_combos.keys():
         combo_parts = set()
-        print("\ncombo = ", combo, ": ", end = "")
+        #print("\ncombo = ", combo, ": ", end = "")
         try:
             for combos_patch in patch_combos[combo]:
-                print(combos_patch, end = " ")
+                #print(combos_patch, end = " ")
                 # Remove white patch spritesheet labels
                 combos_patch = combos_patch.removeprefix("little")
                 combos_patch = combos_patch.removeprefix("mid")
@@ -179,14 +179,15 @@ class Pelt:
                 #print(combo_parts)
             patch_parts_dict[combo] = combo_parts
         except KeyError:
-            print(", error")
+            continue
+            #print(", error")
 
     
     count_weights = []
     for patch in patch_parts_dict.keys():
         count_weights.append(len(patch_parts_dict[patch]))
         
-    print(count_weights)
+    #print(count_weights)
 
 
     #Modded: all markings list
