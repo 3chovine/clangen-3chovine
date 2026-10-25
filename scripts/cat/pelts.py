@@ -108,7 +108,7 @@ class Pelt:
         }
     )
     """
-
+    
     # TORTIE PATCHES
     tortie_patches: list = list(sprites.TORTIE_PATCH_COMBOS.keys())
     for sprite_list in sprites.TORTIE_DATA["sprite_list"]:
@@ -135,6 +135,10 @@ class Pelt:
     point_markings: list = []
     for sprite_list in sprites.WHITE_POINT_DATA["sprite_list"]:
         point_markings.extend(sprite_list)
+        
+    patch_parts_dict: dict = dict(sprites.PATCH_BODY_PARTS)
+    
+
 
     #Modded: all markings list
     valid_white_markings: list = little_white + mid_white + high_white + mostly_white 

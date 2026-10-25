@@ -1,803 +1,803 @@
-[
-"BACKSPOT": {
+{
+"BACKSPOT": [
 "back"
-},
-"BEARD_FULL": {
+],
+"BEARD_FULL": [
 "jaw"
-},
-"BEARD_HIGH": {
+],
+"BEARD_HIGH": [
 "jaw"
-},
-"BEARD_MID": {
+],
+"BEARD_MID": [
 "jaw"
-},
-"BEARD_SMALL": {
+],
+"BEARD_SMALL": [
 "jaw"
-},
-"BELLY_MID": {
+],
+"BELLY_MID": [
 "belly"
-},
-"BELLY_MIN": {
+],
+"BELLY_MIN": [
 "belly"
-},
-"BELLY_SMALL": {
+],
+"BELLY_SMALL": [
 "belly"
-},
-"BELLY_T": {
+],
+"BELLY_T": [
 "belly"
-},
-"BIB": {
+],
+"BIB": [
 "throat"
-},
-"BIB_SMALL": {
+],
+"BIB_SMALL": [
 "throat"
-},
-"BLAZE_MID": {
+],
+"BLAZE_MID": [
 "eyes"
-},
-"BLAZE_MIN": {
+],
+"BLAZE_MIN": [
 "eyes"
-},
-"BLAZE_SMALL": {
+],
+"BLAZE_SMALL": [
 "eyes"
-},
-"BOTHEARS_T": {
+],
+"BOTHEARS_T": [
 "ears"
-},
-"CHEST_MID": {
+],
+"CHEST_MID": [
 "throat"
-},
-"CHEST_MIN": {
+],
+"CHEST_MIN": [
 "chest"
-},
-"CHEST_SMALL": {
+],
+"CHEST_SMALL": [
 "throat"
-},
-"CHEST_STREAK": {
+],
+"CHEST_STREAK": [
 "chest"
-},
-"CHIN": {
+],
+"CHIN": [
 "jaw"
-},
-"ESTRELLA": {
+],
+"ESTRELLA": [
 "forehead"
-},
-"EYEBROW_MID": {
+],
+"EYEBROW_MID": [
 "eyes"
-},
-"EYEBROW_SMALL": {
+],
+"EYEBROW_SMALL": [
 "eyes"
-},
-"EYELINER_MAX_L": {
+],
+"EYELINER_MAX_L": [
 "eyes"
-},
-"EYELINER_MAX_R": {
+],
+"EYELINER_MAX_R": [
 "eyes"
-},
-"EYELINER_MIN_L": {
+],
+"EYELINER_MIN_L": [
 "eyes"
-},
-"EYELINER_MIN_R": {
+],
+"EYELINER_MIN_R": [
 "eyes"
-},
-"EYELINER_T": {
+],
+"EYELINER_T": [
 "eyes"
-},
-"EYESPOT_L": {
+],
+"EYESPOT_L": [
 "eyes"
-},
-"EYESPOT_R": {
+],
+"EYESPOT_R": [
 "eyes"
-},
-"FOREHEAD_MID": {
+],
+"FOREHEAD_MID": [
 "forehead"
-},
-"FOREHEAD_MIN": {
+],
+"FOREHEAD_MIN": [
 "forehead"
-},
-"FOREHEAD_STRIPE": {
+],
+"FOREHEAD_STRIPE": [
 "forehead"
-},
-"HONEY": {
+],
+"HONEY": [
 "throat"
-},
-"LEFTEAR": {
+],
+"LEFTEAR": [
 "ears"
-},
-"LEFTEAR_MID": {
+],
+"LEFTEAR_MID": [
 "ears"
-},
-"LEFTEAR_MOSTLY": {
+],
+"LEFTEAR_MOSTLY": [
 "ears"
-},
-"LEFTEAR_RING": {
+],
+"LEFTEAR_RING": [
 "ears"
-},
-"LEFTEAR_TIP": {
+],
+"LEFTEAR_TIP": [
 "ears"
-},
-"LEG_BACK_LEFT_MIN": {
+],
+"LEG_BACK_LEFT_MIN": [
 "BLLpaw"
-},
-"LEG_BACK_LEFT_SMALL": {
+],
+"LEG_BACK_LEFT_SMALL": [
 "BLLpaw"
-},
-"LEG_BACK_LEFT_UNDER": {
+],
+"LEG_BACK_LEFT_UNDER": [
 "BLLpaw"
-},
-"LEG_BACK_RIGHT_MIN": {
+],
+"LEG_BACK_RIGHT_MIN": [
 "BRLpaw"
-},
-"LEG_BACK_RIGHT_SMALL": {
+],
+"LEG_BACK_RIGHT_SMALL": [
 "BRLpaw"
-},
-"LEG_BACK_RIGHT_UNDER": {
+],
+"LEG_BACK_RIGHT_UNDER": [
 "BRLpaw"
-},
-"LEG_FRONT_LEFT_MIN": {
+],
+"LEG_FRONT_LEFT_MIN": [
 "FLLpaw"
-},
-"LEG_FRONT_LEFT_SMALL": {
+],
+"LEG_FRONT_LEFT_SMALL": [
 "FLLpaw"
-},
-"LEG_FRONT_LEFT_UNDER": {
+],
+"LEG_FRONT_LEFT_UNDER": [
 "FLLpaw"
-},
-"LEG_FRONT_RIGHT_MIN": {
+],
+"LEG_FRONT_RIGHT_MIN": [
 "FRLpaw"
-},
-"LEG_FRONT_RIGHT_SMALL": {
+],
+"LEG_FRONT_RIGHT_SMALL": [
 "FRLpaw"
-},
-"LEG_FRONT_RIGHT_UNDER": {
+],
+"LEG_FRONT_RIGHT_UNDER": [
 "FRLpaw"
-},
-"LOCKET": {
+],
+"LOCKET": [
 "throat"
-},
-"LUNA": {
+],
+"LUNA": [
 "forehead"
-},
-"MASK_MID": {
+],
+"MASK_MID": [
 "eyes"
-},
-"MASK_MIN": {
+],
+"MASK_MIN": [
 "eyes"
-},
-"MASK_SMALL": {
+],
+"MASK_SMALL": [
 "eyes"
-},
-"MUSTACHE": {
+],
+"MUSTACHE": [
 "jaw"
-},
-"MUZZLE": {
+],
+"MUZZLE": [
 "jaw"
-},
-"NECKBEARD": {
+],
+"NECKBEARD": [
 "jaw"
-},
-"RIGHTEAR": {
+],
+"RIGHTEAR": [
 "ears"
-},
-"RIGHTEAR_MID": {
+],
+"RIGHTEAR_MID": [
 "ears"
-},
-"RIGHTEAR_MOSTLY": {
+],
+"RIGHTEAR_MOSTLY": [
 "ears"
-},
-"RIGHTEAR_RING": {
+],
+"RIGHTEAR_RING": [
 "ears"
-},
-"RIGHTEAR_TIP": {
+],
+"RIGHTEAR_TIP": [
 "ears"
-},
-"SADDLE_SMALL": {
+],
+"SADDLE_SMALL": [
 "back"
-},
-"SCOURGE": {
+],
+"SCOURGE": [
 "FLLpaw"
-},
-"STRIPE_MID": {
+],
+"STRIPE_MID": [
 "back"
-},
-"STRIPE_SMALL": {
+],
+"STRIPE_SMALL": [
 "back"
-},
-"TAIL_HIGH_RING": {
+],
+"TAIL_HIGH_RING": [
 "midtail"
-},
-"TAIL_LOW_RING": {
+],
+"TAIL_LOW_RING": [
 "undertail"
-},
-"TAIL_MID_RING": {
+],
+"TAIL_MID_RING": [
 "midtail"
-},
-"TAIL_MIN": {
+],
+"TAIL_MIN": [
 "tailtip"
-},
-"TAIL_REVERSE_MIN": {
+],
+"TAIL_REVERSE_MIN": [
 "undertail"
-},
-"TAILTIP": {
+],
+"TAILTIP": [
 "tailtip"
-},
-"TAILTIP_T": {
+],
+"TAILTIP_T": [
 "tailtip"
-},
-"TEARDROP": {
+],
+"TEARDROP": [
 "chest"
-},
-"TWO_SPOT_MID": {
+],
+"TWO_SPOT_MID": [
 "back"
-},
-"TWO_SPOT_SMALL": {
+],
+"TWO_SPOT_SMALL": [
 "back"
-},
-"UNDER_HEART": {
+],
+"UNDER_HEART": [
 "chest"
-},
-"UNDER_MID": {
+],
+"UNDER_MID": [
 "chest"
-},
-"UNDER_MIN": {
+],
+"UNDER_MIN": [
 "chest"
-},
-"UNDER_SMALL": {
+],
+"UNDER_SMALL": [
 "chest"
-},
-"UNDEREYE_MAX_L": {
+],
+"UNDEREYE_MAX_L": [
 "eyes"
-},
-"UNDEREYE_MAX_R": {
+],
+"UNDEREYE_MAX_R": [
 "eyes"
-},
-"UNDEREYE_MIN_L": {
+],
+"UNDEREYE_MIN_L": [
 "eyes"
-},
-"UNDEREYE_MIN_R": {
+],
+"UNDEREYE_MIN_R": [
 "eyes"
-},
-"VEE": {
+],
+"VEE": [
 "throat"
-},
-"VEE_MID": {
+],
+"VEE_MID": [
 "throat"
-},
-"BIB_FULL": {
+],
+"BIB_FULL": [
 "throat", "chest"
-},
-"BIB_HIGH": {
+],
+"BIB_HIGH": [
 "throat", "chest"
-},
-"BIBFULL_T": {
+],
+"BIBFULL_T": [
 "throat", "chest"
-},
-"BLAZE": {
+],
+"BLAZE": [
 "eyes", "forehead"
-},
-"BLAZE_FULL": {
+],
+"BLAZE_FULL": [
 "eyes", "forehead"
-},
-"CHEST_BROKEN": {
+],
+"CHEST_BROKEN": [
 "throat", "chest"
-},
-"CHEST_FULL": {
+],
+"CHEST_FULL": [
 "throat", "chest"
-},
-"CHEST_HIGH": {
+],
+"CHEST_HIGH": [
 "throat", "chest"
-},
-"DAMIEN_REDUCED": {
+],
+"DAMIEN_REDUCED": [
 "jaw", "throat"
-},
-"HELMET": {
+],
+"HELMET": [
 "eyes", "forehead"
-},
-"LEG_BACK_LEFT_MID": {
+],
+"LEG_BACK_LEFT_MID": [
 "BLLpaw", "BLLmid"
-},
-"LEG_BACK_RIGHT_MID": {
+],
+"LEG_BACK_RIGHT_MID": [
 "BRLpaw", "BRLmid"
-},
-"LEG_FRONT_LEFT_MID": {
+],
+"LEG_FRONT_LEFT_MID": [
 "FLLpaw", "FLLmid"
-},
-"LEG_FRONT_RIGHT_MID": {
+],
+"LEG_FRONT_RIGHT_MID": [
 "FRLpaw", "FRLmid"
-},
-"MASK_FULL": {
+],
+"MASK_FULL": [
 "eyes", "jaw"
-},
-"MASK_HIGH": {
+],
+"MASK_HIGH": [
 "eyes", "jaw"
-},
-"MASK_REVERSE_PARTIAL": {
+],
+"MASK_REVERSE_PARTIAL": [
 "eyes", "forehead"
-},
-"MINIMALTWO": {
+],
+"MINIMALTWO": [
 "ears", "back"
-},
-"PAW_BL_SPLOTCH": {
+],
+"PAW_BL_SPLOTCH": [
 "BLLpaw", "BLLmid"
-},
-"PAW_BR_WING": {
+],
+"PAW_BR_WING": [
 "BRLpaw", "BRLmid"
-},
-"PAW_FR_T": {
+],
+"PAW_FR_T": [
 "FRLpaw", "FRLmid"
-},
-"REV_SHOOTINGSTAR": {
+],
+"REV_SHOOTINGSTAR": [
 "Rhip", "Lhip"
-},
-"REVERSEHEART": {
+],
+"REVERSEHEART": [
 "Rhip", "Lhip"
-},
-"SPARKLE": {
+],
+"SPARKLE": [
 "throat", "chest"
-},
-"TAIL_HIGH": {
+],
+"TAIL_HIGH": [
 "midtail", "tailtip"
-},
-"TAIL_MID": {
+],
+"TAIL_MID": [
 "midtail", "tailtip"
-},
-"TAIL_OVER": {
+],
+"TAIL_OVER": [
 "undertail", "midtail"
-},
-"TAIL_REVERSE_FULL": {
+],
+"TAIL_REVERSE_FULL": [
 "undertail", "midtail"
-},
-"TAIL_REVERSE_HALF": {
+],
+"TAIL_REVERSE_HALF": [
 "undertail", "midtail"
-},
-"TAIL_REVERSE_HIGH": {
+],
+"TAIL_REVERSE_HIGH": [
 "undertail", "midtail"
-},
-"TAIL_UNDER": {
+],
+"TAIL_UNDER": [
 "undertail", "tailtip"
-},
-"TAILTIPREVERSE_T": {
+],
+"TAILTIPREVERSE_T": [
 "undertail", "midtail"
-},
-"TEARS_L": {
+],
+"TEARS_L": [
 "eyes", "jaw"
-},
-"TEARS_R": {
+],
+"TEARS_R": [
 "eyes", "jaw"
-},
-"TWO_SPOT": {
+],
+"TWO_SPOT": [
 "back", "FLLmid"
-},
-"UNDER_FULL": {
+],
+"UNDER_FULL": [
 "chest", "belly"
-},
-"UNDERTAIL_T": {
+],
+"UNDERTAIL_T": [
 "undertail", "tailtip"
-},
-"VEE_FULL": {
+],
+"VEE_FULL": [
 "throat", "chest"
-},
-"ARMTAIL": {
+],
+"ARMTAIL": [
 "undertail", "midtail", "tailtip"
-},
-"BELLY_HIGH": {
+],
+"BELLY_HIGH": [
 "belly", "Rside", "Lside"
-},
-"CHEST": {
+],
+"CHEST": [
 "eyes", "throat", "back"
-},
-"EYESPOT_REVERSE_L": {
+],
+"EYESPOT_REVERSE_L": [
 "eyes", "jaw", "forehead"
-},
-"EYESPOT_REVERSE_R": {
+],
+"EYESPOT_REVERSE_R": [
 "eyes", "jaw", "forehead"
-},
-"LEG_BACK_LEFT_HIGH": {
+],
+"LEG_BACK_LEFT_HIGH": [
 "BLLpaw", "BLLmid", "BLLupper"
-},
-"LEG_BACK_LEFT_REVERSE": {
+],
+"LEG_BACK_LEFT_REVERSE": [
 "Lhip", "BLLmid", "BLLupper"
-},
-"LEG_BACK_RIGHT_HIGH": {
+],
+"LEG_BACK_RIGHT_HIGH": [
 "BRLpaw", "BRLmid", "BRLupper"
-},
-"LEG_BACK_RIGHT_REVERSE": {
+],
+"LEG_BACK_RIGHT_REVERSE": [
 "Rhip", "BRLmid", "BRLupper"
-},
-"LEG_FRONT_LEFT_HIGH": {
+],
+"LEG_FRONT_LEFT_HIGH": [
 "FLLpaw", "FLLmid", "FLLupper"
-},
-"LEG_FRONT_LEFT_REVERSE": {
+],
+"LEG_FRONT_LEFT_REVERSE": [
 "Lshoulder", "FLLmid", "FLLupper"
-},
-"LEG_FRONT_RIGHT_HIGH": {
+],
+"LEG_FRONT_RIGHT_HIGH": [
 "FRLpaw", "FRLmid", "FRLupper"
-},
-"LEG_FRONT_RIGHT_REVERSE": {
+],
+"LEG_FRONT_RIGHT_REVERSE": [
 "Rshoulder", "FRLmid", "FRLupper"
-},
-"LITTLE": {
+],
+"LITTLE": [
 "throat", "tailtip", "FLLpaw"
-},
-"MASK": {
+],
+"MASK": [
 "eyes", "jaw", "tailtip"
-},
-"MASK_FACE": {
+],
+"MASK_FACE": [
 "eyes", "jaw", "forehead"
-},
-"MASK_PARTIAL": {
+],
+"MASK_PARTIAL": [
 "eyes", "jaw", "forehead"
-},
-"MASK_REVERSE_BROWS": {
+],
+"MASK_REVERSE_BROWS": [
 "eyes", "jaw", "forehead"
-},
-"MINIMALFOUR": {
+],
+"MINIMALFOUR": [
 "eyes", "ears", "tailtip"
-},
-"MINIMALTHREE": {
+],
+"MINIMALTHREE": [
 "FLLpaw", "FLLmid", "FLLupper"
-},
-"ROSETAIL": {
+],
+"ROSETAIL": [
 "undertail", "midtail", "tailtip"
-},
-"SADDLE_MID": {
+],
+"SADDLE_MID": [
 "back", "Rhip", "Lhip"
-},
-"SADDLE_MID_REVERSE": {
+],
+"SADDLE_MID_REVERSE": [
 "back", "BRLupper", "BLLupper"
-},
-"TAIL_FULL": {
+],
+"TAIL_FULL": [
 "undertail", "midtail", "tailtip"
-},
-"BELLY_FULL": {
+],
+"BELLY_FULL": [
 "belly", "back", "Rside", "Lside"
-},
-"EMBER": {
+],
+"EMBER": [
 "BRLpaw", "BRLmid", "BLLpaw", "BLLmid"
-},
-"FCONE_REDUCED": {
+],
+"FCONE_REDUCED": [
 "eyes", "jaw", "throat", "chest"
-},
-"HAWKBLAZE_REDUCED": {
+],
+"HAWKBLAZE_REDUCED": [
 "eyes", "jaw", "throat", "chest"
-},
-"LEG_BACK_LEFT_FULL": {
+],
+"LEG_BACK_LEFT_FULL": [
 "Lhip", "BLLpaw", "BLLmid", "BLLupper"
-},
-"LEG_BACK_RIGHT_FULL": {
+],
+"LEG_BACK_RIGHT_FULL": [
 "Rhip", "BRLpaw", "BRLmid", "BRLupper"
-},
-"LEG_FRONT_LEFT_FULL": {
+],
+"LEG_FRONT_LEFT_FULL": [
 "Lshoulder", "FLLpaw", "FLLmid", "FLLupper"
-},
-"LEG_FRONT_RIGHT_FULL": {
+],
+"LEG_FRONT_RIGHT_FULL": [
 "Rshoulder", "FRLpaw", "FRLmid", "FRLupper"
-},
-"PAW_FL_CLOVERTAIL": {
+],
+"PAW_FL_CLOVERTAIL": [
 "Lshoulder", "FLLpaw", "FLLmid", "FLLupper"
-},
-"UNDERPAWS_T": {
+],
+"UNDERPAWS_T": [
 "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"WINGS_REDUCED": {
+],
+"WINGS_REDUCED": [
 "Rside", "Rhip", "Lside", "Lhip"
-},
-"WOODPECKER": {
+],
+"WOODPECKER": [
 "eyes", "jaw", "throat", "chest"
-},
-"BELOVED": {
+],
+"BELOVED": [
 "forehead", "back", "midtail", "tailtip", "FRLpaw"
-},
-"DAPPLENIGHT": {
+],
+"DAPPLENIGHT": [
 "eyes", "back", "midtail", "tailtip", "BRLupper"
-},
-"MINIMALONE": {
+],
+"MINIMALONE": [
 "eyes", "jaw", "throat", "tailtip", "Rshoulder"
-},
-"ORIOLE": {
+],
+"ORIOLE": [
 "eyes", "forehead", "ears", "back", "FRLpaw"
-},
-"ROSINA_REDUCED": {
+],
+"ROSINA_REDUCED": [
 "eyes", "jaw", "forehead", "ears", "midtail"
-},
-"SADDLE_HIGH": {
+],
+"SADDLE_HIGH": [
 "back", "Rside", "Rhip", "Lside", "Lhip"
-},
-"SADDLE_MIN_REVERSE": {
+],
+"SADDLE_MIN_REVERSE": [
 "back", "Rhip", "Lhip", "BRLupper", "BLLupper"
-},
-"SHIRT": {
+],
+"SHIRT": [
 "throat", "chest", "belly", "Rshoulder", "Lshoulder"
-},
-"TWO_SPOT_REVERSE": {
+],
+"TWO_SPOT_REVERSE": [
 "back", "Rhip", "Lhip", "BRLupper", "BLLupper"
-},
-"DIVA": {
+],
+"DIVA": [
 "chest", "belly", "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"FLANK_MID": {
+],
+"FLANK_MID": [
 "Rside", "Rhip", "Lside", "Lhip", "BRLupper", "BLLupper"
-},
-"MIA_REDUCED": {
+],
+"MIA_REDUCED": [
 "eyes", "jaw", "throat", "chest", "FLLpaw", "FLLmid"
-},
-"EYEDOT": {
+],
+"EYEDOT": [
 "jaw", "throat", "back", "undertail", "FRLpaw", "FRLmid", "FLLpaw"
-},
-"FCTWO_REDUCED": {
+],
+"FCTWO_REDUCED": [
 "eyes", "jaw", "throat", "BRLpaw", "BRLmid", "BLLpaw", "BLLmid"
-},
-"FLANK_FULL": {
+],
+"FLANK_FULL": [
 "back", "Rside", "Rhip", "Lside", "Lhip", "BRLupper", "BLLupper"
-},
-"ONE": {
+],
+"ONE": [
 "forehead", "back", "undertail", "midtail", "FRLupper", "BRLupper", "BLLupper"
-},
-"SADDLE_FULL": {
+],
+"SADDLE_FULL": [
 "back", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip"
-},
-"SIDEMASK": {
+],
+"SIDEMASK": [
 "eyes", "jaw", "ears", "throat", "back", "Rhip", "BLLupper"
-},
-"STAR_REDUCED": {
+],
+"STAR_REDUCED": [
 "eyes", "jaw", "throat", "FRLpaw", "FRLmid", "FLLpaw", "FLLmid"
-},
-"VEST": {
+],
+"VEST": [
 "chest", "belly", "back", "Rshoulder", "Rside", "Lshoulder", "Lside"
-},
-"ANY_REDUCED": {
+],
+"ANY_REDUCED": [
 "eyes", "ears", "Rshoulder", "Rside", "Lshoulder", "FLLpaw", "FLLmid", "FLLupper"
-},
-"ROBIN": {
+],
+"ROBIN": [
 "forehead", "throat", "chest", "midtail", "Rhip", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SAFI": {
+],
+"SAFI": [
 "jaw", "forehead", "throat", "belly", "back", "undertail", "FRLmid", "FLLmid"
-},
-"SAVANNAH": {
+],
+"SAVANNAH": [
 "jaw", "throat", "chest", "tailtip", "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"FADESPOTS": {
+],
+"FADESPOTS": [
 "eyes", "jaw", "throat", "chest", "tailtip", "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"FOUR": {
+],
+"FOUR": [
 "eyes", "jaw", "ears", "Rshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "BLLpaw"
-},
-"MILQUE": {
+],
+"MILQUE": [
 "throat", "chest", "belly", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLupper", "FLLupper"
-},
-"POWDERSNOW": {
+],
+"POWDERSNOW": [
 "back", "Rside", "Rhip", "Lside", "Lhip", "BRLmid", "BRLupper", "BLLmid", "BLLupper"
-},
-"BRIE": {
+],
+"BRIE": [
 "eyes", "forehead", "back", "Rshoulder", "Rside", "Rhip", "Lhip", "BRLpaw", "BRLmid", "BRLupper"
-},
-"FAROFA_REDUCED": {
+],
+"FAROFA_REDUCED": [
 "eyes", "jaw", "forehead", "throat", "chest", "Rshoulder", "FRLmid", "FRLupper", "BRLupper", "BLLupper"
-},
-"FRONT": {
+],
+"FRONT": [
 "jaw", "throat", "chest", "belly", "FRLpaw", "FRLmid", "FLLpaw", "FLLmid", "BRLpaw", "BLLpaw"
-},
-"HEARTBEAT": {
+],
+"HEARTBEAT": [
 "eyes", "ears", "throat", "tailtip", "Rhip", "Lhip", "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"LARKPETAL": {
+],
+"LARKPETAL": [
 "jaw", "throat", "belly", "back", "undertail", "midtail", "Rside", "Lside", "FRLpaw", "FLLpaw"
-},
-"MITAINE": {
+],
+"MITAINE": [
 "jaw", "throat", "chest", "belly", "FRLpaw", "FLLpaw", "BRLpaw", "BRLmid", "BLLpaw", "BLLmid"
-},
-"REDTAIL": {
+],
+"REDTAIL": [
 "eyes", "ears", "back", "undertail", "midtail", "tailtip", "Rhip", "Lhip", "FRLpaw", "FRLmid"
-},
-"SHILOH": {
+],
+"SHILOH": [
 "jaw", "forehead", "chest", "back", "tailtip", "Rside", "Rhip", "Lshoulder", "Lhip", "FRLpaw"
-},
-"SMOKE": {
+],
+"SMOKE": [
 "chest", "back", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLmid", "FRLupper", "FLLmid", "FLLupper"
-},
-"STREAK": {
+],
+"STREAK": [
 "eyes", "forehead", "back", "undertail", "midtail", "Rside", "Lshoulder", "FLLupper", "BLLpaw", "BLLmid"
-},
-"DIGIT_REDUCED": {
+],
+"DIGIT_REDUCED": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "FRLpaw", "FRLmid", "BRLpaw", "BRLmid", "BRLupper"
-},
-"STREAMSTRIKE": {
+],
+"STREAMSTRIKE": [
 "throat", "chest", "tailtip", "FRLpaw", "FRLmid", "FLLpaw", "FLLmid", "BRLpaw", "BRLmid", "BLLpaw", "BLLmid"
-},
-"CHIMERA": {
+],
+"CHIMERA": [
 "eyes", "jaw", "forehead", "ears", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "BLLpaw"
-},
-"COLOURPOINT": {
+],
+"COLOURPOINT": [
 "forehead", "chest", "belly", "back", "Rshoulder", "Rhip", "Lshoulder", "Lside", "FRLupper", "FLLupper", "BRLupper", "BLLupper"
-},
-"DAUB": {
+],
+"DAUB": [
 "eyes", "forehead", "back", "tailtip", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FLLmid", "FLLupper", "BRLpaw"
-},
-"FRECKLED": {
+],
+"FRECKLED": [
 "jaw", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FLLpaw", "BRLpaw", "BLLpaw"
-},
-"PANTS": {
+],
+"PANTS": [
 "back", "undertail", "midtail", "tailtip", "Rhip", "Lhip", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SEALPOINT": {
+],
+"SEALPOINT": [
 "forehead", "chest", "belly", "back", "Rshoulder", "Rhip", "Lshoulder", "Lside", "FRLupper", "FLLupper", "BRLupper", "BLLupper"
-},
-"BLANKET": {
+],
+"BLANKET": [
 "eyes", "forehead", "back", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BLLpaw", "BLLmid"
-},
-"MISS": {
+],
+"MISS": [
 "back", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"PANTSTWO_REDUCED": {
+],
+"PANTSTWO_REDUCED": [
 "back", "undertail", "tailtip", "Rside", "Rhip", "Lside", "Lhip", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SCAR_REDUCED": {
+],
+"SCAR_REDUCED": [
 "eyes", "jaw", "throat", "chest", "belly", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper"
-},
-"SPARROW": {
+],
+"SPARROW": [
 "eyes", "jaw", "throat", "chest", "belly", "undertail", "midtail", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SWOOP": {
+],
+"SWOOP": [
 "eyes", "jaw", "ears", "throat", "undertail", "midtail", "tailtip", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"TWO": {
+],
+"TWO": [
 "eyes", "ears", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "FLLpaw", "BRLupper", "BLLupper"
-},
-"UNDERS": {
+],
+"UNDERS": [
 "belly", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"MISTER": {
+],
+"MISTER": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "Rshoulder", "Lshoulder", "FRLpaw", "FLLpaw", "BRLmid", "BRLupper", "BLLmid", "BLLupper"
-},
-"THREE": {
+],
+"THREE": [
 "eyes", "jaw", "forehead", "undertail", "tailtip", "Rshoulder", "Rhip", "Lhip", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BLLpaw", "BLLupper"
-},
-"TURTLECRAWL": {
+],
+"TURTLECRAWL": [
 "eyes", "ears", "back", "midtail", "tailtip", "Rhip", "Lshoulder", "Lhip", "FRLmid", "FRLupper", "FLLmid", "FLLupper", "BLLpaw", "BLLupper"
-},
-"BUSTER_REDUCED": {
+],
+"BUSTER_REDUCED": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper"
-},
-"CHERRYTAIL": {
+],
+"CHERRYTAIL": [
 "jaw", "forehead", "back", "midtail", "tailtip", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FLLpaw", "FLLupper", "BLLmid", "BLLupper"
-},
-"GRUMPYFACE": {
+],
+"GRUMPYFACE": [
 "eyes", "forehead", "throat", "chest", "back", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLmid", "FLLmid", "BRLupper", "BLLupper"
-},
-"PAINTED_REDUCED": {
+],
+"PAINTED_REDUCED": [
 "eyes", "jaw", "forehead", "back", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FLLpaw", "FLLmid", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"RINGTAIL_REDUCED": {
+],
+"RINGTAIL_REDUCED": [
 "throat", "chest", "belly", "tailtip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SMUDGED": {
+],
+"SMUDGED": [
 "eyes", "forehead", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLupper", "FLLupper", "BRLupper", "BLLupper"
-},
-"CAKE_REDUCED": {
+],
+"CAKE_REDUCED": [
 "eyes", "jaw", "forehead", "throat", "back", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLupper", "FLLmid", "FLLupper", "BRLupper", "BLLmid", "BLLupper"
-},
-"FRECKLES": {
+],
+"FRECKLES": [
 "jaw", "throat", "chest", "belly", "midtail", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLupper", "FLLpaw", "FLLupper", "BRLpaw", "BRLupper", "BLLpaw", "BLLupper"
-},
-"PACMAN": {
+],
+"PACMAN": [
 "ears", "throat", "chest", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FLLpaw", "BRLmid", "BLLmid"
-},
-"BROKEN_REDUCED": {
+],
+"BROKEN_REDUCED": [
 "throat", "chest", "belly", "Rshoulder", "Rside", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"BULLSEYE": {
+],
+"BULLSEYE": [
 "eyes", "jaw", "ears", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "BRLpaw", "BRLmid", "BRLupper"
-},
-"PAIGE": {
+],
+"PAIGE": [
 "eyes", "jaw", "forehead", "ears", "throat", "back", "midtail", "tailtip", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "BLLpaw", "BLLmid", "BLLupper"
-},
-"PIEBALD": {
+],
+"PIEBALD": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"PRINCE_REDUCED": {
+],
+"PRINCE_REDUCED": [
 "eyes", "jaw", "ears", "throat", "chest", "belly", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper"
-},
-"REVERSEPANTS": {
+],
+"REVERSEPANTS": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper"
-},
-"TRIXIE": {
+],
+"TRIXIE": [
 "jaw", "throat", "chest", "belly", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"APPALOOSA_REDUCED": {
+],
+"APPALOOSA_REDUCED": [
 "eyes", "jaw", "forehead", "throat", "belly", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLmid", "FRLupper", "FLLmid", "FLLupper", "BRLmid", "BRLupper", "BLLmid", "BLLupper"
-},
-"BUB": {
+],
+"BUB": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"OREO": {
+],
+"OREO": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "undertail", "midtail", "tailtip", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BLLpaw", "BLLupper"
-},
-"FINN": {
+],
+"FINN": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "tailtip", "Rshoulder", "Lshoulder", "FRLpaw", "FRLupper", "FLLpaw", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"HALF": {
+],
+"HALF": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Lshoulder", "Lside", "Lhip", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"MASKMANTLE": {
+],
+"MASKMANTLE": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SAMMY": {
+],
+"SAMMY": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "Rshoulder", "Lshoulder", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"BANDANA": {
+],
+"BANDANA": [
 "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLupper", "BRLpaw", "BRLmid", "BRLupper"
-},
-"MOORISH": {
+],
+"MOORISH": [
 "throat", "chest", "belly", "back", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"BODY": {
+],
+"BODY": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "midtail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLmid", "FRLupper", "FLLmid", "FLLupper", "BRLmid", "BRLupper", "BLLmid", "BLLupper"
-},
-"BOOTS": {
+],
+"BOOTS": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper"
-},
-"CURVED": {
+],
+"CURVED": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "back", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"DELILAH": {
+],
+"DELILAH": [
 "eyes", "jaw", "forehead", "ears", "belly", "back", "undertail", "midtail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"HALFFACE": {
+],
+"HALFFACE": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"HEART": {
+],
+"HEART": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"ANYTWO": {
+],
+"ANYTWO": [
 "eyes", "jaw", "throat", "chest", "belly", "undertail", "midtail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"COW": {
+],
+"COW": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "tailtip", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FLLpaw", "FLLmid", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"GLASS": {
+],
+"GLASS": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "undertail", "tailtip", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"GOATEE_REDUCED": {
+],
+"GOATEE_REDUCED": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"LOVEBUG": {
+],
+"LOVEBUG": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rhip", "Lshoulder", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid"
-},
-"PEBBLE": {
+],
+"PEBBLE": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"RAGDOLL": {
+],
+"RAGDOLL": [
 "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"SHOOTINGSTAR": {
+],
+"SHOOTINGSTAR": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"TAIL": {
+],
+"TAIL": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"BRINDLE": {
+],
+"BRINDLE": [
 "eyes", "jaw", "forehead", "ears", "chest", "belly", "back", "undertail", "midtail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"COWTWO": {
+],
+"COWTWO": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid"
-},
-"HEARTTWO": {
+],
+"HEARTTWO": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Lshoulder", "Lside", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"KROPKA": {
+],
+"KROPKA": [
 "eyes", "jaw", "forehead", "throat", "chest", "belly", "back", "undertail", "midtail", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"MOTTLED": {
+],
+"MOTTLED": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLmid", "BRLupper", "BLLmid", "BLLupper"
-},
-"PEBBLESHINE": {
+],
+"PEBBLESHINE": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "undertail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"BUDDY": {
+],
+"BUDDY": [
 "eyes", "jaw", "forehead", "ears", "throat", "chest", "belly", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-},
-"CHESTSPECK": {
+],
+"CHESTSPECK": [
 "eyes", "jaw", "forehead", "ears", "chest", "belly", "back", "undertail", "midtail", "tailtip", "Rshoulder", "Rside", "Rhip", "Lshoulder", "Lside", "Lhip", "FRLpaw", "FRLmid", "FRLupper", "FLLpaw", "FLLmid", "FLLupper", "BRLpaw", "BRLmid", "BRLupper", "BLLpaw", "BLLmid", "BLLupper"
-}
 ]
+}

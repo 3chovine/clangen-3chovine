@@ -91,6 +91,14 @@ class Sprites:
     except FileNotFoundError:
         # this is probably a mod that ain't adding patch combos
         TORTIE_PATCH_COMBOS = {}
+        
+    try:
+        with open(
+            "sprites/dicts/patch_body_parts.json", "r", encoding="utf-8"
+        ) as read_file:
+            PATCH_BODY_PARTS = ujson.loads(read_file.read())
+    except FileNotFoundError:
+        PATCH_BODY_PARTS = {}
 
     with open(
         "sprites/dicts/pelt_parts_masks_data.json", "r", encoding="utf-8"
