@@ -179,7 +179,7 @@ class Pelt:
                 #print(combo_parts)
             patch_parts_dict[combo] = combo_parts
         except KeyError:
-            continue
+            pass
             #print(", error")
 
     
