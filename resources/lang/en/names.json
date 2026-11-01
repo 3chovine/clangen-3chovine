@@ -30,6 +30,13 @@
 
 
   ],
+  "pelt_desc_suffixes" : [
+    "fur","fur","fur","fur", "pelt", "pelt","pelt","pelt",
+    "back", "belly", "ear", "ears", "tuft", "tail", "foot", "whisker"
+  ],
+  "eye_desc_suffixes" : [
+    "eye", "eyes", "gaze", "glare", "sight"
+  ],
 	"pelt_prefixes": {
     "TwoColour": ["Patch", "Bright", "Half", "Arch", "Spot", "Lion", "Dove", "Swan"],
     "Tabby": ["Tiger", "Thistle", "Bramble", "Nettle", "Thorn", "Bee", "Bumble", "Twig", "Branch", "Bracken", "Brindle", "Needle",
