@@ -9,33 +9,28 @@
     },
 
   "normal_suffixes" : [
-    "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur",
-    "tuft", "tuft", "tuft", "tuft", "tuft", "tooth", "tooth", "tooth", "tooth", "tooth",
-    "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt",
-    "tail", "tail", "tail", "tail", "tail", "tail", "tail", "claw", "claw", "claw", "claw", "claw", "claw",
-    "foot", "foot", "foot", "foot", "foot", "whisker", "whisker", "whisker", "whisker", "whisker", "whisker",
-    "heart", "heart", "heart", "heart", "heart", "heart", "heart", "heart",
-    "arch", "back", "beak", "beam", "bellow", "belly", "bite", "blink", "bounce", "bound", "break", "bumble", "butterfly", 
-	"buzz", "call", "catcher", "chase", "chaser", "chest", "chirp", "chomp", "clash", "claw", "color", "colors", "crackle", 
-	"crash", "crawl", "cry", "curl", "cystal", "dance", "dart", "dash", "drop", "ear", "ears", "echo", "eye", "eyes", "face", 
-	"fall", "fang", "feather", "flick", "flight", "flip", "flow", "fluff", "flutter", "foot", "frill", "fur", "fuzz", "gale", 
-	"gaze", "gem", "glare", "glide", "growl", "haven", "heart", "hiss", "hop", "hope", "howl", "hue", "hunt", "husk", "jaw", 
-	"jewel", "joy", "jumble", "jump", "kick", "leap", "leg", "lunge", "mimic", "munch", "muzzle", "nibble", "nip", "noise", 
-	"nose", "nudge", "nuzzle", "pad", "path", "pelt", "plume", "pounce", "prance", "prickle", "prowl", "puff", "purr", "quiver", 
-	"rapid", "rip", "rise", "rumble", "rump", "run", "runner", "rush", "rustle", "scar", "scratch", "screech", "seeker", "shiver", 
-	"shock", "shriek", "sight", "skip", "skitter", "slash", "slip", "snap", "snarl", "snout", "soar", "song", "spike", "spring", 
-	"stalk", "step", "sting", "stretch", "stride", "swarm", "swipe", "swoop", "tail", "tangle", "throat", "thud", "thunder", "toe", 
-	"tooth", "trail", "trot", "tuft", "tumble", "twist", "wander", "watcher", "weaver", "whisker", "whisper", "whistle", "wiggle",
+    "arch", "beak", "beam", "bellow", "bite", "bounce", "bound", "break", "bumble", "butterfly", "buzz", 
+	"call", "catcher", "chase", "chaser", "chirp", "chomp", "clash", "claw", "color", "colors", "crackle", 
+	"crash", "crawl", "crest", "cry", "curl", "cystal", "dance", "dart", "dash", "daze", "dream", "drift", 
+	"drop", "echo", "fall", "fang", "feather", "flick", "flight", "flip", "flit", "flow", "fluff", "flutter", 
+	"frill", "fur", "fuzz", "gale", "gaze", "gem", "glide", "growl", "haven", "heart", "hiss", "hop", "hope", 
+	"howl", "hue", "hunt", "husk", "jaw", "jewel", "joy", "jumble", "jump", "kick", "leap", "lunge", "mane", 
+	"mimic", "munch", "nibble", "nip", "noise", "nudge", "nuzzle", "path", "plume", "pounce", "prance", "prickle", 
+	"prickle", "prowl", "puff", "purr", "quiver", "rapid", "rip", "rise", "roar", "roll", "rumble", "rump", "run", 
+	"runner", "rush", "rustle", "scar", "scratch", "screech", "seeker", "shiver", "shiver", "shock", "shriek", "skip",
+	"skitter", "slash", "slip", "snap", "snarl", "snout", "soar", "song", "spike", "spring", "stalk", "step", "sting", 
+	"stretch", "stride", "swarm", "swipe", "swoop", "tangle", "thud", "thunder", "tooth", "trail", "trot", "tuft", 
+	"tumble", "twist", "valley", "wander", "watcher", "weaver", "weaver",  "whisper", "whistle", "wiggle", 
 	"wind", "wing", "wish", "zoom"
 
 
   ],
   "pelt_desc_suffixes" : [
     "fur","fur","fur","fur", "pelt", "pelt","pelt","pelt",
-    "back", "belly", "ear", "ears", "tuft", "tail", "foot", "whisker"
+    "back", "belly", "chest", "ear", "ears", "face", "foot", "jaw", "leg", "muzzle", "nose", "pad", "pelt", "tail", "throat", "toe", "whisker"
   ],
   "eye_desc_suffixes" : [
-    "eye", "eyes", "gaze", "glare", "sight"
+    "blink", "eye", "eyes", "eye", "eyes", "gaze", "glare", "sight"
   ],
 	"pelt_prefixes": {
     "TwoColour": ["Patch", "Bright", "Half", "Arch", "Spot", "Lion", "Dove", "Swan"],
@@ -109,17 +104,17 @@
   },
 
   "normal_prefixes": [
-    "Arch", "Beam", "Big", "Bite", "Bitter", "Bliss", "Bounce", "Bound", "Brave", "Bristle", "Broken", "Bumble", "Butterfly", 
-	"Chasing", "Chirp", "Claw", "Color", "Cone", "Crest", "Crested", "Crooked", "Crouch", "Crystal", "Curl", "Curly", 
-	"Dancing", "Dart", "Dash", "Dream", "Echo", "Faith", "Fallen", "Falling", "Feather", "Fickle", "Fidget", "Fierce", "Flail", 
-	"Fleet", "Flick", "Flight", "Flip", "Flit", "Float", "Flow", "Fluff", "Fluffy", "Flutter", "Fly", "Frill", "Frilled", "Fringe", 
-	"Fumble", "Furled", "Fuzz", "Fuzzy", "Gale", "Gem", "Gentle", "Growl", "Gust", "Haven", "Heart", "Heavy", "Hoot", "Hop", "Hope", 
-	"Howl", "Hue", "Humming", "Hunt", "Hush", "Jagged", "Jewel", "Jump", "Kink", "Leap", "Little", "Long", "Loud", "Low", "Luck", "Lunge", 
-	"Mumble", "Nimble", "Nuzzle", "Odd", "One", "Pop", "Pounce", "Prance", "Prim", "Prowl", "Puff", "Purr", "Quick", "Quiet", "Quiver", 
-	"Ragged", "Rattle", "Rift", "Rise", "Roar", "Roll", "Rough", "Running", "Rustle", "Scratch", "Sharp", "Shivering", "Short", "Shy", 
-	"Silent", "Silky", "Skip", "Skulk", "Sleek", "Sleepy", "Slight", "Slip", "Slope", "Slumber", "Small", "Snap", "Sneeze", "Soft", "Song", 
-	"Spike", "Spring", "Stretch", "Stumpy", "Sweet", "Swift", "Tall", "Tangle", "Tangle", "Tiny", "Torn", "Torn", "Tremble", "Tuft", "Tuft", 
-	"Tumble", "Wander", "Whimsy", "Whisker", "Whisper", "Whispering", "Whistle", "Wiggle", "Wild", "Wind", "Wish", "Zap"
+   "Arch", "Beam", "Big", "Bite", "Bitter", "Bliss", "Bounce", "Bound", "Brave", "Bristle", "Broken", "Bumble", "Butterfly", "Chasing", "Chirp", 
+	"Claw", "Color", "Cone", "Crest", "Crest", "Crested", "Crooked", "Crouch", "Crystal", "Curl", "Curly", "Dancing", "Dart", "Dash", "Daze", 
+	"Dream", "Drift", "Echo", "Faith", "Fallen", "Falling", "Feather", "Fickle", "Fidget", "Fierce", "Flail", "Fleet", "Flick", "Flight", "Flip", 
+	  "Flit", "Flit", "Float", "Flow", "Fluff", "Fluffy", "Flutter", "Fly", "Frill", "Frilled", "Fringe", "Fumble", "Furled", "Fuzz", "Fuzzy", 
+	  "Gale", "Gem", "Gentle", "Growl", "Gust", "Haven", "Heart", "Heavy", "Hoot", "Hop", "Hope", "Howl", "Hue", "Humming", "Hunt", "Hush", "Jagged", 
+	  "Jewel", "Jump", "Kink", "Leap", "Little", "Long", "Loud", "Low", "Luck", "Lunge", "Lyre", "Mellow", "Mumble", "Nimble", "Nuzzle", "Odd", "One", 
+	  "Pop", "Pounce", "Prance", "Prickle", "Prim", "Prowl", "Puff", "Purr", "Quick", "Quiet", "Quiver", "Ragged", "Rapid", "Rattle", "Rift", "Rise", 
+	  "Roar", "Roll", "Roll", "Rough", "Running", "Rustle", "Scratch", "Sharp", "Shiver", "Shivering", "Short", "Shy", "Silent", "Silky", "Skip", "Skulk", 
+	  "Sleek", "Sleepy", "Slight", "Slip", "Slope", "Slumber", "Small", "Snap", "Sneeze", "Soft", "Song", "Spike", "Spring", "Stretch", "Stumpy", "Sweet", 
+	  "Swift", "Tall", "Tangle", "Tangle", "Tiny", "Torn", "Torn", "Tremble", "Tuft", "Tuft", "Tumble", "Valley", "Wander", "Weaver", "Whimsy", "Whisker", 
+	  "Whisper", "Whispering", "Whistle", "Wiggle", "Wild", "Wind", "Wish", "Zap"
   ],
 
   "clan_prefixes": [
