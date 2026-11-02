@@ -135,97 +135,97 @@
     "and remember that each entry needs a comma after except the last one in a list"
     ],
     "Multicolor": [
-	"Blob", "Bloom", "Blooming", "Blot", "Blotch", "Blotched", "Blur", "Blurred", "Brindle", "Bubble", "Bubbling", "Burst", "Chameleon", "Checkered", "Cleave", "Cleft", "Cloud", "Clouded", "Cloudy", "Clump", "Cluster", "Clutter", "Cluttered", "Cobbled", "Colorful", "Covered", "Cow", "Crack", "Cracked", "Dapple", "Dappled", "Dot", "Dotted", "Dotty", "Dripping", "Drop", "Droplet", "Fleck", "Flecked", "Flurry", "Fragmented", "Freckle", "Freckled", "Half", "Jumble", "Kaleidoscopic", "Marble", "Marbled", "Mark", "Marked", "Melting", "Mix", "Mixed", "Mosaic", "Mottle", "Mottled", "Multicolored", "Octopus", "Odd", "Patch", "Patched", "Patchy", "Peppered", "Petal", "Puddle", "Rainbow", "Rift", "Scrambled", "Shard", "Smudge", "Smudged", "Speck", "Speckle", "Speckled", "Splash", "Splashed", "Splashing", "Splatter", "Splinter", "Splintered", "Splintering", "Split", "Splotch", "Spot", "Spotted", "Spotty", "Spray", "Stained", "Streak", "Streaked", "Streaky", "Strike", "Swirl", "Swirled", "Swirling", "Tangle", "Tinged", "Torn", "Tuft", "Tufted", "Twist", "Two", "Varied", "Whirl", "Whorl", "Whorled", "Wild"
+	"Blob", "Bloom", "Blooming", "Blot", "Blotch", "Blotched", "Blur", "Blurred", "Brindle", "Bubble", "Bubbling", "Burst", "Chameleon", "Checkered", "Cleave", "Cleft", "Cloud", "Clouded", "Cloudy", "Clump", "Cluster", "Clutter", "Cluttered", "Cobbled", "Colorful", "Covered", "Cow", "Crack", "Cracked", "Dapple", "Dappled", "Dot", "Dotted", "Dotty", "Dripping", "Drop", "Droplet", "Fleck", "Flecked", "Flurry", "Fragmented", "Freckle", "Freckled", "Geode", "Glittering", "Half", "Hatch", "Jumble", "Kaleidoscopic", "Marble", "Marbled", "Mark", "Marked", "Melting", "Mix", "Mixed", "Mosaic", "Mottle", "Mottled", "Multicolored", "Nova", "Octopus", "Odd", "Patch", "Patched", "Patchy", "Peppered", "Petal", "Puddle", "Rainbow", "Rift", "Scrambled", "Shard", "Smudge", "Smudged", "Speck", "Speckle", "Speckled", "Splash", "Splashed", "Splashing", "Splatter", "Splinter", "Splintered", "Splintering", "Split", "Splotch", "Spot", "Spotted", "Spotty", "Spray", "Stained", "Streak", "Streaked", "Streaky", "Strike", "Swirl", "Swirled", "Swirling", "Tangle", "Tinged", "Torn", "Tuft", "Tufted", "Twist", "Two", "Varied", "Whirl", "Whorl", "Whorled", "Wild"
 	],
 	
 	"White": [
-	"Air", "Alabaster", "Antler", "Blank", "Blizzard", "Blossom", "Bone", "Bright", "Calcite", "Cardamine", "Chalk", "Chamomile", "Cloud", "Coconut", "Comet", "Cotton", "Crane", "Daisy", "Dawn", "Day", "Diamond", "Dove", "Down", "Edelweiss", "Egg", "Egret", "Ewe", "Fang", "Flake", "Flare", "Freeze", "Frigid", "Frost", "Frosted", "Frosty", "Frozen", "Gardenia", "Glacial", "Glacier", "Goose", "Granite", "Hail", "Hemlock", "Ibis", "Ice", "Icicle", "Icy", "Ivory", "Jasmine", "Lamb", "Light", "Lightning", "Maggot", "Milk", "Milkweed", "Milky", "Moon", "Moth", "Mushroom", "Mycelium", "Pearl", "Pearled", "Penguin", "Puffball", "Quartz", "Quill", "Rabbit", "Rime", "Rose", "Sand", "Sheep", "Shell", "Skeleton", "Skull", "Snow", "Snowy", "Spark", "Spirit", "Stoat", "Stork", "Sugar", "Swan", "Tooth", "Tusk", "Vanilla", "Web", "White"
+	"Air", "Alabaster", "Alpine", "Antler", "Bird", "Blank", "Blizzard", "Blossom", "Bone", "Breeze", "Bright", "Bulb", "Calcite", "Cardamine", "Celestial", "Chalk", "Chamomile", "Chervil", "Clear", "Cloud", "Coconut", "Cocoon", "Comet", "Cotton", "Crane", "Daisy", "Dawn", "Day", "Dazzle", "Dazzling", "Diamond", "Dove", "Down", "Downy", "Duck", "Edelweiss", "Egg", "Egret", "Elder", "Ermine", "Ewe", "Fang", "Feather", "Flake", "Flare", "Flash", "Flower", "Flowering", "Freeze", "Frigid", "Frost", "Frosted", "Frosty", "Frozen", "Fungal", "Fungus", "Gander", "Gardenia", "Glacial", "Glacier", "Gleam", "Gleaming", "Glint", "Glowing", "Goose", "Granite", "Hail", "Hawthorn", "Hemlock", "Horse", "Ibis", "Ice", "Icicle", "Icy", "Ivory", "Jasmine", "Lamb", "Light", "Lightning", "Luminous", "Maggot", "Milk", "Milkweed", "Milky", "Moon", "Moth", "Mushroom", "Mycelium", "Needle", "Nova", "Owl", "Peak", "Pearl", "Pearled", "Penguin", "Pierid", "Plume", "Puffball", "Quartz", "Quill", "Rabbit", "Radiant", "Ridge", "Rime", "Ripple", "Rose", "Sand", "Sheep", "Shell", "Shimmer", "Shine", "Shining", "Shiny", "Silk", "Skeleton", "Skull", "Snow", "Snowy", "Spark", "Sparkle", "Spine", "Spirit", "Stellar", "Stoat", "Stork", "Sugar", "Swan", "Tooth", "Tusk", "Twinkle", "Vanilla", "Web", "White", "Wind", "Wing"
 	],
 	"PaleGray": [
-	"Air", "Antler", "Ash", "Ashen", "Ashy", "Aspen", "Bark", "Birch", "Blizzard", "Blossom", "Boulder", "Bright", "Calcite", "Chalk", "Cloud", "Comet", "Cotton", "Crane", "Dawn", "Day", "Diamond", "Dove", "Down", "Dust", "Dusty", "Ewe", "Fade", "Flake", "Fog", "Foggy", "Garlic", "Ghost", "Glacial", "Glacier", "Glass", "Gossamer", "Granite", "Gravel", "Grayed", "Grayish", "Greyish", "Gull", "Haar", "Hail", "Lamb", "Marble", "Mica", "Minnow", "Mirage", "Mist", "Misted", "Misty", "Moon", "Moth", "Pale", "Palest", "Pearl", "Pearled", "Pebble", "Pigeon", "Poplar", "Prism", "Quartz", "Quill", "Rabbit", "Rain", "Reflection", "Rime", "Rock", "Rocky", "Salt", "Sheep", "Shell", "Silver", "Silvered", "Silvery", "Spirit", "Steam", "Stone", "Stony", "Veil", "Web", "Whisp", "Willow", "Wisp"
+	"Agate", "Air", "Alder", "Antler", "Ash", "Ashen", "Ashy", "Aspen", "Bark", "Birch", "Bird", "Blizzard", "Blossom", "Boulder", "Breeze", "Bright", "Brook", "Calcite", "Celestial", "Chalk", "Clear", "Cloud", "Cocoon", "Comet", "Copse", "Cotton", "Crane", "Dawn", "Day", "Diamond", "Dove", "Down", "Downy", "Dust", "Dusty", "Ewe", "Fade", "Feather", "Flake", "Fog", "Foggy", "Gale", "Garlic", "Ghost", "Glacial", "Glacier", "Glass", "Gleam", "Gorge", "Gossamer", "Granite", "Gravel", "Grayed", "Grayish", "Greyish", "Gull", "Haar", "Hail", "Horse", "Hurricane", "Kite", "Lamb", "Marble", "Mica", "Minnow", "Mirage", "Mist", "Misted", "Misty", "Moon", "Moth", "Needle", "Nova", "Nuthatch", "Owl", "Pale", "Palest", "Peak", "Pearl", "Pearled", "Pebble", "Pigeon", "Plume", "Poplar", "Prism", "Quartz", "Quill", "Rabbit", "Rain", "Reflection", "Ridge", "Rime", "Rindle", "Ripple", "Rivulet", "Rock", "Rocky", "Runnel", "Salt", "Sheep", "Shell", "Shimmer", "Shine", "Silk", "Silver", "Silvered", "Silvery", "Sleet", "Spirit", "Steam", "Stellar", "Stone", "Stony", "Sycamore", "Tempest", "Tern", "Tree", "Trickle", "Veil", "Web", "Whisp", "Willow", "Wind", "Wing", "Wisp"
 	],
 	"LightGray": [
-	"Air", "Ash", "Ashen", "Ashy", "Bark", "Beech", "Boulder", "Cinder", "Cinders", "Crane", "Day", "Dove", "Drizzle", "Dust", "Ewe", "Fog", "Foggy", "Glacial", "Glacier", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Haar", "Iron", "Marble", "Metallic", "Mica", "Minnow", "Mist", "Misted", "Misty", "Moon", "Moth", "Pebble", "Penguin", "Pigeon", "Platinum", "Pumice", "Rabbit", "Rain", "Rainy", "Rock", "Rocky", "Silver", "Silvered", "Silvery", "Smoke", "Smokey", "Smoky", "Stone", "Stony", "Whisp", "Willow", "Wisp", "Wolf"
+	"Agate", "Air", "Ash", "Ashen", "Ashy", "Bark", "Beech", "Billow", "Bird", "Boulder", "Breeze", "Brook", "Cinder", "Cinders", "Crane", "Day", "Dove", "Drizzle", "Dust", "Ewe", "Feather", "Fin", "Fish", "Fog", "Foggy", "Gale", "Gill", "Glacial", "Glacier", "Gorge", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Haar", "Horse", "Hurricane", "Iron", "Marble", "Metallic", "Mica", "Minnow", "Mist", "Misted", "Misty", "Moon", "Moth", "Nova", "Owl", "Pebble", "Penguin", "Pigeon", "Platinum", "Plume", "Pumice", "Rabbit", "Rain", "Rainy", "Ridge", "Rock", "Rocky", "Rubble", "Shrike", "Silver", "Silvered", "Silvery", "Sleet", "Smoke", "Smokey", "Smoky", "Stick", "Stone", "Stony", "Tempest", "Tree", "Whisp", "Willow", "Wind", "Wing", "Wisp", "Wolf"
 	],
 	"Gray": [
-	"Andesite", "Ash", "Ashen", "Ashy", "Bark", "Boulder", "Cinder", "Cinders", "Cockatiel", "Damp", "Ember", "Ewe", "Flint", "Goose", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Haze", "Hazy", "Heron", "Jay", "Marble", "Mercury", "Moth", "Pebble", "Pigeon", "Pumice", "Rabbit", "Rain", "Rainswept", "Rainy", "Rat", "Rock", "Rocky", "Shade", "Slate", "Slaty", "Smoke", "Smokey", "Smoky", "Soot", "Sooty", "Squirrel", "Stone", "Stony", "Storm", "Stormy", "Wolf"
+	"Agate", "Andesite", "Ash", "Ashen", "Ashy", "Bark", "Billow", "Bird", "Boulder", "Breeze", "Brook", "Cinder", "Cinders", "Cockatiel", "Crag", "Damp", "Dog", "Ember", "Ewe", "Falcon", "Feather", "Flint", "Gale", "Goose", "Gorge", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Gust", "Haze", "Hazy", "Heron", "Horse", "Hound", "Hurricane", "Jay", "Marble", "Mercury", "Mockingbird", "Moth", "Nova", "Nuthatch", "Owl", "Pebble", "Pigeon", "Pumice", "Rabbit", "Rain", "Rainswept", "Rainy", "Rat", "Ridge", "Robin", "Rock", "Rocky", "Rubble", "Shade", "Slate", "Slaty", "Smoke", "Smokey", "Smoky", "Soot", "Sooty", "Squirrel", "Stone", "Stony", "Storm", "Stormy", "Tempest", "Tree", "Twilight", "Wind", "Wing", "Wolf"
 	],
 	"DarkGray": [
-	"Bark", "Basalt", "Blackish", "Boulder", "Cave", "Cinder", "Cinders", "Coal", "Dark", "Darkness", "Dusk", "Eclipse", "Ember", "Ewe", "Flint", "Fox", "Foxy", "Galaxy", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Jackdaw", "Jay", "Junco", "Lava", "Leech", "Marble", "Murk", "Murky", "Night", "Pebble", "Pigeon", "Rabbit", "Rain", "Rainy", "Rock", "Rocky", "Shade", "Shadow", "Shale", "Slate", "Slaty", "Smoke", "Smokey", "Smoky", "Smolder", "Soot", "Sooty", "Stone", "Stony", "Stork", "Storm", "Stormy", "Thunder", "Umbra", "Vixen", "Volcano", "Wolf", "Magma", "Dusky", "Cold"
+	"Agate", "Bark", "Basalt", "Billow", "Bird", "Blackish", "Boulder", "Breeze", "Cave", "Chasm", "Cinder", "Cinders", "Coal", "Cold", "Condor", "Cosmos", "Dark", "Darkness", "Dusk", "Dusky", "Eclipse", "Eel", "Ember", "Ewe", "Falcon", "Feather", "Flint", "Fox", "Foxy", "Galaxy", "Gale", "Gorge", "Granite", "Gravel", "Gray", "Grayed", "Grayish", "Grey", "Greyish", "Gust", "Horse", "Jackdaw", "Jay", "Junco", "Kite", "Lava", "Leech", "Magma", "Marble", "Mosquito", "Murk", "Murky", "Night", "Nova", "Owl", "Pebble", "Pigeon", "Rabbit", "Rain", "Rainy", "Rock", "Rocky", "Rubble", "Shade", "Shadow", "Shale", "Singe", "Slate", "Slaty", "Smoke", "Smokey", "Smoky", "Smolder", "Soot", "Sooty", "Stone", "Stony", "Stork", "Storm", "Stormy", "Swarm", "Tempest", "Thunder", "Twilight", "Umbra", "Vixen", "Volcano", "Wind", "Wolf"
 	],
 	"Black": [
-	"Abyss", "Ant", "Basalt", "Bat", "Black", "Blackish", "Burn", "Burning", "Burnt", "Cave", "Cavern", "Char", "Charcoal", "Charred", "Coal", "Corvid", "Crow", "Dark", "Darkness", "Deep", "Ebony", "Eclipse", "Ember", "Ewe", "Flint", "Granite", "Hollow", "Hornet", "Ibis", "Ink", "Jaguar", "Leech", "Midnight", "Night", "Obsidian", "Oil", "Olive", "Onyx", "Panther", "Penguin", "Pig", "Pith", "Rabbit", "Raven", "Sand", "Scorch", "Scorched", "Shade", "Sheep", "Silowhette", "Smoke", "Snake", "Space", "Storm", "Stormy", "Tadpole", "Thunder", "Umbra", "Urchin", "Vantablack", "Vantablack", "Void", "Wasp", "Cold"
+	"Abyss", "Adder", "Anhinga", "Ant", "Badger", "Basalt", "Bat", "Beetle", "Bird", "Black", "Blackish", "Breeze", "Burn", "Burning", "Burnt", "Buzzard", "Cave", "Cavern", "Char", "Charcoal", "Charred", "Chasm", "Coal", "Cold", "Condor", "Cormorant", "Corvid", "Cosmos", "Crow", "Dark", "Darkness", "Deep", "Dog", "Ebony", "Eclipse", "Ember", "Ewe", "Feather", "Flint", "Granite", "Gust", "Hollow", "Hornet", "Horse", "Hound", "Ibis", "Ink", "Jaguar", "Leech", "Midge", "Midnight", "Mosquito", "Night", "Nova", "Obsidian", "Oil", "Olive", "Onyx", "Panther", "Penguin", "Pig", "Pith", "Quill", "Rabbit", "Raven", "Rook", "Sand", "Scorch", "Scorched", "Seed", "Shade", "Sheep", "Silowhette", "Smoke", "Snake", "Space", "Spider", "Storm", "Stormy", "Swarm", "Tadpole", "Talon", "Thunder", "Umbra", "Urchin", "Vantablack", "Void", "Wasp", "Wind"
 	],
 	
 	
 	"BrightRed": [
-	"Amanita", "Amaranth", "Amaryllis", "Apple", "Apricot", "Azalea", "Begonia", "Berry", "Blaze", "Blazing", "Bleeding", "Blood", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Burn", "Burning", "Burnt", "Canna", "Cardinal", "Caterpillar", "Cherry", "Cinnabar", "Coral", "Crimson", "Dawn", "Dragonfly", "Ember", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Folly", "Fox", "Foxy", "Fruit", "Fruity", "Garnet", "Grosbeak", "Guppy", "Heat", "Heliconia", "Hibiscus", "Honeysuckle", "Hot", "Hummingbird", "Hyacinth", "Ibis", "Koi", "Ladybug", "Lava", "Lily", "Lobelia", "Lobster", "Macaw", "Mango", "Maple", "Marigold", "Millipede", "Mushroom", "Myrtle", "Neon", "Oleander", "Orchid", "Oriole", "Pansy", "Paprika", "Parrot", "Peony", "Pepper", "Petal", "Petunia", "Phlox", "Poppy", "Primrose", "Raddish", "Red", "Reddish", "Rose", "Roselle", "Rosette", "Rowan", "Ruby", "Rust", "Rusty", "Salvia", "Scarlet", "Snapdragon", "Strawberry", "Sundew", "Sunset", "Tanager", "Tomato", "Tulip", "Verbena", "Vermillion", "Vibrant", "Vivid", "Vixen", "Volcano", "Warm", "Yarrow", "Yew", "Zinnia", "Foxglove", "Carnation", "Anemone", "Chrysanthemum", "Geranium", "Magma", "Holly"
+	"Agate", "Amanita", "Amaranth", "Amaryllis", "Anemone", "Apple", "Apricot", "Azalea", "Begonia", "Berry", "Betta", "Blaze", "Blazing", "Bleeding", "Blood", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Burn", "Burning", "Burnt", "Canna", "Cardinal", "Carnation", "Caterpillar", "Cherry", "Chrysanthemum", "Cinnabar", "Coral", "Cosmos", "Crimson", "Dawn", "Dragonfly", "Ember", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Flower", "Flowering", "Folly", "Fox", "Foxglove", "Foxy", "Fruit", "Fruity", "Garnet", "Geranium", "Glowing", "Grosbeak", "Guppy", "Hawthorn", "Heat", "Heliconia", "Hibiscus", "Holly", "Hollyhock", "Honeysuckle", "Hot", "Hummingbird", "Hyacinth", "Ibis", "Jasper", "Koi", "Ladybug", "Lava", "Leaf", "Lily", "Lobelia", "Lobster", "Macaw", "Magma", "Mango", "Maple", "Marigold", "Millipede", "Mosquito", "Mushroom", "Myrtle", "Neon", "Newt", "Oleander", "Orchid", "Oriole", "Pansy", "Paprika", "Parrot", "Peony", "Pepper", "Petal", "Petunia", "Phlox", "Phoenix", "Poppy", "Primrose", "Raddish", "Red", "Reddish", "Rose", "Roselle", "Rosette", "Rowan", "Ruby", "Rust", "Rusty", "Salvia", "Scarlet", "Snapdragon", "Spice", "Strawberry", "Sundew", "Sunset", "Tanager", "Tomato", "Tulip", "Verbena", "Vermillion", "Vibrant", "Vivid", "Vixen", "Volcano", "Warm", "Yarrow", "Yew", "Zinnia", "Sumac"
 	],
 	"PaleRed": [
-	"Amaryllis", "Aster", "Axolotl", "Azalea", "Begonia", "Bloom", "Blooming", "Blossom", "Canna", "Cherry", "Dahlia", "Fade", "Faded", "Fading", "Faint", "Flamingo", "Flare", "Ghost", "Glass", "Heat", "Hibiscus", "Hyacinth", "Iridescent", "Laurel", "Light", "Lily", "Lotus", "Magnolia", "Mantis", "Maple", "Milkweed", "Mirage", "Moth", "Myrtle", "Oleander", "Opal", "Pale", "Palest", "Pansy", "Pastel", "Peach", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Pig", "Pink", "Pipsissewa", "Poinsettia", "Primrose", "Prism", "Red", "Reddish", "Reflection", "Rose", "Roselle", "Rosette", "Rosy", "Sakura", "Salvia", "Shell", "Snapdragon", "Soft", "Sparkling", "Sunset", "Tulip", "Verbena", "Warm", "Worm", "Yarrow", "Zinnia", "Foxglove", "Carnation", "Anemone", "Chrysanthemum", "Geranium"
+	"Amaryllis", "Anemone", "Aster", "Axolotl", "Azalea", "Begonia", "Bloom", "Blooming", "Blossom", "Buzzard", "Canna", "Carnation", "Cherry", "Chrysanthemum", "Cosmos", "Dahlia", "Fade", "Faded", "Fading", "Faint", "Flamingo", "Flare", "Flower", "Flowering", "Foxglove", "Geranium", "Ghost", "Glass", "Glow", "Glowing", "Heat", "Hibiscus", "Hollyhock", "Hyacinth", "Iridescent", "Larkspur", "Laurel", "Leaf", "Light", "Lily", "Lotus", "Magnolia", "Mantis", "Maple", "Milkweed", "Mirage", "Moth", "Myrtle", "Oleander", "Opal", "Pale", "Palest", "Pansy", "Pastel", "Peach", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Pig", "Pink", "Pipsissewa", "Poinsettia", "Posy", "Primrose", "Prism", "Red", "Reddish", "Reflection", "Rose", "Roselle", "Rosette", "Rosy", "Sakura", "Salvia", "Shell", "Snapdragon", "Soft", "Sparkling", "Sunrise", "Sunset", "Tourmaline", "Tulip", "Verbena", "Warm", "Worm", "Yarrow", "Zinnia", "Morganite"
 	],
 	"DuskyRed": [
-	"Amaranth", "Auburn", "Berry", "Bleak", "Blood", "Bloom", "Blooming", "Bramble", "Burn", "Cardinal", "Carmine", "Carnelian", "Caterpillar", "Cecropia", "Cherry", "Cinnabar", "Coral", "Creeper", "Dahlia", "Ember", "Fox", "Foxy", "Fruit", "Fruity", "Garnet", "Granite", "Grosbeak", "Hawk", "Heat", "Heliconia", "Hyacinth", "Ladybug", "Lily", "Mahogany", "Mangrove", "Maple", "Marble", "Marigold", "Mauve", "Mistletoe", "Pansy", "Pear", "Petal", "Petunia", "Poinsettia", "Primrose", "Raddish", "Red", "Reddish", "Rhubarb", "Roselle", "Rowan", "Ruddy", "Russet", "Rust", "Rusty", "Saffron", "Sequoia", "Shaded", "Smolder", "Sorrel", "Sunset", "Sunstone", "Trillium", "Tulip", "Vixen", "Warm", "Zinnia", "Foxglove", "Chrysanthemum", "Magma"
+	"Amaranth", "Auburn", "Berry", "Bleak", "Blood", "Bloom", "Blooming", "Bramble", "Burn", "Cardinal", "Carmine", "Carnelian", "Caterpillar", "Cecropia", "Cherry", "Chrysanthemum", "Cinnabar", "Coral", "Creeper", "Dahlia", "Ember", "Flower", "Flowering", "Fox", "Foxglove", "Foxy", "Fruit", "Fruity", "Garnet", "Gill", "Granite", "Grosbeak", "Hawk", "Hawthorn", "Heat", "Heliconia", "Hollyhock", "Hyacinth", "Jasper", "Ladybug", "Leaf", "Lily", "Magma", "Mahogany", "Maize", "Mangrove", "Maple", "Marble", "Marigold", "Mauve", "Mistletoe", "Mite", "Mulberry", "Nutmeg", "Pansy", "Pear", "Petal", "Petunia", "Poinsettia", "Primrose", "Raddish", "Red", "Reddish", "Rhubarb", "Roselle", "Rowan", "Ruddy", "Russet", "Rust", "Rusty", "Saffron", "Sequoia", "Shaded", "Smolder", "Sorrel", "Spice", "Sunset", "Sunstone", "Thorn", "Trillium", "Tulip", "Vixen", "Warm", "Weevil", "Zinnia", "Beryl", "Sumac", "Beet", "Sienna"
 	],
 	"DrabRed": [
-	"Amaranth", "Cherry", "Dim", "Drab", "Dull", "Dusk", "Fade", "Faint", "Granite", "Haze", "Hazy", "Hyacinth", "Mangrove", "Maple", "Marble", "Mauve", "Pansy", "Red", "Reddish", "Shade", "Shaded", "Sunset", "Taupe", "Tint", "Tinted", "Warm", "Worm"
+	"Alder", "Amaranth", "Buzzard", "Cherry", "Dawn", "Dim", "Drab", "Dull", "Dusk", "Fade", "Faint", "Granite", "Haze", "Hazy", "Hyacinth", "Leaf", "Mangrove", "Maple", "Marble", "Marrow", "Mauve", "Pansy", "Partridge", "Red", "Reddish", "Shade", "Shaded", "Sunset", "Taupe", "Thorn", "Tint", "Tinted", "Warm", "Worm"
 	],
 	"InkyRed": [
-	"Ant", "Bismuth", "Blackish", "Blood", "Bramble", "Burn", "Burning", "Burnt", "Cherry", "Dark", "Darkness", "Deep", "Eclipse", "Ember", "Galaxy", "Grackle", "Hollow", "Ink", "Inky", "Iridescent", "Leech", "Mangrove", "Maple", "Maroon", "Millipede", "Murk", "Murky", "Nebula", "Oil", "Red", "Reddish", "Scorched", "Shade", "Shaded", "Space", "Starling", "Sunset", "Urchin", "Warm", "Magma"
+	"Ant", "Bismuth", "Blackish", "Blood", "Bramble", "Burn", "Burning", "Burnt", "Cherry", "Dark", "Darkness", "Deep", "Eclipse", "Ember", "Galaxy", "Grackle", "Hollow", "Ink", "Inky", "Iridescent", "Leaf", "Leech", "Magma", "Maize", "Mangrove", "Maple", "Maroon", "Millipede", "Mulberry", "Murk", "Murky", "Nebula", "Oil", "Red", "Reddish", "Scorched", "Shade", "Shaded", "Space", "Starling", "Sunset", "Urchin", "Warm", "Weevil"
 	],
 	"ShadowRed": [
-	"Amaranth", "Ant", "Blackish", "Bleak", "Burn", "Burning", "Burnt", "Cherry", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Eclipse", "Ember", "Faint", "Galaxy", "Hollow", "Leech", "Mangrove", "Maple", "Murk", "Murky", "Red", "Reddish", "Scorched", "Shade", "Shaded", "Shadow", "Silowhette", "Sunset", "Warm"
+	"Amaranth", "Ant", "Blackish", "Bleak", "Burn", "Burning", "Burnt", "Cherry", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Eclipse", "Ember", "Faint", "Galaxy", "Hollow", "Leaf", "Leech", "Mangrove", "Maple", "Mulberry", "Murk", "Murky", "Red", "Reddish", "Scorched", "Shade", "Shaded", "Shadow", "Silowhette", "Singe", "Sunset", "Warm", "Weevil"
 	],
 	
 	"BrightOrange": [
-	"Amanita", "Amber", "Apricot", "Azalea", "Beech", "Begonia", "Blaze", "Blazing", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Burn", "Burning", "Burnt", "Canna", "Carrot", "Caterpillar", "Chanterelle", "Cicada", "Citrus", "Clownfish", "Coral", "Crocus", "Cypress", "Daffodil", "Dahlia", "Dawn", "Dragonfly", "Dusk", "Ember", "Fern", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Fox", "Foxy", "Fritillary", "Fruit", "Fruity", "Ginger", "Ginkgo", "Grosbeak", "Ground", "Guppy", "Heat", "Heliconia", "Heliconian", "Hibiscus", "Hickory", "Honey", "Honeysuckle", "Horizon", "Hot", "Hummingbird", "Kindle", "Koi", "Ladybug", "Lava", "Leaf", "Lily", "Loach", "Macaw", "Maple", "Marigold", "Marten", "Milkweed", "Millipede", "Monarch", "Morning", "Neon", "Oak", "Oleander", "Orange", "Orchid", "Oriole", "Pansy", "Papaya", "Paprika", "Parrot", "Peach", "Pepper", "Petal", "Pumpkin", "Resin", "Rose", "Rust", "Rusty", "Salamander", "Snake", "Snapdragon", "Spark", "Squirrel", "Swallow", "Tanager", "Tangerine", "Tawny", "Tiger", "Topaz", "Tulip", "Vibrant", "Vivid", "Vixen", "Volcano", "Warm", "Weed", "Xenica", "Yarrow", "Zinnia", "Foxglove", "Carnation", "Squash", "Anemone", "Chrysanthemum", "Lichen", "Magma", "Geranium"
+	"Agate", "Alder", "Amanita", "Amber", "Anemone", "Apricot", "Azalea", "Beaver", "Beech", "Begonia", "Betta", "Bird", "Blaze", "Blazing", "Bloom", "Blooming", "Bracken", "Bright", "Bromeliad", "Bunting", "Burn", "Burning", "Burnt", "Canna", "Carnation", "Carrot", "Caterpillar", "Chanterelle", "Chrysanthemum", "Cicada", "Citrus", "Clownfish", "Copse", "Coral", "Cosmos", "Crocus", "Cypress", "Daffodil", "Dahlia", "Dawn", "Dragonfly", "Dusk", "Ember", "Fern", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Flicker", "Flower", "Flowering", "Fox", "Foxglove", "Foxy", "Fritillary", "Fruit", "Fruity", "Geranium", "Ginger", "Ginkgo", "Glowing", "Grosbeak", "Ground", "Guppy", "Heat", "Heliconia", "Heliconian", "Hibiscus", "Hickory", "Hollyhock", "Honey", "Honeysuckle", "Horizon", "Hot", "Hummingbird", "Jasper", "Kindle", "Koi", "Ladybug", "Larch", "Lava", "Leaf", "Lichen", "Lily", "Lit", "Loach", "Macaw", "Magma", "Maple", "Marigold", "Marten", "Milkweed", "Millipede", "Monarch", "Morning", "Neon", "Newt", "Oak", "Ochre", "Oleander", "Orange", "Orchid", "Oriole", "Pansy", "Papaya", "Paprika", "Parrot", "Peach", "Pepper", "Petal", "Pheasant", "Phoenix", "Pumpkin", "Resin", "Robin", "Rose", "Rust", "Rusty", "Salamander", "Shrimp", "Snake", "Snapdragon", "Spark", "Spice", "Squash", "Squirrel", "Strelitzia", "Swallow", "Tanager", "Tangerine", "Tawny", "Tiger", "Topaz", "Tulip", "Twilight", "Vibrant", "Vivid", "Vixen", "Volcano", "Warm", "Weed", "Xenica", "Yarrow", "Zinnia"
 	],
 	"PaleOrange": [
-	"Almond", "Antler", "Azalea", "Bark", "Barley", "Beach", "Beech", "Beige", "Bloom", "Blooming", "Blossom", "Bone", "Buck", "Cactus", "Calcite", "Canna", "Cantalope", "Cougar", "Cream", "Creamy", "Daffodil", "Dahlia", "Deer", "Doe", "Dry", "Dusk", "Dust", "Dusty", "Egg", "Ewe", "Fade", "Faded", "Fading", "Faint", "Fang", "Fawn", "Flare", "Gecko", "Ghost", "Ginger", "Glass", "Grain", "Ground", "Hare", "Hay", "Heat", "Honey", "Horizon", "Iridescent", "Ivory", "Leaf", "Light", "Lion", "Loach", "Log", "Maggot", "Maple", "Marten", "Mirage", "Morning", "Moth", "Oak", "Oat", "Oleander", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Petal", "Prism", "Puffball", "Reed", "Reflection", "Resin", "Root", "Roots", "Rose", "Salamander", "Sand", "Sandstone", "Sandy", "Sap", "Sheep", "Shell", "Skeleton", "Skull", "Snake", "Soft", "Spark", "Sparkling", "Tan", "Tawny", "Timber", "Tooth", "Topaz", "Tusk", "Warm", "Wax", "Weed", "Wood", "Yarrow", "Carp", "Squash", "Anemone", "Geranium", "Dusky"
+	"Agate", "Almond", "Anemone", "Antler", "Azalea", "Bark", "Barley", "Beach", "Beech", "Beige", "Bird", "Bloom", "Blooming", "Blossom", "Bone", "Buck", "Bulb", "Cactus", "Calcite", "Canna", "Cantalope", "Carp", "Cocoon", "Cougar", "Cream", "Creamy", "Daffodil", "Dahlia", "Deer", "Doe", "Dog", "Dry", "Dusk", "Dusky", "Dust", "Dusty", "Egg", "Ewe", "Fade", "Faded", "Fading", "Faint", "Fang", "Fawn", "Feather", "Flare", "Flower", "Flowering", "Gecko", "Geranium", "Ghost", "Ginger", "Glass", "Glow", "Glowing", "Grain", "Ground", "Hare", "Hay", "Heat", "Honey", "Horizon", "Horn", "Horse", "Hound", "Iridescent", "Ivory", "Kestrel", "Leaf", "Light", "Lion", "Loach", "Log", "Maggot", "Maize", "Maple", "Marten", "Mirage", "Morning", "Moth", "Oak", "Oat", "Oleander", "Opal", "Owl", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Petal", "Prism", "Puffball", "Python", "Reed", "Reflection", "Resin", "Root", "Roots", "Rose", "Rush", "Salamander", "Sand", "Sandstone", "Sandy", "Sap", "Seed", "Sepia", "Sheep", "Shell", "Skeleton", "Skull", "Snake", "Soft", "Spark", "Sparkling", "Spine", "Spore", "Squash", "Straw", "Tan", "Tawny", "Thorn", "Timber", "Tooth", "Topaz", "Tree", "Tusk", "Warm", "Wax", "Weed", "Wing", "Wood", "Yarrow", "Fallow", "Lark", "Mouse", "Trout", "Ferret", "Termite"
 	],
 	"DuskyOrange": [
-	"Almond", "Amber", "Anise", "Ant", "Axolotl", "Bark", "Bat", "Bittern", "Bleak", "Bloom", "Blooming", "Bramble", "Branch", "Brown", "Brownish", "Buck", "Burn", "Burning", "Burnt", "Caramel", "Carnelian", "Caterpillar", "Cavern", "Cecropia", "Cedar", "Cicada", "Cinnamon", "Clay", "Clove", "Copper", "Cricket", "Deer", "Doe", "Dusk", "Ember", "Fawn", "Fern", "Fox", "Foxy", "Fritillary", "Fruit", "Fruity", "Grosbeak", "Ground", "Hawk", "Hazel", "Heat", "Hemlock", "Jaguarundi", "Leaf", "Loach", "Log", "Mahogany", "Maple", "Marigold", "Marten", "Moose", "Mud", "Muddy", "Oak", "Pear", "Pecan", "Petal", "Pine", "Resin", "Russet", "Rust", "Rusty", "Salamander", "Sap", "Scarab", "Sequoia", "Shaded", "Snake", "Soil", "Sparrow", "Squirrel", "Stoat", "Sunstone", "Tawny", "Toasted", "Twig", "Umber", "Vixen", "Warm", "Warm", "Wax", "Weed", "Wood", "Wren", "Xenica", "Squash", "Lichen", "Bamboo"
+	"Adder", "Agate", "Almond", "Amber", "Anise", "Ant", "Axolotl", "Bamboo", "Bark", "Bat", "Beaver", "Beetle", "Bird", "Bittern", "Bleak", "Bloom", "Blooming", "Bog", "Bracken", "Bramble", "Branch", "Brown", "Brownish", "Buck", "Burn", "Burning", "Burnt", "Burr", "Caramel", "Carnelian", "Caterpillar", "Cavern", "Cecropia", "Cedar", "Chestnut", "Cicada", "Cinnamon", "Clay", "Clove", "Conifer", "Conker", "Copper", "Copse", "Cricket", "Deer", "Doe", "Dog", "Duck", "Dusk", "Ember", "Falcon", "Fawn", "Feather", "Fern", "Fir", "Fox", "Foxy", "Fritillary", "Frond", "Fruit", "Fruity", "Grosbeak", "Ground", "Hawk", "Hazel", "Heat", "Hedge", "Hemlock", "Horse", "Hound", "Inchworm", "Jaguarundi", "Jasper", "Kite", "Leaf", "Lichen", "Loach", "Locust", "Log", "Mahogany", "Maize", "Maple", "Marigold", "Marsh", "Marten", "Moose", "Mud", "Muddy", "Newt", "Nut", "Nutmeg", "Oak", "Ochre", "Owl", "Partridge", "Pear", "Pecan", "Petal", "Pheasant", "Pine", "Python", "Resin", "Roach", "Russet", "Rust", "Rusty", "Salamander", "Sap", "Scarab", "Seed", "Sequoia", "Shaded", "Shrub", "Snake", "Soil", "Sparrow", "Spice", "Spider", "Squash", "Squirrel", "Stick", "Stoat", "Sunstone", "Tawny", "Thorn", "Toasted", "Tree", "Turtle", "Twig", "Umber", "Vixen", "Warm", "Wax", "Weed", "Weevil", "Wood", "Wren", "Xenica", "Fallow", "Finch", "Weasel", "Chaffinch", "Sienna"
 	],
 	"DrabOrange": [
-	"Antler", "Bark", "Bat", "Beige", "Branch", "Bronze", "Cardinal", "Cavern", "Cicada", "Clay", "Coconut", "Coyote", "Cricket", "Dim", "Dove", "Drab", "Dull", "Dusk", "Dust", "Dusty", "Fade", "Faint", "Gecko", "Goose", "Granite", "Ground", "Hare", "Hay", "Haze", "Hazel", "Hazy", "Hickory", "Leaf", "Lizard", "Loach", "Log", "Mantis", "Maple", "Marten", "Morel", "Mushroom", "Oak", "Pine", "Potato", "Puma", "Rabbit", "Rat", "Root", "Roots", "Rye", "Salamander", "Sand", "Sandstone", "Sandy", "Shade", "Shaded", "Shrew", "Snake", "Sparrow", "Sugar", "Tan", "Taupe", "Tawny", "Tint", "Tinted", "Twig", "Vole", "Walnut", "Warbler", "Warm", "Weed", "Wolf", "Wood", "Wren", "Carp"
+	"Adder", "Antler", "Asp", "Bark", "Bat", "Beige", "Bird", "Bluff", "Bough", "Branch", "Bronze", "Brush", "Bulb", "Burr", "Buzzard", "Cardinal", "Carp", "Cavern", "Cicada", "Clay", "Cliff", "Coconut", "Cocoon", "Coyote", "Crag", "Cricket", "Curlew", "Dim", "Dog", "Dove", "Drab", "Dull", "Dusk", "Dust", "Dusty", "Ermine", "Fade", "Faint", "Feather", "Flea", "Fungal", "Fungus", "Gander", "Gecko", "Goose", "Gorge", "Granite", "Ground", "Hare", "Hay", "Haze", "Hazel", "Hazy", "Hickory", "Horn", "Horse", "Hound", "Knoll", "Leaf", "Lizard", "Loach", "Locust", "Log", "Lynx", "Mantis", "Maple", "Marrow", "Marten", "Meadow", "Mistle", "Moor", "Morel", "Mushroom", "Nest", "Nightingale", "Nutmeg", "Oak", "Owl", "Partridge", "Pine", "Piper", "Plover", "Potato", "Puma", "Python", "Quail", "Rabbit", "Raccoon", "Rat", "Ridge", "Robin", "Root", "Roots", "Rye", "Sable", "Salamander", "Sand", "Sandstone", "Sandy", "Seed", "Sepia", "Shade", "Shaded", "Shrew", "Silt", "Skink", "Snail", "Snake", "Sparrow", "Stick", "Stump", "Sugar", "Sycamore", "Tan", "Taupe", "Tawny", "Thorn", "Thrush", "Tint", "Tinted", "Toad", "Tree", "Turtle", "Twig", "Vole", "Walnut", "Warbler", "Warm", "Weed", "Wolf", "Wood", "Wren", "Finch", "Lark", "Weasel", "Mouse"
 	],
 	"InkyOrange": [
-	"Antler", "Avocado", "Bear", "Bismuth", "Blackish", "Brown", "Brownish", "Burn", "Chocolate", "Cicada", "Coconut", "Dark", "Darkness", "Deep", "Ebony", "Ember", "Fritillary", "Galaxy", "Gecko", "Grackle", "Ground", "Hare", "Hollow", "Ink", "Inky", "Iridescent", "Kiwi", "Leaf", "Loach", "Loam", "Log", "Marble", "Marten", "Millipede", "Moose", "Mud", "Muddy", "Murk", "Murky", "Oak", "Oil", "Peat", "Pith", "Rabbit", "Salamander", "Scorched", "Shade", "Shaded", "Snake", "Soil", "Space", "Starling", "Swiftlet", "Tawny", "Twig", "Urchin", "Vanilla", "Warm", "Wood", "Carp"
+	"Adder", "Antler", "Avocado", "Bear", "Beetle", "Bird", "Bismuth", "Blackish", "Brown", "Brownish", "Burn", "Carp", "Chestnut", "Chocolate", "Cicada", "Coconut", "Conker", "Dark", "Darkness", "Deep", "Dog", "Ebony", "Ember", "Fritillary", "Galaxy", "Gecko", "Grackle", "Ground", "Hare", "Hollow", "Horse", "Hound", "Ink", "Inky", "Iridescent", "Kiwi", "Leaf", "Loach", "Loam", "Log", "Marble", "Marten", "Millipede", "Moose", "Mud", "Muddy", "Murk", "Murky", "Oak", "Oil", "Peat", "Pith", "Rabbit", "Roach", "Salamander", "Scorched", "Shade", "Shaded", "Snake", "Soil", "Space", "Starling", "Swiftlet", "Tawny", "Twig", "Urchin", "Vanilla", "Warm", "Weevil", "Wood", "Morganite", "Mink", "Wolverine"
 	],
 	"ShadowOrange": [
-	"Ant", "Bat", "Blackish", "Bleak", "Burn", "Burning", "Burnt", "Cavern", "Char", "Charcoal", "Charred", "Corvid", "Cricket", "Dark", "Darkness", "Deep", "Dim", "Eagle", "Ember", "Faint", "Galaxy", "Ground", "Hollow", "Jaguarundi", "Loach", "Loam", "Marble", "Marten", "Mole", "Murk", "Murky", "Oak", "Peat", "Pith", "Salamander", "Scorch", "Scorched", "Shade", "Shaded", "Shadow", "Silowhette", "Snake", "Swift", "Swiftlet", "Tadpole", "Tarantula", "Tawny", "Vole", "Vulture", "Warm", "Wood"
+	"Adder", "Ant", "Asp", "Badger", "Bat", "Beetle", "Bird", "Blackish", "Bleak", "Burn", "Burning", "Burnt", "Burrow", "Buzzard", "Cavern", "Char", "Charcoal", "Charred", "Cliff", "Corvid", "Cricket", "Dark", "Darkness", "Deep", "Dim", "Dog", "Eagle", "Ember", "Faint", "Feather", "Galaxy", "Ground", "Grouse", "Hollow", "Horn", "Horse", "Hound", "Jaguarundi", "Loach", "Loam", "Marble", "Marten", "Midge", "Mistle", "Mole", "Mosquito", "Murk", "Murky", "Newt", "Oak", "Osprey", "Owl", "Peat", "Pith", "Python", "Quail", "Raccoon", "Roach", "Sable", "Salamander", "Scorch", "Scorched", "Seed", "Shade", "Shaded", "Shadow", "Silowhette", "Singe", "Snake", "Spider", "Swarm", "Swift", "Swiftlet", "Tadpole", "Talon", "Tarantula", "Tawny", "Turtle", "Vole", "Vulture", "Warm", "Weevil", "Wood", "Mink"
 	],
 	
 	"BrightYellow": [
-	"Amanita", "Amber", "Aspen", "Azalea", "Banana", "Bee", "Beech", "Begonia", "Birch", "Blaze", "Blazing", "Bloom", "Blooming", "Bright", "Bromeliad", "Budgie", "Bunting", "Buttercup", "Canary", "Caterpillar", "Chamomile", "Chanterelle", "Citrine", "Citrus", "Cockatiel", "Coral", "Corn", "Crocus", "Daffodil", "Daisy", "Dandelion", "Dawn", "Day", "Dragonfly", "Elm", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Forsythia", "Fruit", "Fruity", "Furze", "Ginkgo", "Gold", "Golden", "Goldenrod", "Goldfinch", "Gorse", "Grasshopper", "Grosbeak", "Guppy", "Hawkbit", "Heat", "Hive", "Honey", "Honeysuckle", "Hornet", "Hummingbird", "Hyacinth", "Io", "Iris", "Koi", "Laburnum", "Ladybug", "Leaf", "Lemon", "Lily", "Loach", "Macaw", "Mango", "Maple", "Marigold", "Millipede", "Morning", "Mullein", "Mustard", "Neon", "Oleander", "Orchid", "Oriole", "Pansy", "Parrot", "Petal", "Petunia", "Pollen", "Poplar", "Primrose", "Rose", "Rue", "Salamander", "Sargassum", "Siskin", "Snapdragon", "Spark", "Sulphur", "Sun", "Sunflower", "Sunlit", "Sunny", "Sunshine", "Tamarack", "Tanager", "Tansy", "Tulip", "Vibrant", "Vivid", "Warbler", "Warm", "Wasp", "Yarrow", "Yellow", "Yellowish", "Zinnia", "Carnation", "Chrysanthemum", "Squash", "Geranium"
+	"Amanita", "Amber", "Aspen", "Azalea", "Banana", "Bee", "Beech", "Begonia", "Betta", "Birch", "Blaze", "Blazing", "Bloom", "Blooming", "Bright", "Bromeliad", "Budgie", "Bunting", "Buttercup", "Canary", "Carnation", "Caterpillar", "Chamomile", "Chanterelle", "Chrysanthemum", "Citrine", "Citrus", "Cockatiel", "Coral", "Corn", "Cosmos", "Crocus", "Daffodil", "Daisy", "Dandelion", "Dawn", "Day", "Dragonfly", "Elm", "Fiery", "Fire", "Flame", "Flaming", "Flare", "Flicker", "Flower", "Flowering", "Forsythia", "Fruit", "Fruity", "Furze", "Geranium", "Ginkgo", "Glowing", "Gold", "Golden", "Goldenrod", "Goldfinch", "Gorse", "Grasshopper", "Grosbeak", "Guppy", "Hawkbit", "Heat", "Hive", "Hollyhock", "Honey", "Honeysuckle", "Hornet", "Hummingbird", "Hyacinth", "Io", "Iris", "Koi", "Laburnum", "Ladybug", "Leaf", "Lemon", "Lily", "Loach", "Macaw", "Mango", "Maple", "Marigold", "Meadow", "Millipede", "Morning", "Mullein", "Mustard", "Neon", "Newt", "Oleander", "Orchid", "Oriole", "Pansy", "Parrot", "Petal", "Petunia", "Pollen", "Poplar", "Primrose", "Python", "Rose", "Rue", "Salamander", "Sargassum", "Siskin", "Snapdragon", "Spark", "Spice", "Spider", "Squash", "Sulphur", "Sun", "Sunflower", "Sunlit", "Sunny", "Sunrise", "Sunshine", "Tamarack", "Tanager", "Tansy", "Tulip", "Vibrant", "Vivid", "Warbler", "Warm", "Wasp", "Yarrow", "Yellow", "Yellowish", "Zinnia", "Heliodor"
 	],
 	"PaleYellow": [
-	"Alabaster", "Aster", "Azalea", "Bloom", "Blooming", "Blossom", "Canary", "Chanterelle", "Citrine", "Cockatoo", "Cream", "Creamy", "Crocus", "Daffodil", "Dandelion", "Day", "Ewe", "Fade", "Faded", "Fading", "Faint", "Flare", "Gardenia", "Ghost", "Glass", "Goldfinch", "Grasshopper", "Hay", "Heat", "Hive", "Honey", "Hyacinth", "Iridescent", "Leaf", "Lemon", "Light", "Lightning", "Loach", "Lotus", "Maggot", "Maple", "Mirage", "Morning", "Moth", "Mushroom", "Nectar", "Oleander", "Opal", "Pale", "Palest", "Parakeet", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Petal", "Prism", "Puffball", "Reflection", "Rose", "Rosy", "Salamander", "Sand", "Sandstone", "Sandy", "Sap", "Shell", "Snapdragon", "Soft", "Spark", "Sparkling", "Sun", "Sunlit", "Sunny", "Sunshine", "Vanilla", "Warm", "Wasp", "Wax", "Wheat", "Willow", "Yarrow", "Yellowish", "Carp", "Carnation", "Squash", "Geranium"
+	"Alabaster", "Aster", "Azalea", "Bloom", "Blooming", "Blossom", "Canary", "Carnation", "Carp", "Celestial", "Chanterelle", "Citrine", "Cockatoo", "Cocoon", "Cream", "Creamy", "Crocus", "Daffodil", "Dandelion", "Day", "Ewe", "Fade", "Faded", "Fading", "Faint", "Flare", "Flower", "Flowering", "Gardenia", "Geranium", "Ghost", "Glass", "Glow", "Glowing", "Goldfinch", "Grasshopper", "Hay", "Heat", "Hive", "Honey", "Horse", "Hyacinth", "Iridescent", "Leaf", "Lemon", "Light", "Lightning", "Loach", "Lotus", "Luminous", "Maggot", "Maple", "Mirage", "Morning", "Moth", "Mushroom", "Nectar", "Oleander", "Opal", "Pale", "Palest", "Parakeet", "Parsley", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Petal", "Pierid", "Prism", "Puffball", "Python", "Radiant", "Reflection", "Rose", "Rosy", "Salamander", "Sand", "Sandstone", "Sandy", "Sap", "Seed", "Shell", "Snapdragon", "Soft", "Spark", "Sparkling", "Squash", "Stem", "Straw", "Sun", "Sunlit", "Sunny", "Sunshine", "Twinkle", "Vanilla", "Warm", "Wasp", "Wax", "Wheat", "Willow", "Yarrow", "Yellowish", "Heliodor"
 	],
 	"DuskyYellow": [
-	"Amber", "Ant", "Axolotl", "Bleak", "Bloom", "Blooming", "Caterpillar", "Chamomile", "Chanterelle", "Fruit", "Fruity", "Goldfinch", "Grasshopper", "Grosbeak", "Hazel", "Heat", "Hive", "Hornet", "Hyacinth", "Kelp", "Leaf", "Loach", "Maple", "Olive", "Pear", "Petal", "Salamander", "Sap", "Scarab", "Shaded", "Vireo", "Warm", "Wasp", "Wax", "Wilting", "Yellowish", "Squash"
+	"Amber", "Ant", "Axolotl", "Bleak", "Bloom", "Blooming", "Caterpillar", "Chamomile", "Chanterelle", "Fruit", "Fruity", "Goldfinch", "Grasshopper", "Grosbeak", "Hazel", "Heat", "Hive", "Hornet", "Hyacinth", "Kelp", "Leaf", "Loach", "Maple", "Olive", "Pear", "Petal", "Python", "Salamander", "Sap", "Scarab", "Serpent", "Shaded", "Spice", "Squash", "Vireo", "Warm", "Wasp", "Wax", "Wilting", "Yellowish", "Kinglet", "Perch"
 	],
 	"DrabYellow": [
-	"Birch", "Dim", "Drab", "Dull", "Fade", "Faint", "Goldfinch", "Gosling", "Grasshopper", "Hay", "Haze", "Hazel", "Hazy", "Hive", "Hyacinth", "Leaf", "Loach", "Maple", "Mica", "Pyrite", "Salamander", "Sand", "Sandstone", "Sandy", "Sargassum", "Shade", "Shaded", "Tint", "Tinted", "Vireo", "Warbler", "Warm", "Wasp", "Wax", "Wilting", "Yellowish", "Carp", "Flax"
+	"Birch", "Brush", "Carp", "Cocoon", "Dim", "Drab", "Dull", "Eel", "Fade", "Faint", "Flax", "Goldfinch", "Gosling", "Grasshopper", "Hay", "Haze", "Hazel", "Hazy", "Hive", "Hyacinth", "Leaf", "Loach", "Maple", "Meadow", "Mica", "Pyrite", "Salamander", "Sand", "Sandstone", "Sandy", "Sargassum", "Serpent", "Shade", "Shaded", "Straw", "Tint", "Tinted", "Vireo", "Warbler", "Warm", "Wasp", "Wax", "Wilting", "Yellowish"
 	],
 	"InkyYellow": [
-	"Ant", "Bismuth", "Blackish", "Dark", "Darkness", "Deep", "Ember", "Galaxy", "Goldfinch", "Grackle", "Grasshopper", "Hive", "Hollow", "Hornet", "Ink", "Inky", "Iridescent", "Leaf", "Loach", "Millipede", "Moss", "Murk", "Murky", "Nebula", "Oil", "Salamander", "Shade", "Shaded", "Space", "Starling", "Tadpole", "Urchin", "Warm", "Wasp", "Wilting", "Yellowish", "Carp"
+	"Ant", "Bismuth", "Blackish", "Carp", "Dark", "Darkness", "Deep", "Ember", "Galaxy", "Goldfinch", "Grackle", "Grasshopper", "Hive", "Hollow", "Hornet", "Ink", "Inky", "Iridescent", "Leaf", "Loach", "Millipede", "Moss", "Murk", "Murky", "Nebula", "Oil", "Python", "Salamander", "Shade", "Shaded", "Space", "Starling", "Tadpole", "Urchin", "Warm", "Wasp", "Wilting", "Yellowish"
 	],
 	"ShadowYellow": [
-	"Ant", "Blackish", "Bleak", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Ember", "Faint", "Galaxy", "Goldfinch", "Grasshopper", "Hive", "Hollow", "Loach", "Murk", "Murky", "Salamander", "Shade", "Shaded", "Shadow", "Silowhette", "Tadpole", "Thunder", "Warm", "Wasp", "Wilting", "Yellowish"
+	"Ant", "Blackish", "Bleak", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Ember", "Faint", "Galaxy", "Goldfinch", "Grasshopper", "Hive", "Hollow", "Loach", "Murk", "Murky", "Salamander", "Shade", "Shaded", "Shadow", "Silowhette", "Swarm", "Tadpole", "Talon", "Thunder", "Warm", "Wasp", "Wilting", "Yellowish"
 	],
 	
 	"BrightLime": [
-	"Acid", "Algae", "Apple", "Aurora", "Avocado", "Beech", "Bright", "Bud", "Budding", "Budgie", "Bug", "Bunting", "Bush", "Caterpillar", "Celery", "Chartreuse", "Chrysalis", "Citrus", "Coral", "Creeper", "Dragonfly", "Ficus", "Fruit", "Fruity", "Gecko", "Ginkgo", "Grape", "Grass", "Grasshopper", "Grassy", "Greenish", "Growing", "Guppy", "Hummingbird", "Ivy", "Kiwi", "Kudzu", "Leaf", "Leafy", "Leek", "Lime", "Lizard", "Lush", "Moss", "Mossy", "Neon", "Nephrite", "New", "Parakeet", "Parrot", "Peridot", "Plant", "Pothos", "Sap", "Sapling", "Sedge", "Sprout", "Sundew", "Tomato", "Vibrant", "Vine", "Vivid", "Zucchini", "Lichen", "Bamboo"
+	"Acid", "Algae", "Apple", "Aurora", "Avocado", "Bamboo", "Beech", "Bright", "Bud", "Budding", "Budgie", "Bug", "Bunting", "Bush", "Caterpillar", "Celery", "Chartreuse", "Chrysalis", "Citrus", "Coral", "Creeper", "Dragonfly", "Ficus", "Fruit", "Fruity", "Gecko", "Ginkgo", "Glade", "Glowing", "Grape", "Grass", "Grasshopper", "Grassy", "Greenish", "Growing", "Guppy", "Hedge", "Herb", "Hill", "Hummingbird", "Inchworm", "Ivy", "Jungle", "Kiwi", "Knoll", "Kudzu", "Leaf", "Leafy", "Leek", "Lichen", "Lime", "Lizard", "Lush", "Marsh", "Moss", "Mossy", "Neon", "Nephrite", "New", "Parakeet", "Parrot", "Peridot", "Plant", "Pothos", "Privet", "Sap", "Sapling", "Sedge", "Shrub", "Spice", "Sprout", "Sundew", "Tomato", "Tourmaline", "Vibrant", "Vine", "Vivid", "Zucchini", "Aphid", "Pistachio"
 	],
 	"PaleLime": [
-	"Avocado", "Bug", "Bush", "Chrysalis", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Grass", "Grasshopper", "Grassy", "Greenish", "Iridescent", "Leaf", "Leafy", "Leek", "Light", "Lime", "Luna", "Mirage", "Moth", "Nephrite", "New", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peridot", "Plant", "Prism", "Reflection", "Sapling", "Sedge", "Shell", "Soft", "Sparkling", "Sprout", "Vine", "Willow", "Zucchini"
+	"Avocado", "Bug", "Bush", "Chrysalis", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glade", "Glass", "Glowing", "Grass", "Grasshopper", "Grassy", "Greenish", "Herb", "Iridescent", "Leaf", "Leafy", "Leek", "Light", "Lime", "Luna", "Mirage", "Moth", "Needle", "Nephrite", "New", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peridot", "Plant", "Prism", "Reflection", "Sapling", "Sedge", "Seed", "Shell", "Soft", "Sparkling", "Sprout", "Stem", "Vine", "Willow", "Zucchini", "Aphid"
 	],
 	"DuskyLime": [
-	"Algae", "Bleak", "Bud", "Budding", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Creeper", "Fern", "Fruit", "Fruity", "Grape", "Grass", "Grasshopper", "Grassy", "Greenish", "Growing", "Hazel", "Ivy", "Kakapo", "Kelp", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lime", "Lush", "Moss", "Mossy", "Nephrite", "Olive", "Pear", "Peridot", "Plant", "Pothos", "Sap", "Sapling", "Scarab", "Sedge", "Shaded", "Sprout", "Swamp", "Vine", "Wilting", "Zucchini", "Lichen", "Bamboo"
+	"Algae", "Bamboo", "Bleak", "Bog", "Bud", "Budding", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Conifer", "Creeper", "Fern", "Fir", "Fruit", "Fruity", "Grape", "Grass", "Grasshopper", "Grassy", "Greenish", "Grove", "Growing", "Hazel", "Hedge", "Herb", "Hill", "Ivy", "Jungle", "Kakapo", "Kea", "Kelp", "Knoll", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lichen", "Lime", "Lush", "Moss", "Mossy", "Needle", "Nephrite", "Olive", "Pear", "Peridot", "Plant", "Pothos", "Sap", "Sapling", "Scarab", "Sedge", "Serpent", "Shaded", "Shrub", "Spice", "Sprout", "Swamp", "Vine", "Wilting", "Zucchini", "Pistachio", "Perch"
 	],
 	"DrabLime": [
-	"Bug", "Bush", "Cactus", "Cantalope", "Chrysalis", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Grass", "Grasshopper", "Grassy", "Greenish", "Haze", "Hazel", "Hazy", "Hummingbird", "Laurel", "Leaf", "Leafy", "Leek", "Lime", "Milkweed", "Moss", "Nephrite", "Plant", "Sapling", "Shade", "Shaded", "Sprout", "Swamp", "Tint", "Tinted", "Vine", "Wilting", "Zucchini", "Carp"
+	"Bass", "Bog", "Brook", "Brush", "Bug", "Bush", "Cactus", "Cantalope", "Carp", "Chrysalis", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Fir", "Grass", "Grasshopper", "Grassy", "Greenish", "Grove", "Haze", "Hazel", "Hazy", "Herb", "Hummingbird", "Laurel", "Leaf", "Leafy", "Leek", "Lime", "Meadow", "Milkweed", "Moss", "Needle", "Nephrite", "Pike", "Plant", "Sapling", "Serpent", "Shade", "Shaded", "Sprout", "Swamp", "Tint", "Tinted", "Turtle", "Vine", "Wilting", "Zucchini"
 	],
 	"InkyLime": [
 	"Aurora", "Bismuth", "Blackish", "Bug", "Bush", "Cactus", "Chrysalis", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Grass", "Grasshopper", "Grassy", "Greenish", "Hummingbird", "Ink", "Inky", "Iridescent", "Laurel", "Leaf", "Leafy", "Leek", "Lime", "Moss", "Mossy", "Murk", "Murky", "Nephrite", "Oil", "Plant", "Sapling", "Shade", "Shaded", "Space", "Sprout", "Starling", "Urchin", "Vine", "Wilting", "Zucchini"
@@ -235,136 +235,136 @@
 	],
 	
 	"BrightGreen": [
-	"Algae", "Aloe", "Aurora", "Avocado", "Basil", "Bright", "Broccoli", "Budgie", "Bug", "Bunting", "Bush", "Cabbage", "Caterpillar", "Celery", "Chamomile", "Chive", "Chrysalis", "Cicada", "Citrus", "Coral", "Creeper", "Dragonfly", "Emerald", "Fruity", "Gecko", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Guppy", "Hummingbird", "Katydid", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lettuce", "Lizard", "Lush", "Mantis", "Moss", "Mossy", "Neon", "Nephrite", "Parrot", "Pea", "Peacock", "Pepper", "Pine", "Plant", "Pothos", "Quetzal", "Seaweed", "Sedge", "Snake", "Spinach", "Sprout", "Thyme", "Vibrant", "Vine", "Vivid", "Weed", "Yew", "Zucchini", "Bamboo"
+	"Algae", "Aloe", "Aurora", "Avocado", "Bamboo", "Basil", "Bog", "Bright", "Broccoli", "Budgie", "Bug", "Bunting", "Bush", "Cabbage", "Caterpillar", "Celery", "Chamomile", "Chervil", "Chive", "Chrysalis", "Cicada", "Citrus", "Coral", "Creeper", "Dragonfly", "Emerald", "Fruity", "Gecko", "Glade", "Glowing", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Guppy", "Hedge", "Herb", "Hill", "Hummingbird", "Inchworm", "Jungle", "Katydid", "Knoll", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lettuce", "Lizard", "Lush", "Mantis", "Marsh", "Moss", "Mossy", "Neon", "Nephrite", "Parrot", "Parsley", "Pea", "Peacock", "Pepper", "Pine", "Plant", "Pothos", "Privet", "Python", "Quetzal", "Seaweed", "Sedge", "Shrub", "Snake", "Spinach", "Sprout", "Thyme", "Tourmaline", "Tree", "Vibrant", "Vine", "Vivid", "Weed", "Yew", "Zucchini", "Fennel"
 	],
 	"PaleGreen": [
-	"Aloe", "Bug", "Bush", "Cabbage", "Caterpillar", "Chrysalis", "Clover", "Cucumber", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Hummingbird", "Iridescent", "Jade", "Leaf", "Leafy", "Light", "Luna", "Mirage", "Moth", "Nephrite", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Plant", "Prism", "Reflection", "Sage", "Sedge", "Shell", "Soft", "Sparkling", "Sprout", "Vine", "Weed", "Willow", "Zucchini"
+	"Aloe", "Bug", "Bush", "Cabbage", "Caterpillar", "Chrysalis", "Clover", "Cucumber", "Fade", "Faded", "Fading", "Faint", "Frond", "Ghost", "Glade", "Glass", "Glowing", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Herb", "Hummingbird", "Iridescent", "Jade", "Leaf", "Leafy", "Light", "Luna", "Mirage", "Moth", "Needle", "Nephrite", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Plant", "Prism", "Reflection", "Sage", "Sedge", "Seed", "Shell", "Soft", "Sparkling", "Sprout", "Stem", "Tree", "Vine", "Weed", "Willow", "Zucchini", "Cress", "Fennel", "Trout"
 	],
 	"DuskyGreen": [
-	"Agave", "Algae", "Aloe", "Basil", "Bleak", "Broccoli", "Bug", "Bush", "Cabbage", "Cactus", "Caterpillar", "Chamomile", "Chive", "Chrysalis", "Clover", "Creeper", "Cucumber", "Cypress", "Emerald", "Fern", "Frog", "Fruity", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Hummingbird", "Ivy", "Kale", "Katydid", "Kelp", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lettuce", "Lush", "Malachite", "Mistletoe", "Moss", "Mossy", "Nephrite", "Parakeet", "Pea", "Pine", "Plant", "Pothos", "Quetzal", "Scarab", "Seaweed", "Sedge", "Shaded", "Snake", "Spinach", "Sprout", "Swamp", "Verdant", "Vine", "Viridian", "Weed", "Yew", "Zucchini", "Squash", "Holly", "Comfrey", "Bamboo"
+	"Agate", "Agave", "Algae", "Aloe", "Bamboo", "Basil", "Beetle", "Bleak", "Bough", "Bracken", "Broccoli", "Bug", "Bush", "Cabbage", "Cactus", "Caterpillar", "Chamomile", "Chive", "Chrysalis", "Clover", "Comfrey", "Conifer", "Copse", "Creeper", "Cucumber", "Cypress", "Emerald", "Fern", "Fir", "Frog", "Fruity", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Grove", "Hedge", "Herb", "Hill", "Holly", "Hummingbird", "Ivy", "Jungle", "Kale", "Katydid", "Kelp", "Knoll", "Kudzu", "Laurel", "Leaf", "Leafy", "Leek", "Lettuce", "Locust", "Lush", "Malachite", "Mistletoe", "Moss", "Mossy", "Needle", "Nephrite", "Parakeet", "Parsley", "Pea", "Pine", "Plant", "Pod", "Pothos", "Quetzal", "Scarab", "Seaweed", "Sedge", "Serpent", "Shaded", "Shrub", "Snake", "Spinach", "Sprout", "Squash", "Swamp", "Tree", "Verdant", "Vine", "Viridian", "Weed", "Yew", "Zucchini", "Cress"
 	],
 	"DrabGreen": [
-	"Agave", "Aloe", "Bug", "Bush", "Cabbage", "Cactus", "Caterpillar", "Chrysalis", "Cicada", "Clover", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Frog", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Haze", "Hazy", "Hummingbird", "Jade", "Kale", "Leaf", "Leafy", "Moss", "Mullein", "Nephrite", "Pine", "Plant", "Sage", "Shade", "Shaded", "Snake", "Sprout", "Spruce", "Swamp", "Tint", "Tinted", "Vine", "Weed", "Zucchini"
+	"Agave", "Aloe", "Brush", "Bug", "Bush", "Cabbage", "Cactus", "Caterpillar", "Chrysalis", "Cicada", "Clover", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Fir", "Frog", "Frond", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Grove", "Haze", "Hazy", "Herb", "Hummingbird", "Jade", "Juniper", "Kale", "Leaf", "Leafy", "Locust", "Meadow", "Moor", "Moss", "Mullein", "Needle", "Nephrite", "Pine", "Plant", "Sage", "Serpent", "Shade", "Shaded", "Snake", "Sprout", "Spruce", "Swamp", "Tint", "Tinted", "Vine", "Weed", "Zucchini"
 	],
 	"InkyGreen": [
-	"Aurora", "Bismuth", "Blackish", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Hummingbird", "Ink", "Inky", "Iridescent", "Laurel", "Leaf", "Leafy", "Malachite", "Moss", "Mossy", "Murk", "Murky", "Nephrite", "Oil", "Pine", "Plant", "Shade", "Shaded", "Space", "Sprout", "Starling", "Urchin", "Vine", "Zucchini", "Holly"
+	"Aurora", "Bismuth", "Blackish", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Holly", "Hummingbird", "Ink", "Inky", "Iridescent", "Laurel", "Leaf", "Leafy", "Malachite", "Moss", "Mossy", "Murk", "Murky", "Nephrite", "Oil", "Pine", "Plant", "Shade", "Shaded", "Space", "Sprout", "Starling", "Urchin", "Vine", "Zucchini"
 	],
 	"ShadowGreen": [
-	"Blackish", "Bleak", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Faint", "Galaxy", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Hummingbird", "Laurel", "Leaf", "Leafy", "Moss", "Mossy", "Murk", "Murky", "Nephrite", "Pigeon", "Pine", "Plant", "Shade", "Shaded", "Shadow", "Silowhette", "Sprout", "Vine", "Zucchini", "Holly"
+	"Beetle", "Blackish", "Bleak", "Bug", "Bush", "Cactus", "Caterpillar", "Chrysalis", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Duck", "Faint", "Galaxy", "Grass", "Grasshopper", "Grassy", "Green", "Greenish", "Holly", "Hummingbird", "Laurel", "Leaf", "Leafy", "Moss", "Mossy", "Murk", "Murky", "Nephrite", "Pigeon", "Pine", "Plant", "Shade", "Shaded", "Shadow", "Silowhette", "Sprout", "Vine", "Zucchini"
 	],
 	
 	"BrightMint": [
-	"Algae", "Aloe", "Aurora", "Bright", "Bug", "Bunting", "Caterpillar", "Chrysalis", "Cicada", "Coral", "Creeper", "Dragonfly", "Fruity", "Grass", "Grassy", "Greenish", "Guppy", "Hummingbird", "Kudzu", "Leaf", "Leafy", "Lizard", "Mint", "Minty", "Neon", "Nephrite", "Parrot", "Pine", "Pothos", "Sedge", "Spruce", "Vibrant", "Vivid"
+	"Algae", "Aloe", "Aurora", "Bright", "Bug", "Bunting", "Caterpillar", "Chrysalis", "Cicada", "Coral", "Creeper", "Current", "Dragonfly", "Fruity", "Glowing", "Grass", "Grassy", "Greenish", "Guppy", "Hedge", "Herb", "Hummingbird", "Jungle", "Kudzu", "Leaf", "Leafy", "Lizard", "Mint", "Minty", "Neon", "Nephrite", "Parrot", "Pine", "Pothos", "Sedge", "Shrub", "Spruce", "Tourmaline", "Vibrant", "Vivid"
 	],
 	"PaleMint": [
-	"Aloe", "Aquamarine", "Bug", "Chrysalis", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Grass", "Grassy", "Greenish", "Iridescent", "Jade", "Leaf", "Leafy", "Light", "Mint", "Minty", "Mirage", "Moth", "Nephrite", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Prism", "Reflection", "Sage", "Sedge", "Shell", "Soft", "Sparkling", "Willow", "Lichen"
+	"Aloe", "Aquamarine", "Bug", "Chrysalis", "Current", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Glowing", "Grass", "Grassy", "Greenish", "Herb", "Iridescent", "Jade", "Leaf", "Leafy", "Lichen", "Light", "Mint", "Minty", "Mirage", "Moth", "Needle", "Nephrite", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Prism", "Reflection", "Sage", "Sedge", "Shell", "Soft", "Sparkling", "Stem", "Willow"
 	],
 	"DuskyMint": [
-	"Agave", "Algae", "Aloe", "Bleak", "Bug", "Caterpillar", "Cedar", "Chrysalis", "Clover", "Creeper", "Cypress", "Fern", "Ficus", "Fruity", "Grass", "Grassy", "Greenish", "Hemlock", "Ivy", "Kudzu", "Laurel", "Leaf", "Leafy", "Malachite", "Mint", "Minty", "Nephrite", "Pine", "Pothos", "Scarab", "Sedge", "Shaded", "Spruce", "Swamp", "Verdant", "Viridian", "Holly"
+	"Agave", "Algae", "Aloe", "Bleak", "Bug", "Caterpillar", "Cedar", "Chrysalis", "Clover", "Conifer", "Cove", "Creeper", "Current", "Cypress", "Fern", "Ficus", "Fir", "Fruity", "Grass", "Grassy", "Greenish", "Grove", "Hedge", "Hemlock", "Herb", "Holly", "Ivy", "Jungle", "Kudzu", "Laurel", "Leaf", "Leafy", "Malachite", "Mint", "Minty", "Needle", "Nephrite", "Pine", "Pothos", "Scarab", "Sedge", "Serpent", "Shaded", "Shrub", "Spruce", "Swamp", "Verdant", "Viridian"
 	],
 	"DrabMint": [
-	"Agave", "Aloe", "Bug", "Chrysalis", "Cicada", "Clover", "Copper", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Grass", "Grassy", "Greenish", "Haze", "Hazy", "Jade", "Laurel", "Leaf", "Leafy", "Mint", "Minty", "Mullein", "Nephrite", "Pine", "Sage", "Shade", "Shaded", "Spruce", "Swamp", "Tint", "Tinted"
+	"Agave", "Aloe", "Alpine", "Bug", "Chrysalis", "Cicada", "Clover", "Copper", "Dim", "Drab", "Dull", "Fade", "Faint", "Fern", "Fir", "Grass", "Grassy", "Greenish", "Grove", "Haze", "Hazy", "Herb", "Jade", "Juniper", "Laurel", "Leaf", "Leafy", "Mint", "Minty", "Mullein", "Needle", "Nephrite", "Pine", "Sage", "Serpent", "Shade", "Shaded", "Spruce", "Swamp", "Tint", "Tinted"
 	],
 	"InkyMint": [
-	"Aurora", "Bismuth", "Blackish", "Bug", "Chrysalis", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Grass", "Grassy", "Greenish", "Ink", "Inky", "Iridescent", "Leaf", "Leafy", "Malachite", "Mint", "Minty", "Murk", "Murky", "Nephrite", "Oil", "Pine", "Shade", "Shaded", "Space", "Starling", "Urchin", "Holly"
+	"Anhinga", "Aurora", "Bismuth", "Blackish", "Bug", "Chrysalis", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Grass", "Grassy", "Greenish", "Holly", "Ink", "Inky", "Iridescent", "Leaf", "Leafy", "Malachite", "Mint", "Minty", "Murk", "Murky", "Nephrite", "Oil", "Pine", "Pthalo", "Shade", "Shaded", "Space", "Starling", "Urchin"
 	],
 	"ShadowMint": [
-	"Blackish", "Bleak", "Bug", "Chrysalis", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Faint", "Galaxy", "Grass", "Grassy", "Greenish", "Leaf", "Leafy", "Mint", "Minty", "Murk", "Murky", "Nephrite", "Pine", "Shade", "Shaded", "Shadow", "Silowhette", "Holly"
+	"Blackish", "Bleak", "Bug", "Chrysalis", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Duck", "Faint", "Galaxy", "Grass", "Grassy", "Greenish", "Holly", "Leaf", "Leafy", "Mint", "Minty", "Murk", "Murky", "Nephrite", "Pine", "Pthalo", "Shade", "Shaded", "Shadow", "Silowhette"
 	],
 	
 	"BrightCyan": [
-	"Aqua", "Aurora", "Bright", "Budgie", "Bunting", "Caterpillar", "Celeste", "Chill", "Chrysalis", "Cicada", "Cool", "Coral", "Cyan", "Dragonfly", "Droplet", "Frozen", "Fruity", "Glacial", "Glacier", "Guppy", "Horizon", "Hummingbird", "Icicle", "Icy", "Lagoon", "Lake", "Larimar", "Lizard", "Macaw", "Morning", "Neon", "Ocean", "Parakeet", "Parrot", "Pine", "Pond", "Pool", "Sea", "Sky", "Stream", "Turquoise", "Vibrant", "Vivid", "Water", "Wave", "Waves", "Lichen", "Cold"
+	"Aqua", "Aurora", "Betta", "Bright", "Budgie", "Bunting", "Caterpillar", "Celeste", "Chill", "Chrysalis", "Cicada", "Cold", "Cool", "Coral", "Current", "Cyan", "Dragonfly", "Droplet", "Frozen", "Fruity", "Glacial", "Glacier", "Glowing", "Guppy", "Horizon", "Hummingbird", "Icicle", "Icy", "Kingfisher", "Lagoon", "Lake", "Larimar", "Lichen", "Lizard", "Macaw", "Marine", "Morning", "Neon", "Ocean", "Parakeet", "Parrot", "Pine", "Pond", "Pool", "Sea", "Sky", "Stream", "Tourmaline", "Tsunami", "Turquoise", "Vibrant", "Vivid", "Water", "Wave", "Waves"
 	],
 	"PaleCyan": [
-	"Air", "Aqua", "Aquamarine", "Beach", "Bubble", "Bubbling", "Celeste", "Chill", "Chill", "Chrysalis", "Cool", "Creek", "Cyan", "Dew", "Dewy", "Drop", "Droplet", "Fade", "Faded", "Fading", "Faint", "Freeze", "Frost", "Frozen", "Ghost", "Glacial", "Glacier", "Glass", "Horizon", "Ice", "Icicle", "Icy", "Iridescent", "Lake", "Light", "Mirage", "Morning", "Moth", "Ocean", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Pond", "Pool", "Prism", "Puddle", "Rain", "Reflection", "River", "Sea", "Shell", "Sky", "Snow", "Soft", "Sparkling", "Stream", "Water", "Wave", "Waves", "Wet", "Lichen", "Cold"
+	"Air", "Aqua", "Aquamarine", "Beach", "Bubble", "Bubbling", "Celeste", "Chill", "Chrysalis", "Cold", "Cool", "Creek", "Current", "Cyan", "Dew", "Dewy", "Drop", "Droplet", "Fade", "Faded", "Fading", "Faint", "Freeze", "Frost", "Frozen", "Ghost", "Glacial", "Glacier", "Glass", "Glowing", "Horizon", "Ice", "Icicle", "Icy", "Iridescent", "Lake", "Lichen", "Light", "Mirage", "Morning", "Moth", "Needle", "Ocean", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Pine", "Pond", "Pool", "Prism", "Puddle", "Rain", "Reflection", "Ripple", "River", "Sea", "Shell", "Sky", "Snow", "Soft", "Sparkling", "Stellar", "Stream", "Tsunami", "Water", "Wave", "Waves", "Wet"
 	],
 	"DuskyCyan": [
-	"Agave", "Aqua", "Beach", "Bleak", "Caterpillar", "Chill", "Chrysalis", "Comet", "Cool", "Creek", "Cyan", "Drop", "Fruity", "Lagoon", "Lake", "Ocean", "Pine", "Pond", "Pool", "Puddle", "Rain", "River", "Scarab", "Sea", "Shaded", "Sky", "Spruce", "Stream", "Teal", "Water", "Wave", "Wet", "Lichen", "Cold"
+	"Agave", "Aqua", "Beach", "Bleak", "Caterpillar", "Chill", "Chrysalis", "Cold", "Comet", "Conifer", "Cool", "Cove", "Creek", "Current", "Cyan", "Drop", "Fir", "Flood", "Fruity", "Gorge", "Kingfisher", "Lagoon", "Lake", "Lichen", "Marsh", "Needle", "Ocean", "Pine", "Pond", "Pool", "Puddle", "Rain", "River", "Scarab", "Sea", "Shaded", "Sky", "Spruce", "Stream", "Teal", "Tsunami", "Water", "Wave", "Wet", "Bay"
 	],
 	"DrabCyan": [
-	"Agave", "Beach", "Chill", "Chrysalis", "Cool", "Cyan", "Damp", "Dim", "Drab", "Drop", "Dull", "Fade", "Faint", "Haze", "Hazy", "Lake", "Ocean", "Pine", "Pond", "Pool", "Puddle", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Spruce", "Stream", "Teal", "Tint", "Tinted", "Water", "Wet", "Cold"
+	"Agave", "Beach", "Chill", "Chrysalis", "Cold", "Cool", "Cyan", "Damp", "Dim", "Drab", "Drop", "Dull", "Fade", "Faint", "Fin", "Fir", "Fish", "Flood", "Gill", "Haze", "Hazy", "Juniper", "Kingfisher", "Lake", "Needle", "Ocean", "Pine", "Pond", "Pool", "Puddle", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Spruce", "Stream", "Teal", "Tint", "Tinted", "Tsunami", "Water", "Wet"
 	],
 	"InkyCyan": [
-	"Aurora", "Blackish", "Chill", "Chrysalis", "Cool", "Cyan", "Damp", "Dark", "Darkness", "Deep", "Galaxy", "Ink", "Iridescent", "Lake", "Murk", "Murky", "Ocean", "Oil", "Pine", "Pool", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Space", "Swiftlet", "Urchin", "Water", "Wet", "Cold"
+	"Anhinga", "Aurora", "Blackish", "Chill", "Chrysalis", "Cold", "Cool", "Cormorant", "Cyan", "Damp", "Dark", "Darkness", "Deep", "Galaxy", "Ink", "Iridescent", "Lake", "Murk", "Murky", "Ocean", "Oil", "Pine", "Pool", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Space", "Swiftlet", "Tsunami", "Urchin", "Water", "Wet"
 	],
 	"ShadowCyan": [
-	"Blackish", "Bleak", "Chill", "Chrysalis", "Cool", "Corvid", "Cyan", "Damp", "Dark", "Darkness", "Deep", "Dim", "Faint", "Galaxy", "Lake", "Murk", "Murky", "Ocean", "Pine", "Pool", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Swiftlet", "Water", "Wet", "Cold"
+	"Blackish", "Bleak", "Chill", "Chrysalis", "Cold", "Cool", "Corvid", "Cyan", "Damp", "Dark", "Darkness", "Deep", "Dim", "Faint", "Flood", "Galaxy", "Lake", "Murk", "Murky", "Ocean", "Pine", "Pool", "Rain", "Rainswept", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Swiftlet", "Tsunami", "Water", "Wet"
 	],
 	
 	"BrightBlue": [
-	"Allium", "Azure", "Begonia", "Bloom", "Blooming", "Blue", "Bluebell", "Bluet", "Bower", "Bright", "Bromeliad", "Budgie", "Bunting", "Caterpillar", "Cerulean", "Chill", "Cobalt", "Cool", "Coral", "Cornflower", "Day", "Dragonfly", "Droplet", "Fruity", "Guppy", "Hibiscus", "Horizon", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Jay", "Lagoon", "Lake", "Lapis", "Lazuli", "Lobelia", "Lobster", "Lupine", "Macaw", "Martin", "Morning", "Morpho", "Neon", "Neptune", "Ocean", "Orchid", "Parrot", "Peacock", "Petal", "Petunia", "Phlox", "Pond", "Pool", "Primrose", "Rosemary", "Sage", "Salamander", "Sapphire", "Sea", "Sky", "Stream", "Tanager", "Thistle", "Verbena", "Vibrant", "Vivid", "Water", "Wave", "Waves", "Wet", "Wisteria", "Flax", "Comfrey", "Cold"
+	"Allium", "Azure", "Begonia", "Betta", "Bloom", "Blooming", "Blue", "Bluebell", "Bluet", "Bower", "Bright", "Bromeliad", "Budgie", "Bunting", "Caterpillar", "Cerulean", "Chill", "Cobalt", "Cold", "Comfrey", "Cool", "Coral", "Cornflower", "Cosmos", "Current", "Day", "Dragonfly", "Droplet", "Flax", "Flower", "Flowering", "Fruity", "Glowing", "Guppy", "Hibiscus", "Hollyhock", "Horizon", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Jay", "Lagoon", "Lake", "Lapis", "Larkspur", "Lazuli", "Lobelia", "Lobster", "Lupine", "Macaw", "Marine", "Martin", "Morning", "Morpho", "Neon", "Neptune", "Ocean", "Orchid", "Parrot", "Peacock", "Petal", "Petunia", "Phlox", "Pond", "Pool", "Primrose", "Rosemary", "Sage", "Salamander", "Sapphire", "Sea", "Skink", "Sky", "Stream", "Tanager", "Thistle", "Tourmaline", "Tsunami", "Verbena", "Vibrant", "Vivid", "Water", "Wave", "Waves", "Wet", "Wisteria"
 	],
 	"PaleBlue": [
-	"Air", "Allium", "Beach", "Blizzard", "Bloom", "Blooming", "Blue", "Bluebell", "Bluet", "Bubble", "Bubbling", "Celestite", "Chill", "Cool", "Creek", "Day", "Dew", "Dewy", "Drop", "Droplet", "Fade", "Faded", "Fading", "Faint", "Freeze", "Frigid", "Frost", "Frosted", "Frosty", "Frozen", "Ghost", "Glacial", "Glacier", "Glass", "Hail", "Horizon", "Hyacinth", "Hydrangea", "Ice", "Icicle", "Icy", "Iridescent", "Iris", "Lake", "Light", "Lightning", "Mirage", "Morning", "Moth", "Ocean", "Opal", "Pale", "Palest", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Periwinkle", "Petal", "Petunia", "Phlox", "Pond", "Pool", "Primrose", "Prism", "Puddle", "Rain", "Rainy", "Reflection", "River", "Rosemary", "Salamander", "Sea", "Shell", "Sky", "Snow", "Snowy", "Soft", "Sparkling", "Stream", "Verbena", "Water", "Wave", "Waves", "Wet", "Wisteria", "Flax", "Cold"
+	"Agate", "Air", "Allium", "Beach", "Billow", "Blizzard", "Bloom", "Blooming", "Blue", "Bluebell", "Bluet", "Brook", "Bubble", "Bubbling", "Celestial", "Celestite", "Chill", "Cliff", "Cold", "Cool", "Creek", "Current", "Day", "Dew", "Dewy", "Drop", "Droplet", "Fade", "Faded", "Fading", "Faint", "Flash", "Flax", "Flower", "Flowering", "Freeze", "Frigid", "Frost", "Frosted", "Frosty", "Frozen", "Ghost", "Glacial", "Glacier", "Glass", "Glowing", "Hail", "Horizon", "Hyacinth", "Hydrangea", "Ice", "Icicle", "Icy", "Iridescent", "Iris", "Lake", "Larkspur", "Light", "Lightning", "Mirage", "Morning", "Moth", "Ocean", "Opal", "Pale", "Palest", "Pastel", "Peak", "Pearl", "Pearled", "Pearlescent", "Pearly", "Periwinkle", "Petal", "Petunia", "Phlox", "Pond", "Pool", "Primrose", "Prism", "Puddle", "Rain", "Rainy", "Reflection", "Ripple", "River", "Rosemary", "Salamander", "Sea", "Shell", "Sky", "Snow", "Snowy", "Soft", "Sparkling", "Stream", "Sunrise", "Trickle", "Tsunami", "Verbena", "Water", "Wave", "Waves", "Wet", "Wisteria"
 	],
 	"DuskyBlue": [
-	"Beach", "Berry", "Bleak", "Bloom", "Blooming", "Blue", "Blueberry", "Bower", "Caterpillar", "Chill", "Comet", "Cool", "Creek", "Drop", "Fruity", "Hyacinth", "Iris", "Jay", "Lagoon", "Lake", "Lapis", "Lazuli", "Lupine", "Neptune", "Ocean", "Oceanic", "Petal", "Petunia", "Pond", "Pool", "Primrose", "Puddle", "Rain", "River", "Salamander", "Sapphire", "Scarab", "Sea", "Shaded", "Sky", "Sloe", "Stream", "Teasel", "Thistle", "Warbler", "Water", "Wave", "Waves", "Wet", "Dusky", "Comfrey", "Cold"
+	"Beach", "Berry", "Bleak", "Bloom", "Blooming", "Blue", "Blueberry", "Borage", "Bower", "Caterpillar", "Chill", "Cold", "Comet", "Comfrey", "Cool", "Cove", "Creek", "Current", "Drop", "Dusky", "Flood", "Flower", "Flowering", "Fruity", "Gorge", "Hyacinth", "Iris", "Jay", "Lagoon", "Lake", "Lapis", "Larkspur", "Lazuli", "Lupine", "Neptune", "Ocean", "Oceanic", "Petal", "Petunia", "Pond", "Pool", "Primrose", "Puddle", "Rain", "River", "Salamander", "Sapphire", "Scarab", "Sea", "Shaded", "Sky", "Sloe", "Stream", "Teasel", "Thistle", "Tsunami", "Warbler", "Water", "Wave", "Waves", "Wet"
 	],
 	"DrabBlue": [
-	"Beach", "Blue", "Chill", "Comet", "Cool", "Damp", "Dim", "Drab", "Drop", "Dull", "Dusk", "Fade", "Faint", "Glacial", "Glacier", "Haze", "Hazy", "Heron", "Hyacinth", "Jay", "Lake", "Ocean", "Pond", "Pool", "Puddle", "Rain", "Rainswept", "Rainy", "Salamander", "Sea", "Shade", "Shaded", "Sky", "Stream", "Teasel", "Tint", "Tinted", "Water", "Wet", "Dusky", "Cold"
+	"Agate", "Beach", "Billow", "Blue", "Brook", "Chill", "Cold", "Comet", "Cool", "Damp", "Dim", "Drab", "Drop", "Dull", "Dusk", "Dusky", "Fade", "Faint", "Fin", "Fish", "Flood", "Gill", "Glacial", "Glacier", "Haze", "Hazy", "Heron", "Hyacinth", "Jay", "Juniper", "Kestrel", "Lake", "Ocean", "Pond", "Pool", "Puddle", "Rain", "Rainswept", "Rainy", "Rindle", "Rivulet", "Runnel", "Salamander", "Sea", "Shade", "Shaded", "Sky", "Stream", "Teasel", "Tint", "Tinted", "Tsunami", "Water", "Wet"
 	],
 	"InkyBlue": [
-	"Berry", "Bismuth", "Blackish", "Blue", "Blueberry", "Chill", "Cool", "Damp", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Jay", "Lake", "Magpie", "Murk", "Murky", "Nebula", "Night", "Ocean", "Oceanic", "Oil", "Pool", "Rain", "Rainswept", "Salamander", "Sea", "Shade", "Shaded", "Sky", "Space", "Starling", "Swallow", "Swiftlet", "Urchin", "Wasp", "Water", "Wet", "Cold"
+	"Berry", "Bismuth", "Blackish", "Blue", "Blueberry", "Chill", "Cold", "Cool", "Damp", "Dark", "Darkness", "Deep", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Jay", "Lake", "Magpie", "Murk", "Murky", "Nebula", "Night", "Ocean", "Oceanic", "Oil", "Pool", "Rain", "Rainswept", "Salamander", "Sea", "Shade", "Shaded", "Sky", "Space", "Starling", "Swallow", "Swiftlet", "Tsunami", "Urchin", "Wasp", "Water", "Wet"
 	],
 	"ShadowBlue": [
-	"Axolotl", "Berry", "Blackish", "Bleak", "Blue", "Chill", "Cool", "Corvid", "Damp", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Faint", "Galaxy", "Jay", "Lake", "Murk", "Murky", "Night", "Ocean", "Pool", "Rain", "Rainswept", "Rainy", "Salamander", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Slate", "Slaty", "Storm", "Stormy", "Swiftlet", "Water", "Wet", "Dusky", "Cold"
+	"Axolotl", "Berry", "Blackish", "Bleak", "Blue", "Chill", "Cold", "Cool", "Corvid", "Damp", "Dark", "Darkness", "Deep", "Dim", "Duck", "Dusk", "Dusky", "Faint", "Flood", "Galaxy", "Jay", "Lake", "Murk", "Murky", "Night", "Ocean", "Pool", "Rain", "Rainswept", "Rainy", "Salamander", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Slate", "Slaty", "Storm", "Stormy", "Swiftlet", "Tsunami", "Water", "Wet"
 	],
 	
 	"BrightIndigo": [
-	"Allium", "Aurora", "Betony", "Bloom", "Blooming", "Bluebell", "Bright", "Bromeliad", "Budgie", "Bunting", "Caterpillar", "Chill", "Cool", "Coral", "Cornflower", "Crocus", "Dragonfly", "Eve", "Evening", "Fruity", "Guppy", "Heather", "Hibiscus", "Hummingbird", "Hyacinth", "Hydrangea", "Indigo", "Iris", "Lilac", "Lobelia", "Lupine", "Martin", "Myrtle", "Neon", "Ocean", "Orchid", "Pansy", "Parrot", "Pea", "Petal", "Petunia", "Phlox", "Primrose", "Rosemary", "Sage", "Salvia", "Sea", "Sky", "Snapdragon", "Thistle", "Verbena", "Vibrant", "Violet", "Vivid", "Water", "Wisteria", "Foxglove", "Chrysanthemum", "Flax", "Comfrey", "Cold"
+	"Allium", "Aurora", "Betony", "Betta", "Bloom", "Blooming", "Bluebell", "Bright", "Bromeliad", "Budgie", "Bunting", "Caterpillar", "Chill", "Chrysanthemum", "Cold", "Comfrey", "Cool", "Coral", "Cornflower", "Cosmos", "Crocus", "Current", "Dittany", "Dragonfly", "Eve", "Evening", "Flax", "Flower", "Flowering", "Foxglove", "Fruity", "Glowing", "Guppy", "Heath", "Heather", "Hibiscus", "Hollyhock", "Hummingbird", "Hyacinth", "Hydrangea", "Indigo", "Iris", "Larkspur", "Lilac", "Lobelia", "Lupine", "Marine", "Martin", "Myrtle", "Neon", "Ocean", "Orchid", "Pansy", "Parrot", "Pea", "Petal", "Petunia", "Phlox", "Primrose", "Rosemary", "Sage", "Salvia", "Sea", "Sky", "Snapdragon", "Thistle", "Tourmaline", "Tsunami", "Twilight", "Verbena", "Vibrant", "Violet", "Vivid", "Water", "Wisteria"
 	],
 	"PaleIndigo": [
-	"Air", "Allium", "Basil", "Betony", "Bloom", "Blooming", "Blossom", "Bluebell", "Bluet", "Chill", "Cool", "Crocus", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Heather", "Hyacinth", "Hydrangea", "Indigo", "Iridescent", "Iris", "Jacaranda", "Lavender", "Light", "Lilac", "Mirage", "Moth", "Myrtle", "Ocean", "Opal", "Pale", "Palest", "Pansy", "Parakeet", "Pastel", "Patchouli", "Pearl", "Pearled", "Pearlescent", "Pearly", "Periwinkle", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Reflection", "Rosemary", "Saffron", "Sea", "Shell", "Sky", "Snapdragon", "Soft", "Sparkling", "Verbena", "Vervain", "Violet", "Water", "Wet", "Wisteria", "Foxglove", "Chrysanthemum", "Flax", "Cold"
+	"Air", "Allium", "Basil", "Betony", "Bloom", "Blooming", "Blossom", "Bluebell", "Bluet", "Chill", "Chrysanthemum", "Cold", "Cool", "Crocus", "Current", "Dittany", "Fade", "Faded", "Fading", "Faint", "Flax", "Flower", "Flowering", "Foxglove", "Ghost", "Glass", "Glowing", "Heath", "Heather", "Hollyhock", "Hyacinth", "Hydrangea", "Indigo", "Iridescent", "Iris", "Jacaranda", "Larkspur", "Lavender", "Light", "Lilac", "Mirage", "Moth", "Myrtle", "Ocean", "Opal", "Oregano", "Pale", "Palest", "Pansy", "Parakeet", "Pastel", "Patchouli", "Pearl", "Pearled", "Pearlescent", "Pearly", "Periwinkle", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Reflection", "Ripple", "Rosemary", "Saffron", "Sea", "Shell", "Sky", "Snapdragon", "Soft", "Sparkling", "Tsunami", "Verbena", "Vervain", "Violet", "Water", "Wet", "Wisteria"
 	],
 	"DuskyIndigo": [
-	"Berry", "Bleak", "Bloom", "Blooming", "Caterpillar", "Chill", "Comet", "Cool", "Eve", "Evening", "Fruity", "Garlic", "Grape", "Heather", "Hyacinth", "Indigo", "Iris", "Kudzu", "Lazuli", "Lilac", "Lupine", "Nightshade", "Ocean", "Pansy", "Petal", "Petunia", "Plum", "Primrose", "Scarab", "Sea", "Shaded", "Sky", "Sloe", "Teasel", "Thistle", "Violet", "Water", "Wet", "Foxglove", "Chrysanthemum", "Dusky", "Comfrey", "Cold"
+	"Berry", "Bleak", "Bloom", "Blooming", "Borage", "Caterpillar", "Chill", "Chrysanthemum", "Cold", "Comet", "Comfrey", "Cool", "Current", "Dusky", "Eve", "Evening", "Flood", "Flower", "Flowering", "Foxglove", "Fruity", "Garlic", "Grape", "Heather", "Hollyhock", "Hyacinth", "Indigo", "Iris", "Kudzu", "Larkspur", "Lazuli", "Lilac", "Lupine", "Nightshade", "Ocean", "Pansy", "Petal", "Petunia", "Plum", "Primrose", "Scarab", "Sea", "Shaded", "Sky", "Sloe", "Strelitzia", "Teasel", "Thistle", "Tsunami", "Twilight", "Violet", "Water", "Wet"
 	],
 	"DrabIndigo": [
-	"Berry", "Chill", "Comet", "Cool", "Damp", "Dawn", "Dim", "Drab", "Dull", "Dusk", "Eve", "Evening", "Fade", "Faint", "Haze", "Hazy", "Heather", "Hyacinth", "Indigo", "Lilac", "Ocean", "Pansy", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Teasel", "Tint", "Tinted", "Violet", "Water", "Wet", "Dusky", "Cold"
+	"Berry", "Chill", "Cold", "Comet", "Cool", "Damp", "Dawn", "Dim", "Drab", "Dull", "Dusk", "Dusky", "Eve", "Evening", "Fade", "Faint", "Flood", "Haze", "Hazy", "Heather", "Hyacinth", "Indigo", "Lilac", "Ocean", "Pansy", "Rainswept", "Sea", "Shade", "Shaded", "Sky", "Teasel", "Tint", "Tinted", "Tsunami", "Twilight", "Violet", "Water", "Wet"
 	],
 	"InkyIndigo": [
-	"Aurora", "Berry", "Bismuth", "Blackish", "Chill", "Cool", "Dark", "Darkness", "Deep", "Eve", "Evening", "Galaxy", "Grackle", "Indigo", "Ink", "Inky", "Iridescent", "Martin", "Murk", "Murky", "Nebula", "Night", "Nightshade", "Ocean", "Oil", "Sea", "Shade", "Shaded", "Sky", "Space", "Starling", "Swiftlet", "Urchin", "Violet", "Wasp", "Water", "Wet", "Cold"
+	"Aurora", "Berry", "Bismuth", "Blackish", "Chill", "Cold", "Cool", "Dark", "Darkness", "Deep", "Eve", "Evening", "Galaxy", "Grackle", "Indigo", "Ink", "Inky", "Iridescent", "Martin", "Murk", "Murky", "Nebula", "Night", "Nightshade", "Ocean", "Oil", "Sea", "Shade", "Shaded", "Sky", "Space", "Starling", "Swiftlet", "Tsunami", "Urchin", "Violet", "Wasp", "Water", "Wet"
 	],
 	"ShadowIndigo": [
-	"Berry", "Blackish", "Bleak", "Chill", "Cool", "Corvid", "Damp", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Eve", "Evening", "Faint", "Galaxy", "Indigo", "Murk", "Murky", "Night", "Ocean", "Oil", "Rainswept", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Swiftlet", "Violet", "Water", "Wet", "Dusky", "Cold"
+	"Berry", "Blackish", "Bleak", "Chill", "Cold", "Cool", "Corvid", "Damp", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Dusky", "Eve", "Evening", "Faint", "Flood", "Galaxy", "Indigo", "Murk", "Murky", "Night", "Ocean", "Oil", "Rainswept", "Sea", "Shade", "Shaded", "Shadow", "Silowhette", "Sky", "Swiftlet", "Tsunami", "Violet", "Water", "Wet"
 	],
 	
 	"BrightPurple": [
-	"Allium", "Amethyst", "Amethystine", "Aurora", "Azalea", "Betony", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Caterpillar", "Coral", "Crocus", "Dawn", "Dragonfly", "Eve", "Evening", "Fruit", "Fruity", "Guppy", "Heather", "Hibiscus", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Laurel", "Lilac", "Lily", "Lobelia", "Lupine", "Mallow", "Myrtle", "Neon", "Orchid", "Pansy", "Parrot", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Purple", "Purplish", "Rose", "Rosemary", "Rosette", "Sage", "Snapdragon", "Sunset", "Thistle", "Thyme", "Verbena", "Vibrant", "Violet", "Vivid", "Wisteria", "Yarrow", "Zinnia", "Foxglove", "Carnation", "Liana", "Chrysanthemum", "Valerian", "Comfrey"
+	"Allium", "Amethyst", "Amethystine", "Aurora", "Azalea", "Betony", "Betta", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Carnation", "Caterpillar", "Chrysanthemum", "Comfrey", "Coral", "Crocus", "Dawn", "Dittany", "Dragonfly", "Eve", "Evening", "Flower", "Flowering", "Foxglove", "Fruit", "Fruity", "Glowing", "Guppy", "Heath", "Heather", "Hibiscus", "Hollyhock", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Larkspur", "Laurel", "Liana", "Lilac", "Lily", "Lobelia", "Lupine", "Mallow", "Myrtle", "Neon", "Orchid", "Pansy", "Parrot", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Purple", "Purplish", "Rose", "Rosemary", "Rosette", "Sage", "Snapdragon", "Sunset", "Thistle", "Thyme", "Tourmaline", "Twilight", "Valerian", "Verbena", "Vibrant", "Violet", "Vivid", "Wisteria", "Yarrow", "Zinnia"
 	],
 	"PalePurple": [
-	"Allium", "Amethyst", "Amethystine", "Azalea", "Betony", "Bloom", "Blooming", "Blossom", "Crocus", "Dahlia", "Fade", "Faded", "Fading", "Faint", "Ghost", "Glass", "Heather", "Hibiscus", "Hyacinth", "Hydrangea", "Iridescent", "Iris", "Jacaranda", "Laurel", "Lavender", "Lepidolite", "Light", "Lilac", "Lily", "Mallow", "Mirage", "Moth", "Myrtle", "Opal", "Pale", "Palest", "Pansy", "Pastel", "Patchouli", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Purple", "Purplish", "Reflection", "Rose", "Rosemary", "Rosette", "Shell", "Snapdragon", "Soft", "Sparkling", "Sunset", "Verbena", "Vervain", "Violet", "Wisteria", "Yarrow", "Zinnia", "Foxglove", "Carnation", "Liana", "Chrysanthemum", "Valerian"
+	"Allium", "Amethyst", "Amethystine", "Azalea", "Betony", "Bloom", "Blooming", "Blossom", "Carnation", "Chrysanthemum", "Crocus", "Dahlia", "Dittany", "Fade", "Faded", "Fading", "Faint", "Flower", "Flowering", "Foxglove", "Ghost", "Glass", "Glowing", "Heath", "Heather", "Hibiscus", "Hollyhock", "Hyacinth", "Hydrangea", "Iridescent", "Iris", "Jacaranda", "Larkspur", "Laurel", "Lavender", "Lepidolite", "Liana", "Light", "Lilac", "Lily", "Mallow", "Mirage", "Moth", "Myrtle", "Nettle", "Opal", "Oregano", "Pale", "Palest", "Pansy", "Pastel", "Patchouli", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Purple", "Purplish", "Reflection", "Rose", "Rosemary", "Rosette", "Shell", "Snapdragon", "Soft", "Sparkling", "Sunset", "Valerian", "Verbena", "Vervain", "Violet", "Wisteria", "Yarrow", "Zinnia"
 	],
 	"DuskyPurple": [
-	"Amethyst", "Amethystine", "Berry", "Bleak", "Bloom", "Blooming", "Caterpillar", "Crocus", "Dahlia", "Eggplant", "Eve", "Evening", "Fruit", "Fruity", "Garlic", "Grape", "Heather", "Hyacinth", "Iris", "Kudzu", "Lepidolite", "Lilac", "Lily", "Lupine", "Pansy", "Petal", "Petunia", "Plum", "Primrose", "Purple", "Purplish", "Shaded", "Sunset", "Teasel", "Thistle", "Violet", "Zinnia", "Foxglove", "Liana", "Chrysanthemum", "Valerian", "Dusky", "Comfrey", "Fig"
+	"Amethyst", "Amethystine", "Berry", "Bleak", "Bloom", "Blooming", "Borage", "Caterpillar", "Chrysanthemum", "Comfrey", "Crocus", "Dahlia", "Dusky", "Eggplant", "Eve", "Evening", "Fig", "Flower", "Flowering", "Foxglove", "Fruit", "Fruity", "Garlic", "Grape", "Heather", "Hollyhock", "Hyacinth", "Iris", "Kudzu", "Larkspur", "Lepidolite", "Liana", "Lilac", "Lily", "Lupine", "Moor", "Pansy", "Petal", "Petunia", "Plum", "Primrose", "Purple", "Purplish", "Shaded", "Sunset", "Teasel", "Thistle", "Twilight", "Valerian", "Violet", "Zinnia"
 	],
 	"DrabPurple": [
-	"Berry", "Comet", "Crocus", "Dawn", "Dim", "Drab", "Dull", "Dusk", "Eve", "Evening", "Fade", "Faint", "Haze", "Hazy", "Heather", "Hyacinth", "Lavender", "Lepidolite", "Lilac", "Pansy", "Purple", "Purplish", "Shade", "Shaded", "Sunset", "Teasel", "Tint", "Tinted", "Violet", "Valerian", "Dusky"
+	"Berry", "Comet", "Crocus", "Dawn", "Dim", "Drab", "Dull", "Dusk", "Dusky", "Eve", "Evening", "Fade", "Faint", "Haze", "Hazy", "Heather", "Hyacinth", "Lavender", "Lepidolite", "Lilac", "Meadow", "Nettle", "Pansy", "Purple", "Purplish", "Shade", "Shaded", "Sunset", "Teasel", "Tint", "Tinted", "Twilight", "Valerian", "Violet"
 	],
 	"InkyPurple": [
-	"Amethyst", "Amethystine", "Aubergine", "Aurora", "Berry", "Bismuth", "Blackish", "Dark", "Darkness", "Deep", "Eclipse", "Eve", "Evening", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Murk", "Murky", "Nebula", "Night", "Oil", "Pansy", "Pepper", "Purple", "Purplish", "Shade", "Shaded", "Space", "Starling", "Sunset", "Swiftlet", "Urchin", "Violet", "Fig"
+	"Amethyst", "Amethystine", "Aubergine", "Aurora", "Berry", "Bismuth", "Blackish", "Dark", "Darkness", "Deep", "Eclipse", "Eve", "Evening", "Fig", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Murk", "Murky", "Nebula", "Night", "Oil", "Pansy", "Pepper", "Purple", "Purplish", "Shade", "Shaded", "Space", "Starling", "Sunset", "Swiftlet", "Urchin", "Violet"
 	],
 	"ShadowPurple": [
-	"Berry", "Blackish", "Bleak", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Eclipse", "Eve", "Evening", "Faint", "Galaxy", "Murk", "Murky", "Night", "Oil", "Pansy", "Purple", "Purplish", "Shade", "Shaded", "Shadow", "Silowhette", "Sunset", "Swiftlet", "Violet", "Dusky", "Fig"
+	"Berry", "Blackish", "Bleak", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Dusky", "Eclipse", "Eve", "Evening", "Faint", "Fig", "Galaxy", "Murk", "Murky", "Night", "Oil", "Pansy", "Purple", "Purplish", "Shade", "Shaded", "Shadow", "Silowhette", "Sunset", "Swiftlet", "Violet"
 	],
 	
 	"BrightMagenta": [
-	"Allium", "Amaranth", "Aurora", "Azalea", "Begonia", "Betony", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Burdock", "Burnet", "Caterpillar", "Cerise", "Coral", "Dawn", "Dragonfly", "Dragonfruit", "Eve", "Evening", "Fruit", "Fruity", "Fuchsia", "Guppy", "Heat", "Heather", "Heliconia", "Hibiscus", "Honeysuckle", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Katydid", "Lilac", "Lily", "Lupine", "Magenta", "Mallow", "Myrtle", "Neon", "Oleander", "Pansy", "Parrot", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Raspberry", "Rose", "Rosette", "Snapdragon", "Spinel", "Sunset", "Thistle", "Thyme", "Tulip", "Verbena", "Vibrant", "Vivid", "Warm", "Yarrow", "Zinnia", "Foxglove", "Anemone", "Carnation", "Liana", "Chrysanthemum", "Valerian", "Geranium", "Comfrey"
+	"Allium", "Amaranth", "Anemone", "Aurora", "Azalea", "Begonia", "Betony", "Bloom", "Blooming", "Bright", "Bromeliad", "Bunting", "Burdock", "Burnet", "Carnation", "Caterpillar", "Cerise", "Chrysanthemum", "Comfrey", "Coral", "Cosmos", "Dawn", "Dittany", "Dragonfly", "Dragonfruit", "Eve", "Evening", "Flower", "Flowering", "Foxglove", "Fruit", "Fruity", "Fuchsia", "Geranium", "Glowing", "Guppy", "Heat", "Heath", "Heather", "Heliconia", "Hibiscus", "Hollyhock", "Honeysuckle", "Hummingbird", "Hyacinth", "Hydrangea", "Iris", "Katydid", "Liana", "Lilac", "Lily", "Lupine", "Magenta", "Mallow", "Mangosteen", "Myrtle", "Neon", "Oleander", "Pansy", "Parrot", "Peony", "Petal", "Petunia", "Phlox", "Pokeweed", "Primrose", "Raspberry", "Rose", "Rosette", "Snapdragon", "Spice", "Spinel", "Sunrise", "Sunset", "Thistle", "Thrift", "Thyme", "Tulip", "Valerian", "Verbena", "Vibrant", "Vivid", "Warm", "Yarrow", "Zinnia", "Briar", "Radish"
 	],
 	"PaleMagenta": [
-	"Allium", "Azalea", "Betony", "Bloom", "Blooming", "Blossom", "Burnet", "Clover", "Dahlia", "Fade", "Faded", "Fading", "Faint", "Flamingo", "Ghost", "Glass", "Heat", "Heather", "Hyacinth", "Hydrangea", "Iridescent", "Iris", "Lepidolite", "Light", "Lilac", "Lily", "Magenta", "Magnolia", "Mallow", "Mirage", "Moth", "Myrtle", "Oleander", "Opal", "Pale", "Palest", "Pansy", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Raspberry", "Reflection", "Rose", "Rosette", "Shell", "Snapdragon", "Soft", "Sparkling", "Spinel", "Sunset", "Tulip", "Verbena", "Warm", "Yarrow", "Zinnia", "Foxglove", "Anemone", "Carnation", "Liana", "Chrysanthemum", "Valerian", "Geranium"
+	"Allium", "Anemone", "Azalea", "Betony", "Bloom", "Blooming", "Blossom", "Burnet", "Carnation", "Chrysanthemum", "Clover", "Dahlia", "Dittany", "Fade", "Faded", "Fading", "Faint", "Flamingo", "Flower", "Flowering", "Foxglove", "Geranium", "Ghost", "Glass", "Glowing", "Heat", "Heath", "Heather", "Hollyhock", "Hyacinth", "Hydrangea", "Iridescent", "Iris", "Lepidolite", "Liana", "Light", "Lilac", "Lily", "Magenta", "Magnolia", "Mallow", "Mangosteen", "Mirage", "Moth", "Myrtle", "Nettle", "Oleander", "Opal", "Oregano", "Pale", "Palest", "Pansy", "Pastel", "Pearl", "Pearled", "Pearlescent", "Pearly", "Peony", "Petal", "Petunia", "Phlox", "Primrose", "Prism", "Raspberry", "Reflection", "Rose", "Rosette", "Shell", "Snapdragon", "Soft", "Sparkling", "Spinel", "Sunrise", "Sunset", "Thrift", "Tulip", "Valerian", "Verbena", "Warm", "Yarrow", "Zinnia"
 	],
 	"DuskyMagenta": [
-	"Amaranth", "Berry", "Bleak", "Bloom", "Blooming", "Burgundy", "Burnet", "Caterpillar", "Clover", "Coral", "Dahlia", "Dawn", "Eve", "Evening", "Ficus", "Fruit", "Fruity", "Garlic", "Grape", "Heat", "Heather", "Heliconia", "Hummingbird", "Hyacinth", "Iris", "Kudzu", "Lepidolite", "Lilac", "Lily", "Lupine", "Magenta", "Mauve", "Pansy", "Petal", "Petunia", "Plum", "Primrose", "Raddish", "Raspberry", "Rhubarb", "Salvia", "Shaded", "Spinel", "Sunset", "Thistle", "Trillium", "Tulip", "Warm", "Zinnia", "Foxglove", "Liana", "Chrysanthemum", "Valerian", "Dusky", "Comfrey", "Fig"
+	"Amaranth", "Berry", "Bleak", "Bloom", "Blooming", "Borage", "Burgundy", "Burnet", "Caterpillar", "Chrysanthemum", "Clover", "Comfrey", "Coral", "Dahlia", "Dawn", "Dusky", "Eve", "Evening", "Ficus", "Fig", "Flower", "Flowering", "Foxglove", "Fruit", "Fruity", "Garlic", "Grape", "Heat", "Heather", "Heliconia", "Hollyhock", "Hummingbird", "Hyacinth", "Iris", "Kudzu", "Lepidolite", "Liana", "Lilac", "Lily", "Lupine", "Magenta", "Mangosteen", "Mauve", "Mulberry", "Pansy", "Petal", "Petunia", "Plum", "Pokeweed", "Posy", "Primrose", "Raddish", "Raspberry", "Rhubarb", "Salvia", "Shaded", "Spice", "Spinel", "Sunset", "Thistle", "Trillium", "Tulip", "Twilight", "Valerian", "Warm", "Zinnia", "Radish", "Beet"
 	],
 	"DrabMagenta": [
-	"Amaranth", "Berry", "Burnet", "Dim", "Drab", "Dull", "Dusk", "Eve", "Evening", "Fade", "Faint", "Haze", "Hazy", "Heather", "Hummingbird", "Hyacinth", "Lepidolite", "Lilac", "Magenta", "Mauve", "Pansy", "Raspberry", "Shade", "Shaded", "Tint", "Tinted", "Warm", "Valerian", "Dusky"
+	"Amaranth", "Berry", "Burnet", "Dim", "Drab", "Dull", "Dusk", "Dusky", "Eve", "Evening", "Fade", "Faint", "Haze", "Hazy", "Heather", "Hummingbird", "Hyacinth", "Lepidolite", "Lilac", "Magenta", "Mauve", "Nettle", "Pansy", "Raspberry", "Shade", "Shaded", "Tint", "Tinted", "Valerian", "Warm"
 	],
 	"InkyMagenta": [
-	"Aurora", "Berry", "Bismuth", "Blackish", "Burgundy", "Burnet", "Dark", "Darkness", "Deep", "Eve", "Evening", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Magenta", "Maple", "Maroon", "Murk", "Murky", "Nebula", "Oil", "Olive", "Pepper", "Raspberry", "Shade", "Shaded", "Space", "Starling", "Urchin", "Vanilla", "Warm"
+	"Aurora", "Berry", "Bismuth", "Blackish", "Burgundy", "Burnet", "Dark", "Darkness", "Deep", "Eve", "Evening", "Galaxy", "Grackle", "Ink", "Inky", "Iridescent", "Magenta", "Mangosteen", "Maple", "Maroon", "Mulberry", "Murk", "Murky", "Nebula", "Oil", "Olive", "Pepper", "Pokeweed", "Raspberry", "Shade", "Shaded", "Space", "Starling", "Twilight", "Urchin", "Vanilla", "Warm"
 	],
 	"ShadowMagenta": [
-	"Amaranth", "Berry", "Blackish", "Bleak", "Burnet", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Eve", "Evening", "Faint", "Galaxy", "Magenta", "Maple", "Murk", "Murky", "Oil", "Olive", "Pigeon", "Raspberry", "Shade", "Shaded", "Shadow", "Silowhette", "Warm", "Dusky"
+	"Amaranth", "Berry", "Blackish", "Bleak", "Burnet", "Corvid", "Dark", "Darkness", "Deep", "Dim", "Dusk", "Dusky", "Eve", "Evening", "Faint", "Galaxy", "Magenta", "Mangosteen", "Maple", "Mulberry", "Murk", "Murky", "Oil", "Olive", "Pigeon", "Pokeweed", "Raspberry", "Shade", "Shaded", "Shadow", "Silowhette", "Twilight", "Warm"
 	]
   
   },
@@ -377,236 +377,236 @@
     "and remember that each entry needs a comma after except the last one in a list"
     ],
     "Multicolor": [
-	"blob", "bloom", "blot", "blotch", "blur", "brindle", "bubble", "burst", "cloud", "clouds", "clump", "cluster", "clutter", "colors", "crack", "cracks", "dapple", "dot", "drop", "fleck", "flurry", "freckle", "half", "jumble", "marble", "marks", "mix", "mosaic", "mottle", "patch", "petal", "petals", "puddle", "puddles", "rift", "shard", "smudge", "speck", "speckle", "splash", "splatter", "splinter", "split", "splotch", "spot", "spots", "spray", "streak", "streaks", "swirl", "whirl", "whorl", "mark", "strike", "tangle", "tuft", "twist"
+	"blob", "bloom", "blot", "blotch", "blur", "brindle", "bubble", "burst", "cloud", "clouds", "clump", "cluster", "clutter", "colors", "crack", "cracks", "dapple", "dot", "drop", "fleck", "flurry", "freckle", "half", "hatch", "jumble", "marble", "mark", "marks", "mix", "mosaic", "mottle", "patch", "petal", "petals", "puddle", "puddles", "rift", "shard", "smudge", "speck", "speckle", "splash", "splatter", "splinter", "split", "splotch", "spot", "spots", "spray", "streak", "streaks", "strike", "swirl", "tangle", "tuft", "twist", "whirl", "whorl"
 	],
 	
 	"White": [
-	"air", "antler", "blizzard", "blossom", "bone", "cloud", "clouds", "comet", "dawn", "day", "down", "egg", "fang", "flake", "flare", "freeze", "frost", "ice", "light", "lights", "milk", "moon", "moth", "pearl", "quartz", "quill", "sand", "shell", "snow", "spark", "spirit", "teeth", "tooth", "tusk", "web", "white"
+	"air", "antler", "bird", "blizzard", "blossom", "bone", "breeze", "bulb", "cloud", "clouds", "comet", "dawn", "day", "down", "egg", "fang", "feather", "flake", "flare", "flash", "flower", "freeze", "frost", "gleam", "glint", "ice", "light", "lights", "milk", "moon", "moth", "needle", "peak", "pearl", "plume", "quartz", "quill", "ridge", "ripple", "roses", "sand", "shell", "shimmer", "shine", "silk", "snow", "spark", "sparkle", "spine", "spirit", "teeth", "tooth", "tusk", "twinkle", "web", "white", "wind", "wing"
 	],
 	"PaleGray": [
-	"air", "antler", "ash", "blizzard", "blossom", "boulder", "cloud", "clouds", "comet", "dawn", "day", "down", "dust", "fade", "flake", "fog", "ghost", "glass", "lights", "marble", "mirage", "mist", "moon", "moth", "pearl", "pebble", "prism", "quartz", "quill", "rain", "reflection", "rock", "rocks", "shell", "silver", "spirit", "steam", "stone", "stones", "web", "whisp", "wisp"
+	"air", "antler", "ash", "bird", "blizzard", "blossom", "boulder", "breeze", "brook", "cloud", "clouds", "comet", "copse", "dawn", "day", "down", "dust", "fade", "feather", "flake", "fog", "gale", "ghost", "glass", "gleam", "gorge", "lights", "marble", "mirage", "mist", "moon", "moth", "needle", "peak", "pearl", "pebble", "plume", "prism", "quartz", "quill", "rain", "reflection", "ridge", "rindle", "ripple", "rock", "rocks", "shell", "shimmer", "shine", "silk", "silver", "spirit", "steam", "stone", "stones", "tree", "trickle", "web", "whisp", "wind", "wing", "wisp"
 	],
 	"LightGray": [
-	"air", "ash", "boulder", "cinder", "cinders", "day", "dust", "fog", "gray", "grey", "marble", "mist", "moon", "moth", "pebble", "rain", "rock", "rocks", "silver", "smoke", "stone", "stones", "whisp", "wisp"
+	"air", "ash", "bird", "boulder", "breeze", "brook", "cinder", "cinders", "day", "dust", "feather", "fin", "fish", "fog", "gale", "gill", "gorge", "gray", "grey", "marble", "mist", "moon", "moth", "pebble", "plume", "rain", "ridge", "rock", "rocks", "silver", "smoke", "stick", "stone", "stones", "tree", "whisp", "wind", "wing", "wisp"
 	],
 	"Gray": [
-	"andesite", "ash", "boulder", "cinder", "cinders", "ember", "gray", "grey", "haze", "jay", "marble", "mercury", "moth", "pebble", "rain", "rock", "rocks", "shade", "slate", "smoke", "soot", "stone", "stones", "storm"
+	"andesite", "ash", "bird", "boulder", "breeze", "brook", "cinder", "cinders", "crag", "ember", "feather", "gale", "gorge", "gray", "grey", "gust", "haze", "jay", "marble", "mercury", "moth", "pebble", "rain", "ridge", "rock", "rocks", "shade", "slate", "smoke", "soot", "stone", "stones", "storm", "tree", "wind", "wing"
 	],
 	"DarkGray": [
-	"boulder", "cave", "cinder", "cinders", "coal", "darkness", "dusk", "ember", "fox", "gray", "grey", "jay", "lava", "marble", "pebble", "rain", "rock", "rocks", "shade", "shadow", "slate", "smoke", "soot", "stone", "stones", "storm", "thunder"
+	"bird", "boulder", "breeze", "cave", "chasm", "cinder", "cinders", "coal", "cosmos", "dusk", "ember", "feather", "fox", "gale", "gorge", "gray", "grey", "gust", "jay", "lava", "marble", "pebble", "rain", "rock", "rocks", "shade", "shadow", "singe", "slate", "smoke", "soot", "stone", "stones", "storm", "swarm", "thunder", "wind"
 	],
 	"Black": [
-	"abyss", "black", "burn", "cave", "cavern", "char", "coal", "darkness", "ember", "hollow", "ink", "night", "oil", "sand", "scorch", "shade", "shadow", "smoke", "space", "storm", "thunder", "void"
+	"abyss", "beetle", "bird", "black", "breeze", "burn", "cave", "cavern", "char", "chasm", "coal", "cosmos", "ember", "feather", "gust", "hollow", "ink", "night", "oil", "quill", "sand", "scorch", "seed", "shade", "shadow", "smoke", "space", "spider", "storm", "swarm", "talon", "thunder", "void", "wind"
 	],
 	
 	
 	"BrightRed": [
-	"berry", "blaze", "blood", "bloom", "burn", "dawn", "ember", "fire", "flame", "flare", "fox", "fruit", "heat", "lava", "maple", "petal", "petals"
+	"berry", "blaze", "blood", "bloom", "burn", "cosmos", "dawn", "ember", "fire", "flame", "flare", "flower", "fox", "fruit", "heat", "lava", "leaf", "maple", "petal", "petals", "roses", "spice"
 	],
 	"PaleRed": [
-	"bloom", "blossom", "fade", "flare", "ghost", "glass", "heat", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "shell"
+	"bloom", "blossom", "cosmos", "fade", "flare", "flower", "ghost", "glass", "glow", "heat", "leaf", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "roses", "shell"
 	],
 	"DuskyRed": [
-	"berry", "blood", "bloom", "burn", "ember", "fox", "fruit", "heat", "maple", "marble", "petal", "petals"
+	"berry", "blood", "bloom", "burn", "ember", "flower", "fox", "fruit", "gill", "heat", "leaf", "maple", "marble", "mite", "petal", "petals", "spice", "thorn"
 	],
 	"DrabRed": [
-	"dusk", "fade", "haze", "marble", "shade", "tint"
+	"dawn", "dusk", "fade", "haze", "leaf", "marble", "marrow", "petal", "petals", "shade", "thorn", "tint"
 	],
 	"InkyRed": [
-	"blood", "burn", "darkness", "ember", "hollow", "ink", "maple", "oil", "shade", "space"
+	"blood", "burn", "ember", "hollow", "ink", "leaf", "maple", "oil", "shade", "space"
 	],
 	"ShadowRed": [
-	"burn", "darkness", "dusk", "ember", "hollow", "shade", "shadow"
+	"burn", "dusk", "ember", "hollow", "leaf", "shade", "shadow", "singe"
 	],
 	
 	"BrightOrange": [
-	"blaze", "bloom", "burn", "dawn", "dusk", "ember", "fern", "fire", "flame", "flare", "fox", "fruit", "ground", "heat", "honey", "horizon", "lava", "leaf", "leaves", "maple", "petal", "petals", "spark", "weed"
+	"bird", "blaze", "bloom", "burn", "copse", "cosmos", "dawn", "dusk", "ember", "fern", "fire", "flame", "flare", "flicker", "flower", "fox", "fruit", "ground", "heat", "honey", "horizon", "lava", "leaf", "leaves", "maple", "petal", "petals", "roses", "spark", "spice", "weed"
 	],
 	"PaleOrange": [
-	"antler", "beach", "bloom", "blossom", "bone", "dusk", "dust", "egg", "fade", "fang", "flare", "ghost", "glass", "ground", "hare", "heat", "honey", "horizon", "leaf", "leaves", "light", "maple", "mirage", "moth", "pearl", "petal", "petals", "prism", "reed", "reflection", "root", "sand", "sap", "shell", "spark", "teeth", "tooth", "tusk", "weed", "wood"
+	"antler", "beach", "bird", "bloom", "blossom", "bone", "bulb", "dusk", "dust", "egg", "fade", "fang", "feather", "flare", "flower", "ghost", "glass", "glow", "ground", "hare", "heat", "honey", "horizon", "horn", "leaf", "leaves", "light", "maple", "mirage", "moth", "pearl", "petal", "petals", "prism", "reed", "reflection", "root", "rush", "sand", "sap", "seed", "shell", "spark", "spine", "spore", "straw", "teeth", "thorn", "tooth", "tree", "tusk", "weed", "wing", "wood"
 	],
 	"DuskyOrange": [
-	"bloom", "burn", "cavern", "dusk", "ember", "fern", "fox", "fruit", "ground", "heat", "leaf", "leaves", "maple", "mud", "petal", "petals", "pine", "sap", "soil", "twig", "weed", "wood"
+	"beetle", "bird", "bloom", "burn", "burr", "cavern", "copse", "dusk", "ember", "feather", "fern", "fox", "frond", "fruit", "ground", "heat", "hedge", "leaf", "leaves", "maple", "marsh", "mud", "nut", "petal", "petals", "pine", "sap", "seed", "shrub", "soil", "spice", "spider", "stick", "thorn", "tree", "twig", "weed", "wood"
 	],
 	"DrabOrange": [
-	"antler", "cavern", "dusk", "dust", "fade", "ground", "hare", "haze", "leaf", "leaves", "maple", "pine", "root", "sand", "shade", "tint", "twig", "weed", "wood"
+	"antler", "bird", "bluff", "bough", "brush", "bulb", "burr", "cavern", "cliff", "crag", "dusk", "dust", "fade", "feather", "gorge", "ground", "hare", "haze", "horn", "knoll", "leaf", "leaves", "maple", "marrow", "meadow", "moor", "nest", "pine", "ridge", "root", "sand", "seed", "shade", "silt", "stick", "stump", "thorn", "tint", "tree", "twig", "weed", "wood"
 	],
 	"InkyOrange": [
-	"antler", "burn", "darkness", "ember", "ground", "hare", "hollow", "ink", "leaf", "leaves", "marble", "mud", "oil", "shade", "soil", "space", "twig", "wood"
+	"antler", "beetle", "bird", "burn", "ember", "ground", "hare", "hollow", "ink", "leaf", "leaves", "marble", "mud", "oil", "shade", "soil", "space", "twig", "wood"
 	],
 	"ShadowOrange": [
-	"burn", "cavern", "char", "darkness", "ember", "ground", "hollow", "leaf", "leaves", "marble", "scorch", "shade", "shadow", "wood"
+	"beetle", "bird", "burn", "burrow", "cavern", "char", "cliff", "ember", "feather", "ground", "hollow", "horn", "leaf", "leaves", "marble", "scorch", "seed", "shade", "shadow", "singe", "spider", "swarm", "talon", "wood"
 	],
 	
 	"BrightYellow": [
-	"bee", "blaze", "bloom", "dawn", "day", "fire", "flame", "flare", "fruit", "heat", "hive", "honey", "leaf", "leaves", "maple", "petal", "petals", "spark", "sun"
+	"bee", "blaze", "bloom", "cosmos", "dawn", "day", "fire", "flame", "flare", "flicker", "flower", "fruit", "heat", "hive", "honey", "leaf", "leaves", "maple", "meadow", "petal", "petals", "roses", "spark", "spice", "spider", "sun"
 	],
 	"PaleYellow": [
-	"bloom", "blossom", "day", "fade", "flare", "ghost", "glass", "heat", "hive", "honey", "leaf", "leaves", "light", "lights", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "sand", "sap", "shell", "spark", "sun"
+	"bloom", "blossom", "day", "fade", "flare", "flower", "ghost", "glass", "glow", "heat", "hive", "honey", "leaf", "leaves", "light", "lights", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "roses", "sand", "sap", "seed", "shell", "spark", "stem", "straw", "sun", "twinkle"
 	],
 	"DuskyYellow": [
-	"bloom", "fruit", "heat", "hive", "leaf", "leaves", "petal", "petals", "sap"
+	"bloom", "fruit", "heat", "hive", "leaf", "leaves", "petal", "petals", "sap", "spice"
 	],
 	"DrabYellow": [
-	"fade", "haze", "hive", "leaf", "leaves", "sand", "shade", "tint"
+	"brush", "fade", "haze", "hive", "leaf", "leaves", "meadow", "sand", "shade", "straw", "tint"
 	],
 	"InkyYellow": [
-	"darkness", "ember", "hive", "hollow", "ink", "leaf", "leaves", "moss", "oil", "shade", "space"
+	"ember", "hive", "hollow", "ink", "leaf", "leaves", "moss", "oil", "shade", "space"
 	],
 	"ShadowYellow": [
-	"darkness", "ember", "hive", "hollow", "leaf", "leaves", "shade", "shadow", "thunder"
+	"ember", "hive", "hollow", "leaf", "leaves", "shade", "shadow", "swarm", "talon", "thunder"
 	],
 	
 	"BrightLime": [
-	"acid", "bud", "bug", "bush", "fruit", "grass", "ivy", "leaf", "leaves", "moss", "plant", "sap", "sedge", "sprout", "vine", "vines"
+	"acid", "bud", "bug", "bush", "fruit", "glade", "grass", "hedge", "hill", "ivy", "knoll", "leaf", "leaves", "marsh", "moss", "plant", "sap", "sedge", "shrub", "spice", "sprout", "vine", "vines"
 	],
 	"PaleLime": [
-	"bug", "bush", "fade", "ghost", "glass", "grass", "leaf", "leaves", "light", "mirage", "moth", "pearl", "plant", "prism", "reflection", "sedge", "shell", "sprout", "vine", "vines"
+	"bug", "bush", "fade", "ghost", "glade", "glass", "grass", "leaf", "leaves", "light", "mirage", "moth", "needle", "pearl", "plant", "prism", "reflection", "sedge", "seed", "shell", "sprout", "stem", "vine", "vines"
 	],
 	"DuskyLime": [
-	"bud", "bug", "bush", "fern", "fruit", "grass", "ivy", "leaf", "leaves", "moss", "plant", "sap", "sedge", "sprout", "vine", "vines"
+	"bud", "bug", "bush", "fern", "fruit", "grass", "grove", "hedge", "hill", "ivy", "knoll", "leaf", "leaves", "moss", "needle", "plant", "sap", "sedge", "shrub", "spice", "sprout", "vine", "vines"
 	],
 	"DrabLime": [
-	"bug", "bush", "fade", "fern", "grass", "haze", "leaf", "leaves", "moss", "plant", "shade", "sprout", "tint", "vine", "vines"
+	"brook", "brush", "bug", "bush", "fade", "fern", "grass", "grove", "haze", "leaf", "leaves", "meadow", "moss", "needle", "plant", "shade", "sprout", "tint", "vine", "vines"
 	],
 	"InkyLime": [
-	"bug", "bush", "darkness", "grass", "ink", "leaf", "leaves", "moss", "oil", "plant", "shade", "space", "sprout", "vine", "vines"
+	"bug", "bush", "grass", "ink", "leaf", "leaves", "moss", "oil", "plant", "shade", "space", "sprout", "vine", "vines"
 	],
 	"ShadowLime": [
-	"bug", "bush", "darkness", "grass", "leaf", "leaves", "moss", "plant", "shade", "shadow", "sprout", "vine", "vines"
+	"bug", "bush", "grass", "leaf", "leaves", "moss", "plant", "shade", "shadow", "sprout", "vine", "vines"
 	],
 	
 	"BrightGreen": [
-	"bug", "bush", "grass", "leaf", "leaves", "moss", "pine", "plant", "sedge", "sprout", "vine", "vines", "weed"
+	"bug", "bush", "glade", "grass", "hedge", "hill", "knoll", "leaf", "leaves", "marsh", "moss", "pine", "plant", "sedge", "shrub", "sprout", "tree", "vine", "vines", "weed"
 	],
 	"PaleGreen": [
-	"bug", "bush", "clover", "fade", "ghost", "glass", "grass", "leaf", "leaves", "light", "mirage", "moth", "pearl", "pine", "plant", "prism", "reflection", "sedge", "shell", "sprout", "vine", "vines", "weed"
+	"bug", "bush", "clover", "fade", "frond", "ghost", "glade", "glass", "grass", "leaf", "leaves", "light", "mirage", "moth", "needle", "pearl", "pine", "plant", "prism", "reflection", "sedge", "seed", "shell", "sprout", "stem", "tree", "vine", "vines", "weed"
 	],
 	"DuskyGreen": [
-	"bug", "bush", "clover", "fern", "grass", "ivy", "leaf", "leaves", "moss", "pine", "plant", "sedge", "sprout", "vine", "vines", "weed"
+	"beetle", "bough", "bug", "bush", "clover", "copse", "fern", "grass", "grove", "hedge", "hill", "ivy", "knoll", "leaf", "leaves", "moss", "needle", "pine", "plant", "pod", "sedge", "shrub", "sprout", "tree", "vine", "vines", "weed"
 	],
 	"DrabGreen": [
-	"bug", "bush", "clover", "fade", "fern", "grass", "haze", "leaf", "leaves", "moss", "pine", "plant", "shade", "sprout", "tint", "vine", "vines", "weed"
+	"brush", "bug", "bush", "clover", "fade", "fern", "frond", "grass", "grove", "haze", "leaf", "leaves", "meadow", "moor", "moss", "needle", "pine", "plant", "shade", "sprout", "tint", "vine", "vines", "weed"
 	],
 	"InkyGreen": [
-	"bug", "bush", "darkness", "grass", "ink", "leaf", "leaves", "moss", "oil", "pine", "plant", "shade", "space", "sprout", "vine", "vines"
+	"bug", "bush", "grass", "ink", "leaf", "leaves", "moss", "oil", "pine", "plant", "shade", "space", "sprout", "vine", "vines"
 	],
 	"ShadowGreen": [
-	"bug", "bush", "darkness", "grass", "leaf", "leaves", "moss", "pine", "plant", "shade", "shadow", "sprout", "vine", "vines"
+	"beetle", "bug", "bush", "grass", "leaf", "leaves", "moss", "pine", "plant", "shade", "shadow", "sprout", "vine", "vines"
 	],
 	
 	"BrightMint": [
-	"bug", "foam", "grass", "leaf", "leaves", "mint", "pine", "sedge"
+	"bug", "current", "foam", "grass", "hedge", "leaf", "leaves", "mint", "pine", "sedge", "shrub"
 	],
 	"PaleMint": [
-	"bug", "fade", "foam", "ghost", "glass", "grass", "leaf", "leaves", "light", "mint", "mirage", "moth", "pearl", "pine", "prism", "reflection", "sedge", "shell"
+	"bug", "current", "fade", "foam", "ghost", "glass", "grass", "leaf", "leaves", "light", "mint", "mirage", "moth", "needle", "pearl", "pine", "prism", "reflection", "sedge", "shell", "stem"
 	],
 	"DuskyMint": [
-	"bug", "clover", "fern", "grass", "ivy", "leaf", "leaves", "mint", "pine", "sedge"
+	"bug", "clover", "cove", "current", "fern", "grass", "grove", "hedge", "ivy", "leaf", "leaves", "mint", "needle", "pine", "sedge", "shrub"
 	],
 	"DrabMint": [
-	"bug", "clover", "fade", "fern", "grass", "haze", "leaf", "leaves", "mint", "pine", "shade", "tint"
+	"bug", "clover", "fade", "fern", "grass", "grove", "haze", "leaf", "leaves", "mint", "needle", "pine", "shade", "tint"
 	],
 	"InkyMint": [
-	"bug", "darkness", "grass", "ink", "leaf", "leaves", "mint", "oil", "pine", "shade", "space"
+	"bug", "grass", "ink", "leaf", "leaves", "mint", "oil", "pine", "shade", "space"
 	],
 	"ShadowMint": [
-	"bug", "darkness", "grass", "leaf", "leaves", "mint", "pine", "shade", "shadow"
+	"bug", "grass", "leaf", "leaves", "mint", "pine", "shade", "shadow"
 	],
 	
 	"BrightCyan": [
-	"chill", "horizon", "lake", "ocean", "pine", "pond", "pool", "sea", "skies", "sky", "stream", "water", "wave", "waves"
+	"chill", "current", "horizon", "lake", "ocean", "pine", "pond", "pool", "sea", "skies", "sky", "stream", "water", "wave", "waves"
 	],
 	"PaleCyan": [
-	"air", "beach", "bubble", "chill", "chill", "creek", "dew", "drop", "fade", "freeze", "frost", "ghost", "glass", "horizon", "ice", "lake", "light", "mirage", "moth", "ocean", "pearl", "pine", "pond", "pool", "prism", "puddle", "rain", "reflection", "river", "sea", "shell", "skies", "sky", "snow", "stream", "water", "wave", "waves"
+	"air", "beach", "bubble", "chill", "creek", "current", "dew", "drop", "fade", "freeze", "frost", "ghost", "glass", "horizon", "ice", "lake", "light", "mirage", "moth", "needle", "ocean", "pearl", "pine", "pond", "pool", "prism", "puddle", "rain", "reflection", "ripple", "river", "sea", "shell", "skies", "sky", "snow", "stream", "water", "wave", "waves"
 	],
 	"DuskyCyan": [
-	"beach", "chill", "comet", "creek", "drop", "lake", "ocean", "pine", "pond", "pool", "puddle", "rain", "river", "sea", "skies", "sky", "stream", "water", "wave", "waves"
+	"beach", "chill", "comet", "cove", "creek", "current", "drop", "flood", "gorge", "lake", "marsh", "needle", "ocean", "pine", "pond", "pool", "puddle", "rain", "river", "sea", "skies", "sky", "stream", "water", "wave", "waves"
 	],
 	"DrabCyan": [
-	"beach", "chill", "drop", "fade", "haze", "lake", "ocean", "pine", "pond", "pool", "puddle", "rain", "sea", "shade", "skies", "sky", "stream", "tint", "water"
+	"beach", "chill", "drop", "fade", "fin", "fish", "flood", "gill", "haze", "lake", "needle", "ocean", "pine", "pond", "pool", "puddle", "rain", "sea", "shade", "skies", "sky", "stream", "tint", "water"
 	],
 	"InkyCyan": [
-	"chill", "darkness", "ink", "lake", "ocean", "oil", "pine", "pool", "rain", "sea", "shade", "skies", "sky", "space", "water"
+	"chill", "ink", "lake", "ocean", "oil", "pine", "pool", "rain", "sea", "shade", "skies", "sky", "space", "water"
 	],
 	"ShadowCyan": [
-	"chill", "darkness", "lake", "ocean", "pine", "pool", "rain", "sea", "shade", "shadow", "skies", "sky", "water"
+	"chill", "flood", "lake", "ocean", "pine", "pool", "rain", "sea", "shade", "shadow", "skies", "sky", "water"
 	],
 	
 	"BrightBlue": [
-	"bloom", "bower", "chill", "day", "horizon", "jay", "lake", "lazuli", "ocean", "petal", "petals", "pond", "pool", "puddles", "sea", "skies", "sky", "stream", "water", "wave", "waves"
+	"bloom", "bower", "chill", "cosmos", "current", "day", "flower", "horizon", "jay", "lake", "lazuli", "ocean", "petal", "petals", "pond", "pool", "puddles", "sea", "skies", "sky", "stream", "water", "wave", "waves"
 	],
 	"PaleBlue": [
-	"air", "beach", "blizzard", "bloom", "bubble", "chill", "creek", "day", "dew", "drop", "fade", "freeze", "frost", "ghost", "glass", "horizon", "ice", "lake", "light", "mirage", "moth", "ocean", "pearl", "petal", "petals", "pond", "pool", "prism", "puddle", "puddles", "rain", "reflection", "river", "sea", "shell", "skies", "sky", "snow", "stream", "water", "wave", "waves"
+	"air", "beach", "blizzard", "bloom", "brook", "bubble", "chill", "cliff", "creek", "current", "day", "dew", "drop", "fade", "flash", "flower", "freeze", "frost", "ghost", "glass", "horizon", "ice", "lake", "light", "mirage", "moth", "ocean", "peak", "pearl", "petal", "petals", "pond", "pool", "prism", "puddle", "puddles", "rain", "reflection", "ripple", "river", "sea", "shell", "skies", "sky", "snow", "stream", "trickle", "water", "wave", "waves"
 	],
 	"DuskyBlue": [
-	"beach", "berry", "bloom", "bower", "chill", "comet", "creek", "drop", "jay", "lake", "lazuli", "ocean", "petal", "petals", "pond", "pool", "puddle", "puddles", "rain", "river", "sea", "skies", "sky", "stream", "water", "wave", "waves"
+	"beach", "berry", "bloom", "bower", "chill", "comet", "cove", "creek", "current", "drop", "flood", "flower", "gorge", "jay", "lake", "lazuli", "ocean", "petal", "petals", "pond", "pool", "puddle", "puddles", "rain", "river", "sea", "skies", "sky", "stream", "water", "wave", "waves"
 	],
 	"DrabBlue": [
-	"beach", "chill", "comet", "drop", "dusk", "fade", "haze", "jay", "lake", "ocean", "pond", "pool", "puddle", "puddles", "rain", "sea", "shade", "skies", "sky", "stream", "tint", "water", "waves"
+	"beach", "brook", "chill", "comet", "drop", "dusk", "fade", "fin", "fish", "flood", "gill", "haze", "jay", "lake", "ocean", "pond", "pool", "puddle", "puddles", "rain", "rindle", "sea", "shade", "skies", "sky", "stream", "tint", "water", "waves"
 	],
 	"InkyBlue": [
-	"berry", "chill", "darkness", "ink", "jay", "lake", "night", "ocean", "oil", "pool", "puddles", "rain", "sea", "shade", "skies", "sky", "space", "water"
+	"berry", "chill", "ink", "jay", "lake", "night", "ocean", "oil", "pool", "puddles", "rain", "sea", "shade", "skies", "sky", "space", "water"
 	],
 	"ShadowBlue": [
-	"berry", "chill", "darkness", "dusk", "jay", "lake", "night", "ocean", "pool", "puddles", "rain", "sea", "shade", "shadow", "skies", "sky", "slate", "storm", "water"
+	"berry", "chill", "dusk", "flood", "jay", "lake", "night", "ocean", "pool", "puddles", "rain", "sea", "shade", "shadow", "skies", "sky", "slate", "storm", "water"
 	],
 	
 	"BrightIndigo": [
-	"bloom", "chill", "eve", "ocean", "petal", "petals", "sea", "skies", "sky", "violet", "water"
+	"bloom", "chill", "cosmos", "current", "eve", "flower", "heath", "ocean", "petal", "petals", "sea", "skies", "sky", "violet", "water"
 	],
 	"PaleIndigo": [
-	"air", "bloom", "blossom", "chill", "fade", "ghost", "glass", "light", "mirage", "moth", "ocean", "pearl", "petal", "petals", "prism", "reflection", "sea", "shell", "skies", "sky", "violet", "water"
+	"air", "bloom", "blossom", "chill", "current", "fade", "flower", "ghost", "glass", "heath", "light", "mirage", "moth", "ocean", "pearl", "petal", "petals", "prism", "reflection", "ripple", "sea", "shell", "skies", "sky", "violet", "water"
 	],
 	"DuskyIndigo": [
-	"berry", "bloom", "chill", "comet", "eve", "lazuli", "ocean", "petal", "petals", "sea", "skies", "sky", "violet", "water"
+	"berry", "bloom", "chill", "comet", "current", "eve", "flood", "flower", "lazuli", "ocean", "petal", "petals", "sea", "skies", "sky", "violet", "water"
 	],
 	"DrabIndigo": [
-	"berry", "chill", "comet", "dawn", "dusk", "eve", "fade", "haze", "ocean", "sea", "shade", "skies", "sky", "tint", "violet", "water"
+	"berry", "chill", "comet", "dawn", "dusk", "eve", "fade", "flood", "haze", "ocean", "sea", "shade", "skies", "sky", "tint", "violet", "water"
 	],
 	"InkyIndigo": [
-	"berry", "chill", "darkness", "eve", "ink", "night", "ocean", "oil", "sea", "shade", "skies", "sky", "space", "violet", "water"
+	"berry", "chill", "eve", "ink", "night", "ocean", "oil", "sea", "shade", "skies", "sky", "space", "violet", "water"
 	],
 	"ShadowIndigo": [
-	"berry", "chill", "darkness", "dusk", "eve", "night", "ocean", "sea", "shade", "shadow", "skies", "sky", "violet", "water"
+	"berry", "chill", "dusk", "eve", "flood", "night", "ocean", "sea", "shade", "shadow", "skies", "sky", "violet", "water"
 	],
 	
 	"BrightPurple": [
-	"bloom", "dawn", "eve", "fruit", "petal", "petals", "violet"
+	"bloom", "dawn", "eve", "flower", "fruit", "heath", "petal", "petals", "roses", "violet"
 	],
 	"PalePurple": [
-	"bloom", "blossom", "fade", "ghost", "glass", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "shell", "violet"
+	"bloom", "blossom", "fade", "flower", "ghost", "glass", "heath", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "roses", "shell", "violet"
 	],
 	"DuskyPurple": [
-	"berry", "bloom", "eve", "fruit", "petal", "petals", "violet"
+	"berry", "bloom", "eve", "flower", "fruit", "moor", "petal", "petals", "violet"
 	],
 	"DrabPurple": [
-	"berry", "comet", "dawn", "dusk", "eve", "fade", "haze", "shade", "tint", "violet"
+	"berry", "comet", "dawn", "dusk", "eve", "fade", "haze", "meadow", "shade", "tint", "violet"
 	],
 	"InkyPurple": [
-	"berry", "darkness", "eve", "ink", "night", "oil", "shade", "space", "violet"
+	"berry", "eve", "ink", "night", "oil", "shade", "space", "violet"
 	],
 	"ShadowPurple": [
-	"berry", "darkness", "dusk", "eve", "night", "shade", "shadow", "violet"
+	"berry", "dusk", "eve", "night", "shade", "shadow", "violet"
 	],
 	
 	"BrightMagenta": [
-	"bloom", "dawn", "eve", "fruit", "heat", "petal", "petals"
+	"bloom", "cosmos", "dawn", "eve", "flower", "fruit", "heat", "heath", "petal", "petals", "roses", "spice", "thrift"
 	],
 	"PaleMagenta": [
-	"bloom", "blossom", "clover", "fade", "ghost", "glass", "heat", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "shell"
+	"bloom", "blossom", "clover", "fade", "flower", "ghost", "glass", "heat", "heath", "light", "mirage", "moth", "pearl", "petal", "petals", "prism", "reflection", "roses", "shell", "thrift"
 	],
 	"DuskyMagenta": [
-	"berry", "bloom", "clover", "dawn", "eve", "fruit", "heat", "petal", "petals"
+	"berry", "bloom", "clover", "dawn", "eve", "flower", "fruit", "heat", "petal", "petals", "spice"
 	],
 	"DrabMagenta": [
 	"berry", "dusk", "eve", "fade", "haze", "shade", "tint"
 	],
 	"InkyMagenta": [
-	"berry", "darkness", "eve", "ink", "maple", "oil", "shade", "space"
+	"berry", "eve", "ink", "leaf", "maple", "oil", "shade", "space"
 	],
 	"ShadowMagenta": [
-	"berry", "darkness", "dusk", "eve", "maple", "shade", "shadow"
+	"berry", "dusk", "eve", "leaf", "maple", "shade", "shadow"
 	]
   },
 
@@ -690,7 +690,7 @@
 
   "eye_prefixes": {
     "YELLOW": ["Yellow", "Daisy", "Honey", "Light", "Sun", "Sunny", "Lemon", "Lightning", "Bee", "Wasp", "Bright", "Marigold", "Canary", "Blazing",
-	    "Tansy", "Furze", "Gorse", "Dandelion", "Oriole", "Gold", "Spark"],
+	    "Tansy", "Furze", "Gorse", "Dandelion", "Oriole", "Gold", "Spark", "Owl"],
     "AMBER": ["Amber", "Sun", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze", "Pumpkin", "Rust", "Fox", "Robin", "Sap", "Blazing",
 	    "Milkweed", "Apricot", "Maple", "Vixen", "Ember", "Orange", "Copper", "Burn", "Burnt", "Scarlet", "Auburn", "Burnet", "Scorch",
 	    "Oriole"],
