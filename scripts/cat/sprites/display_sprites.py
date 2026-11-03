@@ -1,5 +1,6 @@
 import logging
 import traceback
+import random
 
 import pygame
 from copy import deepcopy
@@ -144,8 +145,10 @@ def _draw_sprite(
         
         # start for loop for more colors
         
-        patchlist = ["BODY", "HALF","PAIGE", "EMBER", "TAIL_MID"]
-        colorlist = [(0,0,0), (0,100,0), (200,0,0), (200,100,0), (200,100,200)]
+        
+        patchlist = ['SADDLE_HIGH', 'MISTER', 'SPARROW', 'SKELETON', 'FANCY', 'ARMTAIL_SMOKE', 'FRECKLED_STREAM', 'TEARS_L', 'MIDTOESTAIL', 'EYESPOT_L', 'FRECKLES']
+        colors = [(0,0,0), (100,100,100), (200,200,200), (200,0,200), (200,200,0), (0,200,200),(200,0,100), (200,100,0), (0,200,100),(100,0,200), (100,200,0), (0,100,200),(100,0,100), (100,100,0), (0,100,100),(200,100,200), (200,200,100), (100,200,200),(150,150,150),(200,150,100)]
+        colorlist = colors#random.choices(colors, k = 20)
                 
         for i in range(0, len(patchlist)):
             patch = patchlist[i]
