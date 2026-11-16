@@ -266,6 +266,8 @@ class ProfileScreen(Screens):
                 ChangeCatNameWindow(self.the_cat)
             elif event.ui_element == self.specify_gender_button:
                 self.change_screen(GameScreen.CHANGE_GENDER)
+            elif event.ui_element == self.predict_offspring_button:
+                self.change_screen(GameScreen.PREDICT_OFFSPRING)
             # when button is pressed...
             elif event.ui_element == self.cis_trans_button:
                 # if the cat is anything besides m/f/transm/transf then turn them back to cis
@@ -2128,16 +2130,36 @@ class ProfileScreen(Screens):
                 object_id="@buttonstyles_ladder_middle",
                 starting_height=2,
                 manager=MANAGER,
-                anchors={"top_target": self.cis_trans_button},
+                anchors={"top_target": self.cis_trans_button}    )
+            self.predict_offspring_button = UISurfaceImageButton(
+                ui_scale(pygame.Rect((402, 0), (172, 36))),
+                "predict offspring",
+                get_button_dict(ButtonStyles.LADDER_MIDDLE, (172, 36)),
+                object_id="@buttonstyles_ladder_middle",
+                starting_height=2,
+                manager=MANAGER,
+                anchors={"top_target": self.specify_gender_button},
             )
-            self.cat_toggles_button = UISurfaceImageButton(
+            '''
+            if (
+                    self.the_cat.age
+                    not in ["young adult", "adult", "senior adult", "senior"]
+                    or self.the_cat.exiled
+                    or self.the_cat.outside
+            ):
+                self.predict_offspring_button.disable()
+            else:
+                self.predict_offspring_button.enable()
+            '''
+            
+                        self.cat_toggles_button = UISurfaceImageButton(
                 ui_scale(pygame.Rect((402, 0), (172, 36))),
                 "screens.profile.toggles",
                 get_button_dict(ButtonStyles.LADDER_BOTTOM, (172, 36)),
                 object_id="@buttonstyles_ladder_bottom",
                 starting_height=2,
                 manager=MANAGER,
-                anchors={"top_target": self.specify_gender_button},
+                anchors={"top_target": self.predict_offspring_button},
             )
 
             self.update_disabled_buttons_and_text()
@@ -2242,6 +2264,13 @@ class ProfileScreen(Screens):
                 self.change_mentor_button.enable()
 
         elif self.open_tab == "personal":
+            if (
+                    self.the_cat.age
+                    not in ["young adult", "adult", "senior adult", "senior"]
+            ):
+                self.predict_offspring_button.disable()
+            else:
+                self.predict_offspring_button.enable()
             # Button to trans or cis the cats.
             if self.the_cat.gender == "male" and self.the_cat.genderalign == "male":
                 self.cis_trans_button.set_text(
@@ -2452,6 +2481,7 @@ class ProfileScreen(Screens):
             self.specify_gender_button.kill()
             if self.cis_trans_button:
                 self.cis_trans_button.kill()
+            self.predict_offspring_button.kill()
         elif self.open_tab == "dangerous":
             self.kill_cat_button.kill()
             self.exile_cat_button.kill()
